@@ -1,0 +1,169 @@
+/* Astra AI Tutor Web App - Stylesheet with Slide Deck Stepper */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap');
+
+:root {
+  --bg-dark: #070a12;
+  --bg-card: rgba(15, 23, 42, 0.85);
+  --bg-card-hover: rgba(30, 41, 59, 0.9);
+  --border-dark: rgba(51, 65, 85, 0.6);
+  --primary: #3b82f6;
+  --primary-glow: rgba(59, 130, 246, 0.35);
+  --emerald: #10b981;
+  --amber: #f59e0b;
+  --purple: #8b5cf6;
+  --rose: #f43f5e;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-dark);
+  color: #f1f5f9;
+}
+
+code, pre, .font-mono {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #070a12;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Glassmorphism Card */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-dark);
+  border-radius: 1.25rem;
+}
+
+/* Slide Deck Stepper Container */
+.slide-deck-card {
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+}
+
+.slide-page-content {
+  animation: slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Skill Tree Node Styling */
+.skill-node {
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+  border-radius: 1rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.skill-node:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.5), 0 0 20px var(--primary-glow);
+}
+
+.skill-node.active {
+  border-color: var(--emerald);
+  background: rgba(16, 185, 129, 0.1);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+/* Sub Tab Navigation inside Topic View */
+.topic-tab-btn {
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+.topic-tab-btn.active {
+  color: #60a5fa;
+  border-bottom-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.12);
+  font-weight: 600;
+}
+
+/* Chat Bubbles UI */
+.chat-bubble-ai {
+  background: rgba(30, 41, 59, 0.9);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+  border-radius: 1.25rem 1.25rem 1.25rem 0.25rem;
+}
+.chat-bubble-user {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-radius: 1.25rem 1.25rem 0.25rem 1.25rem;
+  color: white;
+}
+
+/* Step Solver Animation */
+.solver-step {
+  animation: fadeInStep 0.4s ease-out forwards;
+}
+
+@keyframes fadeInStep {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Quiz Option Hover & States */
+.quiz-option, .topic-quiz-opt {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.quiz-option:hover, .topic-quiz-opt:hover {
+  background-color: rgba(30, 41, 59, 0.8);
+  border-color: #475569;
+}
+.quiz-option.selected, .topic-quiz-opt.selected {
+  border-color: var(--primary);
+  background-color: rgba(59, 130, 246, 0.15);
+}
+.quiz-option.correct, .topic-quiz-opt.correct {
+  border-color: var(--emerald) !important;
+  background-color: rgba(16, 185, 129, 0.2) !important;
+  color: #34d399 !important;
+}
+.quiz-option.incorrect, .topic-quiz-opt.incorrect {
+  border-color: var(--rose) !important;
+  background-color: rgba(244, 63, 94, 0.2) !important;
+  color: #fb7185 !important;
+}
+
+/* Formula Highlight Box */
+.formula-highlight {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.95));
+  border-left: 4px solid var(--primary);
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* Badges */
+.badge-ch1 { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+.badge-ch2 { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+.badge-ch3 { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+
+/* Bottom Nav (Mobile) */
+.bottom-nav-item.active {
+  color: #3b82f6;
+  font-weight: 700;
+}
+
+@media print {
+  aside, nav, .no-print, .bottom-nav {
+    display: none !important;
+  }
+}
