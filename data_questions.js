@@ -1,6 +1,6 @@
 /* Astra AI Tutor Data Bank - Chapters 1, 2, 3 (100+ Master Questions Bank) */
 
-const masterQuestionBank = [
+var masterQuestionBank = [
   // ==========================================
   // CHƯƠNG 1: GIỚI THIỆU TỔNG QUAN (40 CÂU)
   // ==========================================

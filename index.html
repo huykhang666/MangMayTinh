@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" class="dark">
+<html lang="vi" class="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +7,32 @@
   <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen pb-20 md:pb-6">
+<body class="bg-slate-50 text-slate-900 min-h-screen pb-20 md:pb-6">
 
   <!-- Astra AI Header Navbar -->
-  <header class="bg-slate-900/90 border-b border-slate-800 sticky top-0 z-50 backdrop-blur-md px-4 md:px-8 py-3.5 flex justify-between items-center">
+  <header class="bg-white/90 border-b border-slate-200 shadow-sm sticky top-0 z-50 backdrop-blur-md px-4 md:px-8 py-3.5 flex justify-between items-center">
     <div class="flex items-center gap-3 cursor-pointer" data-nav="dashboard">
       <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 via-orange-500 to-blue-600 flex items-center justify-center font-extrabold text-white text-xl shadow-lg shadow-amber-500/20">
         α
       </div>
       <div>
         <div class="flex items-center gap-2">
-          <span class="font-extrabold text-slate-100 text-base">astra<span class="text-amber-400">AI</span></span>
+          <span class="font-extrabold text-slate-900 text-base">astra<span class="text-blue-600">AI</span></span>
           <span class="bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-bold px-2 py-0.5 rounded-full">Gia Sư 24/7</span>
         </div>
-        <p class="text-xs text-slate-400">Chuyên Môn: Mạng Máy Tính (Chương 1, 2, 3)</p>
+        <p class="text-xs text-slate-600 font-medium">Chuyên Môn: Mạng Máy Tính (Chương 1, 2, 3)</p>
       </div>
     </div>
 
     <!-- Right Header Actions -->
     <div class="flex items-center gap-3">
-      <button onclick="openPaywallModal()" class="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-extrabold text-xs px-3.5 py-2 rounded-xl transition-all shadow-md shadow-amber-500/20 flex items-center gap-1.5">
-        <span>⚡</span> <span>Nâng Cấp PRO</span>
-      </button>
+      
 
       <!-- Overall Readiness Indicator -->
-      <div class="hidden sm:flex items-center gap-2.5 bg-slate-950 border border-slate-800 px-3.5 py-1.5 rounded-xl text-xs">
-        <span class="text-slate-400">Độ Sẵn Sàng:</span>
+      <div class="hidden sm:flex items-center gap-2.5 bg-slate-100 border border-slate-200 px-3.5 py-1.5 rounded-xl text-xs">
+        <span class="text-slate-600 font-medium">Độ Sẵn Sàng:</span>
         <strong id="overall-readiness-val" class="text-emerald-400 text-sm font-black">0%</strong>
-        <div class="w-12 bg-slate-800 h-2 rounded-full overflow-hidden">
+        <div class="w-12 bg-slate-200 h-2 rounded-full overflow-hidden">
           <div id="overall-readiness-bar" class="bg-emerald-400 h-full w-0 transition-all"></div>
         </div>
       </div>
@@ -51,27 +49,27 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="glass-card p-4 flex items-center gap-3">
           <div class="w-12 h-12 rounded-xl bg-orange-500/20 text-orange-400 flex items-center justify-center text-2xl font-bold">🔥</div>
-          <div><div class="text-2xl font-black text-slate-100">7 Ngày</div><div class="text-xs text-slate-400">Chuỗi Học (Streak)</div></div>
+          <div><div class="text-2xl font-black text-slate-900">7 Ngày</div><div class="text-xs text-slate-600">Chuỗi Học (Streak)</div></div>
         </div>
         <div class="glass-card p-4 flex items-center gap-3">
           <div class="w-12 h-12 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center text-2xl font-bold">🎯</div>
-          <div><div class="text-2xl font-black text-slate-100">42 Bài</div><div class="text-xs text-slate-400">Đã Giải & Luyện</div></div>
+          <div><div class="text-2xl font-black text-slate-900">42 Bài</div><div class="text-xs text-slate-600">Đã Giải & Luyện</div></div>
         </div>
         <div class="glass-card p-4 flex items-center gap-3">
           <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl font-bold">📚</div>
-          <div><div class="text-2xl font-black text-slate-100">Mạng Máy Tính</div><div class="text-xs text-slate-400">Môn Học Đang Mở</div></div>
+          <div><div class="text-2xl font-black text-slate-900">Mạng Máy Tính</div><div class="text-xs text-slate-600">Môn Học Đang Mở</div></div>
         </div>
         <div class="glass-card p-4 flex items-center gap-3">
           <div class="w-12 h-12 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center text-2xl font-bold">⭐</div>
-          <div><div class="text-2xl font-black text-slate-100">Mục Tiêu A+</div><div class="text-xs text-slate-400">Điểm Thi Cuối Kỳ</div></div>
+          <div><div class="text-2xl font-black text-slate-900">Mục Tiêu A+</div><div class="text-xs text-slate-600">Điểm Thi Cuối Kỳ</div></div>
         </div>
       </div>
 
       <div class="glass-card p-6 md:p-8 border-blue-500/40 relative overflow-hidden flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
         <div class="space-y-2 max-w-2xl z-10">
-          <span class="text-xs font-bold text-blue-400 uppercase tracking-wider bg-blue-950 px-2.5 py-1 rounded border border-blue-500/30">Học Theo Trang Slide & Bài Tập Tương Tác</span>
-          <h2 class="text-2xl md:text-3xl font-black text-slate-100">Exam Prep: Kiến Trúc & Giao Thức Mạng</h2>
-          <p class="text-xs md:text-sm text-slate-400">Học lý thuyết chi tiết theo từng trang Slide (Next/Prev) + Bài tập mẫu + 80+ câu trắc nghiệm thi tổng hợp.</p>
+          <span class="text-xs font-bold text-blue-400 uppercase tracking-wider bg-blue-100 text-blue-800 border border-blue-300 font-extrabold text-xs px-3.5 py-1.5 rounded-lg shadow-sm">Học Theo Trang Slide & Bài Tập Tương Tác</span>
+          <h2 class="text-2xl md:text-3xl font-black text-slate-900">Exam Prep: Kiến Trúc & Giao Thức Mạng</h2>
+          <p class="text-xs md:text-sm text-slate-600">Học lý thuyết chi tiết theo từng trang Slide (Next/Prev) + Bài tập mẫu + 80+ câu trắc nghiệm thi tổng hợp.</p>
         </div>
         <div class="flex flex-wrap gap-3 z-10">
           <button data-nav="skill-tree" class="bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs px-5 py-3 rounded-xl transition-all shadow-lg shadow-blue-600/30 flex items-center gap-2">
@@ -90,72 +88,72 @@
     <section id="view-skill-tree" class="app-view space-y-6 hidden">
       <div class="skill-tree-container p-6 md:p-10 space-y-8">
         <div class="text-center space-y-2 max-w-2xl mx-auto">
-          <h2 class="text-2xl md:text-3xl font-black text-slate-100">Cây Kỹ Năng Ôn Thi Mạng Máy Tính</h2>
-          <p class="text-xs md:text-sm text-slate-400">Chọn 1 chủ đề để học bài giảng dạng Slide Deck (có nút Next/Prev), bài tập vận dụng & làm trắc nghiệm kiểm tra độ thành thạo.</p>
+          <h2 class="text-2xl md:text-3xl font-black text-slate-900">Cây Kỹ Năng Ôn Thi Mạng Máy Tính</h2>
+          <p class="text-xs md:text-sm text-slate-600">Chọn 1 chủ đề để học bài giảng dạng Slide Deck (có nút Next/Prev), bài tập vận dụng & làm trắc nghiệm kiểm tra độ thành thạo.</p>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           <div onclick="navigateTo('topic-detail', {topicId: 1})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch1 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 1</span><span id="tree-node-score-1" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">1. Tổng quan Internet và cấu trúc mạng</h4>
-            <p class="text-[11px] text-slate-400">7 Trang Slide lý thuyết: Hosts, Access Networks, Packet vs Circuit Switching.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-1" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch1 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 1</span><span id="tree-node-score-1" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">1. Tổng quan Internet và cấu trúc mạng</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">7 Trang Slide lý thuyết: Hosts, Access Networks, Packet vs Circuit Switching.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-1" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 2})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch1 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 1</span><span id="tree-node-score-2" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">2. Chuyển mạch gói, độ trễ và hiệu suất mạng</h4>
-            <p class="text-[11px] text-slate-400">6 Trang Slide: Store-and-Forward, 4 loại trễ (d_nodal), Traffic Intensity, Bottleneck.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-2" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch1 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 1</span><span id="tree-node-score-2" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">2. Chuyển mạch gói, độ trễ và hiệu suất mạng</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">6 Trang Slide: Store-and-Forward, 4 loại trễ (d_nodal), Traffic Intensity, Bottleneck.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-2" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 3})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch1 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 1</span><span id="tree-node-score-3" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">3. Mô hình phân lớp và bảo mật mạng</h4>
-            <p class="text-[11px] text-slate-400">6 Trang Slide: 5 Tầng Internet vs OSI 7 Tầng, PDU, Encapsulation, Malware, DoS.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-3" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch1 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 1</span><span id="tree-node-score-3" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">3. Mô hình phân lớp và bảo mật mạng</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">6 Trang Slide: 5 Tầng Internet vs OSI 7 Tầng, PDU, Encapsulation, Malware, DoS.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-3" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 4})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch2 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 2</span><span id="tree-node-score-4" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">4. Kiến trúc và dịch vụ tầng ứng dụng</h4>
-            <p class="text-[11px] text-slate-400">6 Trang Slide: Client-Server vs P2P, Sockets (IP + Port), Dịch vụ TCP vs UDP.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-4" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch2 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 2</span><span id="tree-node-score-4" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">4. Kiến trúc và dịch vụ tầng ứng dụng</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">6 Trang Slide: Client-Server vs P2P, Sockets (IP + Port), Dịch vụ TCP vs UDP.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-4" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 5})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch2 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 2</span><span id="tree-node-score-5" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">5. Giao thức Web, Email và DNS</h4>
-            <p class="text-[11px] text-slate-400">7 Trang Slide: HTTP (Cookies, Cache, Conditional GET), FTP, Email, DNS.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-5" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch2 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 2</span><span id="tree-node-score-5" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">5. Giao thức Web, Email và DNS</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">7 Trang Slide: HTTP (Cookies, Cache, Conditional GET), FTP, Email, DNS.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-5" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 6})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch2 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 2</span><span id="tree-node-score-6" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">6. Mạng ngang hàng P2P và Socket Python</h4>
-            <p class="text-[11px] text-slate-400">6 Trang Slide: BitTorrent (Chunks, Tit-for-Tat), Circular DHT, Socket UDP/TCP.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-6" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch2 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 2</span><span id="tree-node-score-6" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">6. Mạng ngang hàng P2P và Socket Python</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">6 Trang Slide: BitTorrent (Chunks, Tit-for-Tat), Circular DHT, Socket UDP/TCP.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-6" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 7})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch3 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 3</span><span id="tree-node-score-7" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">7. Nguyên lý truyền dữ liệu tin cậy RDT</h4>
-            <p class="text-[11px] text-slate-400">7 Trang Slide: rdt 1.0 -> rdt 3.0, Go-Back-N (GBN) vs Selective Repeat (SR).</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-7" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch3 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 3</span><span id="tree-node-score-7" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">7. Nguyên lý truyền dữ liệu tin cậy RDT</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">7 Trang Slide: rdt 1.0 -> rdt 3.0, Go-Back-N (GBN) vs Selective Repeat (SR).</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-7" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 8})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch3 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 3</span><span id="tree-node-score-8" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">8. Giao thức UDP và giao thức TCP chi tiết</h4>
-            <p class="text-[11px] text-slate-400">7 Trang Slide: UDP Header, TCP Header (20 bytes), 3-Way Handshake, RTT Estimator.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-8" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch3 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 3</span><span id="tree-node-score-8" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">8. Giao thức UDP và giao thức TCP chi tiết</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">7 Trang Slide: UDP Header, TCP Header (20 bytes), 3-Way Handshake, RTT Estimator.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-8" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
 
           <div onclick="navigateTo('topic-detail', {topicId: 9})" class="skill-node p-5 space-y-3">
-            <div class="flex justify-between items-start"><span class="badge-ch3 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 3</span><span id="tree-node-score-9" class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">0%</span></div>
-            <h4 class="font-bold text-slate-100 text-sm">9. Cơ chế điều khiển tắc nghẽn trong TCP</h4>
-            <p class="text-[11px] text-slate-400">7 Trang Slide: AIMD, Slow Start, Congestion Avoidance, Fast Retransmit, Tahoe vs Reno.</p>
-            <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-9" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
+            <div class="flex justify-between items-start"><span class="badge-ch3 text-[10px] font-bold px-2 py-0.5 rounded">CHƯƠNG 3</span><span id="tree-node-score-9" class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-lg border border-emerald-300 shadow-sm">0%</span></div>
+            <h4 class="font-extrabold text-slate-900 text-base md:text-lg leading-snug">9. Cơ chế điều khiển tắc nghẽn trong TCP</h4>
+            <p class="text-xs md:text-sm text-slate-700 leading-normal font-medium">7 Trang Slide: AIMD, Slow Start, Congestion Avoidance, Fast Retransmit, Tahoe vs Reno.</p>
+            <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden"><div id="tree-node-bar-9" class="bg-emerald-400 h-full w-0 transition-all"></div></div>
           </div>
         </div>
       </div>
@@ -166,17 +164,17 @@
     <!-- ========================================================= -->
     <section id="view-topic-detail" class="app-view space-y-6 hidden">
       <div class="glass-card p-6 md:p-8 space-y-6">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-800 pb-4">
+        <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 border-b border-slate-200 pb-4">
           <div>
-            <button data-nav="skill-tree" class="text-xs text-blue-400 hover:underline mb-1 font-semibold">⇠ Quay lại Cây Kỹ Năng</button>
-            <h3 id="topic-detail-title" class="text-xl md:text-2xl font-black text-slate-100">Chủ Đề Chi Tiết</h3>
+            <button data-nav="skill-tree" class="text-xs md:text-sm text-blue-700 hover:underline mb-1 font-extrabold flex items-center gap-1">← Quay lại Cây Kỹ Năng</button>
+            <h3 id="topic-detail-title" class="text-xl md:text-2xl font-black text-slate-900 leading-snug">Chủ Đề Chi Tiết</h3>
           </div>
 
-          <!-- Subtabs Nav -->
-          <div class="flex flex-wrap gap-1 bg-slate-900 p-1 rounded-xl border border-slate-800 text-xs">
-            <button onclick="switchTopicSubtab('theory')" data-subtab="theory" class="topic-tab-btn active px-3.5 py-1.5 rounded-lg">📖 Slide Bài Giảng</button>
-            <button onclick="switchTopicSubtab('exercise')" data-subtab="exercise" class="topic-tab-btn px-3.5 py-1.5 rounded-lg">✍️ Bài tập vận dụng</button>
-            <button onclick="switchTopicSubtab('quiz')" data-subtab="quiz" class="topic-tab-btn px-3.5 py-1.5 rounded-lg text-amber-400 font-bold">📝 Trắc nghiệm chủ đề</button>
+          <!-- Subtabs Nav Single Row Container -->
+          <div class="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-2xl border border-slate-300 text-xs md:text-sm font-semibold overflow-x-auto max-w-full whitespace-nowrap shrink-0">
+            <button onclick="switchTopicSubtab('theory')" data-subtab="theory" class="topic-tab-btn active px-4 py-2 rounded-xl">📖 Slide Bài Giảng</button>
+            <button onclick="switchTopicSubtab('exercise')" data-subtab="exercise" class="topic-tab-btn px-4 py-2 rounded-xl">✍️ Bài tập vận dụng</button>
+            <button onclick="switchTopicSubtab('quiz')" data-subtab="quiz" class="topic-tab-btn px-4 py-2 rounded-xl">📝 Trắc nghiệm chủ đề</button>
           </div>
         </div>
 
@@ -189,9 +187,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 1</h5>
-                <p class="text-slate-300">Phân biệt sự khác nhau giữa hạ tầng DSL (Dedicated) và Cable HFC (Shared).</p>
+                <p class="text-slate-700">Phân biệt sự khác nhau giữa hạ tầng DSL (Dedicated) và Cable HFC (Shared).</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -207,9 +205,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 2</h5>
-                <p class="text-slate-300">Tính tổng trễ nút d_nodal = d_proc + d_queue + d_trans + d_prop.</p>
+                <p class="text-slate-700">Tính tổng trễ nút d_nodal = d_proc + d_queue + d_trans + d_prop.</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -225,9 +223,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 3</h5>
-                <p class="text-slate-300">Xác định tên PDU của từng tầng (Message, Segment, Datagram, Frame, Bit).</p>
+                <p class="text-slate-700">Xác định tên PDU của từng tầng (Message, Segment, Datagram, Frame, Bit).</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -243,9 +241,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 4</h5>
-                <p class="text-slate-300">So sánh ưu nhược điểm Client-Server vs P2P.</p>
+                <p class="text-slate-700">So sánh ưu nhược điểm Client-Server vs P2P.</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -261,9 +259,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 5</h5>
-                <p class="text-slate-300">Tính số RTT tải trang Web HTTP/1.0 vs HTTP/1.1 Persistent.</p>
+                <p class="text-slate-700">Tính số RTT tải trang Web HTTP/1.0 vs HTTP/1.1 Persistent.</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -279,9 +277,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 6</h5>
-                <p class="text-slate-300">Tính thời gian phân phối tập tin P2P vs Client-Server.</p>
+                <p class="text-slate-700">Tính thời gian phân phối tập tin P2P vs Client-Server.</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -297,9 +295,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 7</h5>
-                <p class="text-slate-300">Vẽ sơ đồ cửa sổ trượt Go-Back-N vs Selective Repeat.</p>
+                <p class="text-slate-700">Vẽ sơ đồ cửa sổ trượt Go-Back-N vs Selective Repeat.</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -315,9 +313,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 8</h5>
-                <p class="text-slate-300">Tính toán EstimatedRTT và TimeoutInterval của TCP.</p>
+                <p class="text-slate-700">Tính toán EstimatedRTT và TimeoutInterval của TCP.</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -333,9 +331,9 @@
               <div class="slide-deck-card p-5 md:p-6"></div>
             </div>
             <div data-subtab="exercise" class="topic-subtab-pane text-xs space-y-3 hidden">
-              <div class="bg-slate-900 p-4 rounded-xl border border-blue-500/30 space-y-2">
+              <div class="bg-white p-4 rounded-xl border border-blue-500/30 space-y-2">
                 <h5 class="font-bold text-blue-400 text-sm">✍️ Bài tập vận dụng Chủ đề 9</h5>
-                <p class="text-slate-300">Vẽ đồ thị kích thước cửa sổ cwnd của TCP Tahoe vs TCP Reno.</p>
+                <p class="text-slate-700">Vẽ đồ thị kích thước cửa sổ cwnd của TCP Tahoe vs TCP Reno.</p>
               </div>
             </div>
             <div data-subtab="quiz" class="topic-subtab-pane space-y-4 hidden">
@@ -354,14 +352,14 @@
     <!-- ========================================================= -->
     <section id="view-master-exam" class="app-view space-y-6 hidden">
       <div class="glass-card p-6 md:p-8 space-y-6">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-800 pb-4">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-200 pb-4">
           <div>
             <span class="text-xs font-bold text-emerald-400 uppercase">Ngân hàng đề thi tổng hợp</span>
-            <h3 class="text-xl md:text-2xl font-black text-slate-100 mt-1">📝 Đề Thi Tổng Hợp Cả 3 Chương (80+ Câu Hỏi Chi Tiết)</h3>
+            <h3 class="text-xl md:text-2xl font-black text-slate-900 mt-1">📝 Đề Thi Tổng Hợp Cả 3 Chương (80+ Câu Hỏi Chi Tiết)</h3>
           </div>
 
           <div class="flex flex-wrap gap-2 text-xs">
-            <button onclick="filterMasterExam(0)" class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-3 py-1.5 rounded-lg border border-slate-700 font-bold">Tất Cả 3 Chương</button>
+            <button onclick="filterMasterExam(0)" class="bg-slate-200 hover:bg-slate-700 text-slate-800 px-3 py-1.5 rounded-lg border border-slate-700 font-bold">Tất Cả 3 Chương</button>
             <button onclick="filterMasterExam(1)" class="badge-ch1 px-3 py-1.5 rounded-lg font-bold">Chương 1</button>
             <button onclick="filterMasterExam(2)" class="badge-ch2 px-3 py-1.5 rounded-lg font-bold">Chương 2</button>
             <button onclick="filterMasterExam(3)" class="badge-ch3 px-3 py-1.5 rounded-lg font-bold">Chương 3</button>
@@ -369,7 +367,7 @@
         </div>
 
         <div class="flex justify-between items-center text-xs">
-          <span class="text-slate-400">Số lượng câu hiện tại: <strong id="master-exam-count" class="text-emerald-400 font-bold">80 Câu</strong></span>
+          <span class="text-slate-600">Số lượng câu hiện tại: <strong id="master-exam-count" class="text-emerald-400 font-bold">80 Câu</strong></span>
           <button onclick="submitMasterExam()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs px-5 py-2.5 rounded-xl shadow-lg shadow-emerald-600/30">Nộp Bài & Chấm Điểm</button>
         </div>
 
