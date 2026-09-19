@@ -254,7 +254,7 @@ function renderTopicQuiz(topicId) {
   questions.forEach((q, idx) => {
     html += `
       <div id="t${topicId}-q${idx}-card" data-correct="${q.ans}" class="bg-slate-50 border border-slate-200 p-5 rounded-2xl space-y-4 shadow-sm">
-        <h5 class="font-bold text-slate-100 text-sm">Câu ${idx + 1}: ${q.q}</h5>
+        <h5 class="quiz-question-title font-extrabold text-slate-900 text-base md:text-lg leading-relaxed">Câu ${idx + 1}: ${q.q}</h5>
         <div class="space-y-2 text-xs">
           ${q.opts.map((opt, oIdx) => `
             <div onclick="selectTopicQuizOpt(${topicId}, ${idx}, ${oIdx})" id="t${topicId}-q${idx}-opt-${oIdx}" class="topic-quiz-opt p-3.5 rounded-xl border border-slate-300 bg-white hover:bg-slate-100 flex items-center gap-3 font-medium text-slate-800 text-sm md:text-base transition-all shadow-sm">
@@ -345,7 +345,7 @@ function renderMasterExam(chFilter = 0) {
     html += `
       <div id="me-q${q.id}-card" data-correct="${q.ans}" class="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-4 shadow-sm">
         <div class="flex justify-between items-center">
-          <span class="font-bold text-slate-100 text-sm">Câu ${idx + 1}: ${q.q}</span>
+          <span class="quiz-question-title font-extrabold text-slate-900 text-base md:text-lg leading-relaxed">Câu ${idx + 1}: ${q.q}</span>
           <span class="badge-ch${q.ch} text-[10px] px-2 py-0.5 rounded font-bold">Chương ${q.ch}</span>
         </div>
 
