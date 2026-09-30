@@ -606,6 +606,8 @@ renderTopicSlide = function(topicId, pageIndex) {
 
 
 
+
+
 /* ========================================================= */
 /* MTT PDF EXAM ENGINE (148 QUESTIONS BANK WITH DIAGRAMS)  */
 /* ========================================================= */
@@ -617,6 +619,20 @@ let mttExamIsShuffled = false;
 let mttExamInstantAnswer = false;
 let mttExamAllExplanationsVisible = false;
 let mttActiveQuestionsOrder = [];
+
+function triggerMathRender() {
+  if (typeof renderMathInElement === 'function') {
+    try {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false }
+        ],
+        throwOnError: false
+      });
+    } catch(e) {}
+  }
+}
 
 function renderMttExam(chFilter = 0, searchQuery = '') {
   mttExamCurrentFilter = chFilter;
@@ -839,6 +855,70 @@ function selectMttExamOpt(qId, oIdx) {
 
   // Update Palette Grid status
   renderMttPalette(mttActiveQuestionsOrder);
+}
+
+function filterMttExam(ch) {
+  renderMttExam(ch, mttExamSearchQuery);
+}
+
+function searchMttExam(val) {
+  renderMttExam(mttExamCurrentFilter, val);
+}
+
+function submitMttExam() {
+  if (typeof mttPdfQuestions === 'undefined') return;
+
+  mttExamSubmitted = true;
+  let correctCount = 0;
+  const totalCount = mttPdfQuestions.length;
+
+  mttPdfQuestions.forEach(q => {
+    const userAns = mttExamUserAnswers[q.id];
+    let isCorrect = false;
+
+    if (Array.isArray(q.ansList) && q.ansList.length > 0) {
+      if (Array.isArray(userAns)) {
+        isCorrect = q.ansList.length === userAns.length && q.ansList.every(v => userAns.includes(v));
+      } else {
+        isCorrect = q.ansList.length === 1 && q.ansList[0] === userAns;
+      }
+    } else {
+      isCorrect = userAns === q.ans;
+    }
+
+    if (isCorrect) correctCount++;
+  });
+
+  const scorePct = Math.round((correctCount / totalCount) * 100);
+
+  // Update Score Banner UI
+  const banner = document.getElementById('mtt-exam-score-banner');
+  if (banner) {
+    banner.classList.remove('hidden');
+    banner.className = 'p-6 rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 text-white shadow-xl space-y-3 border-2 border-emerald-500/60 mb-6';
+    banner.innerHTML = `
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-slate-700/60 pb-3">
+        <div>
+          <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider bg-emerald-950/80 px-2.5 py-1 rounded-md border border-emerald-500/40">Kết Quả Đề Thi MTT PDF</span>
+          <h3 class="text-2xl md:text-3xl font-black text-emerald-400 mt-1">🎉 Điểm Số: ${correctCount} / ${totalCount} Câu Đúng (${scorePct}%)</h3>
+        </div>
+        <button onclick="renderMttExam(mttExamCurrentFilter, mttExamSearchQuery)" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold px-4 py-2 rounded-xl transition-all shadow-md">
+          🔄 Xem Chi Tiết Đáp Án
+        </button>
+      </div>
+      <p class="text-xs md:text-sm text-slate-200 font-medium leading-relaxed">
+        ${scorePct >= 80 ? '🌟 Xuất sắc! Bạn đã nắm vững kiến thức ngân hàng 148 câu trắc nghiệm MTT!' : '💪 Bạn đã hoàn thành bài thi! Hãy xem lại các câu báo đỏ trong bảng tiến độ bên phải để củng cố kiến thức!'}
+      </p>
+    `;
+  }
+
+  // Re-render exam view and palette with correct/incorrect indicators
+  renderMttExam(mttExamCurrentFilter, mttExamSearchQuery);
+
+  // Smooth scroll to score banner
+  if (banner) {
+    banner.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 function toggleMttShuffle() {
