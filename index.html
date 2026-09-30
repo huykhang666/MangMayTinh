@@ -6,6 +6,9 @@
   <title>Astra AI - Gia Sư Mạng Máy Tính & Slide Deck Stepper</title>
   <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
 </head>
 <body class="bg-slate-50 text-slate-900 min-h-screen pb-20 md:pb-6">
 
@@ -376,11 +379,49 @@
       </div>
     </section>
 
+  
+    <!-- ========================================================= -->
+    <!-- VIEW 8: MTT PDF EXAM BANK (148 QUESTIONS) -->
+    <!-- ========================================================= -->
+    <section id="view-mtt-exam" class="app-view space-y-6 hidden">
+      <div class="glass-card p-6 md:p-8 space-y-6">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-200 pb-4">
+          <div>
+            <span class="text-xs font-bold text-purple-700 uppercase tracking-wider bg-purple-100 px-2.5 py-1 rounded-md border border-purple-300">Tài Liệu Đề Thi MTT PDF</span>
+            <h3 class="text-xl md:text-2xl font-black text-slate-900 mt-1.5">📘 Ngân Hàng Câu Hỏi Trắc Nghiệm MTT (148 Câu C1, C2, C3)</h3>
+            <p class="text-xs text-slate-600 mt-1">Trích xuất từ "trắc nghiệm MTT (C1,C2,C3) - Đap an.pdf" kèm đáp án chính xác và sơ đồ minh họa hình ảnh đầy đủ.</p>
+          </div>
+
+          <div class="flex flex-wrap gap-2 text-xs">
+            <button onclick="filterMttExam(0)" class="bg-slate-800 text-white px-3 py-1.5 rounded-lg font-bold shadow-sm">Tất Cả 148 Câu</button>
+            <button onclick="filterMttExam(1)" class="badge-ch1 px-3 py-1.5 rounded-lg font-bold">Chương 1</button>
+            <button onclick="filterMttExam(2)" class="badge-ch2 px-3 py-1.5 rounded-lg font-bold">Chương 2</button>
+            <button onclick="filterMttExam(3)" class="badge-ch3 px-3 py-1.5 rounded-lg font-bold">Chương 3</button>
+            <button onclick="filterMttExam('img')" class="bg-indigo-600 text-white px-3 py-1.5 rounded-lg font-bold">📷 Có Hình Ảnh/Sơ Đồ</button>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-3 text-xs">
+          <div class="relative flex-1 max-w-md">
+            <input type="text" id="mtt-search-input" onkeyup="searchMttExam(this.value)" placeholder="🔍 Tìm kiếm câu hỏi MTT (ví dụ: RTT, DNS, TCP Reno, Go-Back-N...)" class="w-full bg-white border border-slate-300 rounded-xl px-4 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm" />
+          </div>
+          <div class="flex items-center justify-between sm:justify-end gap-3">
+            <span class="text-slate-600">Số lượng: <strong id="mtt-exam-count" class="text-blue-600 font-bold">148 Câu</strong></span>
+            <button onclick="submitMttExam()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs px-5 py-2.5 rounded-xl shadow-lg shadow-emerald-600/30 transition-all">Nộp Bài & Chấm Điểm</button>
+          </div>
+        </div>
+
+        <div id="mtt-exam-score-banner" class="hidden"></div>
+        <div id="mtt-exam-questions-list" class="space-y-6"></div>
+      </div>
+    </section>
+  
   </main>
 
   <!-- Script Imports -->
   <script src="data_lessons.js"></script>
   <script src="data_questions.js"></script>
+  <script src="data_mtt_pdf.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
