@@ -287,12 +287,12 @@ var mttPdfQuestions = [
       "3ms",
       "2ms"
     ],
-    "ans": 1,
+    "ans": 0,
     "ansList": [
-      1
+      0
     ],
     "images": [],
-    "exp": "HTTP không bền vững (Non-persistent HTTP) mất 2 RTT (1 RTT cho TCP handshake + 1 RTT cho HTTP request/response) + trễ truyền ≈ 4 ms."
+    "exp": "HTTP không bền vững (Non-persistent HTTP): Trễ lan truyền t_prop = 1000km / (2.7x10^8 m/s) ≈ 3.7 ms. Trễ truyền file t_trans = (1 KB * 8) / 17 Mbps ≈ 0.48 ms. 2 RTT (cho TCP handshake và HTTP request/response) = 2 * 0.41 ms = 0.82 ms. Tổng thời gian phản hồi = 3.7 + 0.48 + 0.82 ≈ 5 ms (Đáp án A)."
   },
   {
     "id": 18,
