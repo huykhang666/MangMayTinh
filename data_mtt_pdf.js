@@ -1,4 +1,4 @@
-/* Astra AI Tutor - MTT PDF Question Bank (148 Questions with Diagrams & Answers) */
+/* Astra AI Tutor - MTT PDF Question Bank (148 Questions with Verified PDF Answer Key) */
 var mttPdfQuestions = [
   {
     "id": 1,
@@ -10,10 +10,12 @@ var mttPdfQuestions = [
       "Terminal – Mainframe",
       "Client – Server"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 2,
@@ -25,10 +27,12 @@ var mttPdfQuestions = [
       "Truyền file và dữ liệu",
       "Gửi thư điện tử"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 3,
@@ -40,10 +44,12 @@ var mttPdfQuestions = [
       "Phân giải tên và địa chỉ",
       "Cấp địa chỉ cho máy trạm"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 4,
@@ -55,10 +61,12 @@ var mttPdfQuestions = [
       "HTTP: TCP Port 80",
       "TFTP: TCP Port 69"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 5,
@@ -70,10 +78,12 @@ var mttPdfQuestions = [
       "HTTP",
       "FTP"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 6,
@@ -85,10 +95,12 @@ var mttPdfQuestions = [
       "Data, Segment, Packet, Frame, Bit",
       "Data, Segment, Frame, packet, Bit"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 7,
@@ -100,10 +112,12 @@ var mttPdfQuestions = [
       "ARP",
       "RARP"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 8,
@@ -115,10 +129,12 @@ var mttPdfQuestions = [
       "Telnet",
       "WWW"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 9,
@@ -130,10 +146,12 @@ var mttPdfQuestions = [
       "Là cơ chế “bắt tay ba lần” mà mọi thiết bị mạng đều phải thực hiện khi khởi động.",
       "Là một tập các đặc tả mà mọi nhà sản xuất sản phẩm mạng phải dựa theo để thiết kế sản phẩm của mình"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 10,
@@ -150,7 +168,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án đúng: D"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 11,
@@ -165,10 +183,12 @@ var mttPdfQuestions = [
       "40 s",
       "140 s"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 6,
+    "ansList": [
+      6
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 12,
@@ -180,10 +200,16 @@ var mttPdfQuestions = [
       "Tài nguyên của mỗi kênh được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu.",
       "Để tăng độ tin cậy khi truyền tải dữ liệu, một kênh làm việc và một kênh dự phòng sẽ được thiết lập cho mỗi liên kết."
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": [
+      1,
+      4
+    ],
+    "ansList": [
+      1,
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B, E"
   },
   {
     "id": 13,
@@ -200,7 +226,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án đúng: D"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 14,
@@ -213,10 +239,12 @@ var mttPdfQuestions = [
       "440 Mbps",
       "200 Mbps"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 15,
@@ -228,10 +256,12 @@ var mttPdfQuestions = [
       "Server trả về thành công một trang Web",
       "Server trả về một nội dung có chiều dài là 530 bytes"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 16,
@@ -248,7 +278,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án đúng: D"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: D"
   },
   {
     "id": 17,
@@ -264,7 +294,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án đúng: C"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 18,
@@ -281,10 +311,12 @@ var mttPdfQuestions = [
       "2.5 km",
       "893 km"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 8,
+    "ansList": [
+      8
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 19,
@@ -297,10 +329,12 @@ var mttPdfQuestions = [
       "Đảm bảo chất lượng dịch vụ",
       "Không mất thời gian thiết lập kênh truyền"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 20,
@@ -314,10 +348,12 @@ var mttPdfQuestions = [
       "IP",
       "OSPF"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 5,
+    "ansList": [
+      5
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: F"
   },
   {
     "id": 21,
@@ -330,10 +366,12 @@ var mttPdfQuestions = [
       "Ethernet, IP, TCP, HTTP",
       "Ethernet, IP, TCP, FTP"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 22,
@@ -347,9 +385,11 @@ var mttPdfQuestions = [
       "Tất cả đều đúng"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 23,
@@ -363,10 +403,12 @@ var mttPdfQuestions = [
       "HTTP",
       "TCP"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 5,
+    "ansList": [
+      5
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: F"
   },
   {
     "id": 24,
@@ -379,10 +421,12 @@ var mttPdfQuestions = [
       "Quá trình tìm kiếm thông tin tên miền được thực hiện từ gốc tới các nút nhánh",
       "Phân giải đệ quy được sử dụng thay cho phân giải tương tác vì nó tin cậy hơn"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 25,
@@ -394,10 +438,12 @@ var mttPdfQuestions = [
       "POP",
       "IMAP"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 26,
@@ -410,10 +456,12 @@ var mttPdfQuestions = [
       "2",
       "Không xác định"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 27,
@@ -426,10 +474,12 @@ var mttPdfQuestions = [
       "5 HTTP Request, 1 HTTP Response",
       "Không xác định"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 28,
@@ -441,10 +491,12 @@ var mttPdfQuestions = [
       "Địa chỉ IP đích",
       "Giao thức tại tầng giao vận"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 29,
@@ -465,10 +517,12 @@ var mttPdfQuestions = [
       "Hai tiến trình trên nút",
       "đều có thể gửi dữ liệu liên tục với tốc độ cao nhất có thể"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 12,
+    "ansList": [
+      12
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: A"
   },
   {
     "id": 30,
@@ -480,10 +534,12 @@ var mttPdfQuestions = [
       "Loại bỏ các gói tin nhận được không theo đúng thứ tự",
       "Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu cổng đích"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 31,
@@ -495,13 +551,15 @@ var mttPdfQuestions = [
       "Gửi lại cho phía gửi sửa lỗi",
       "Báo nhận không thành công để phía gửi phát lại"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 32,
@@ -513,13 +571,15 @@ var mttPdfQuestions = [
       "rdt3.0",
       "Không thể xử lý được việc mất gói tin ACK"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 33,
@@ -532,12 +592,14 @@ var mttPdfQuestions = [
       "Băng thông tối đa và"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 34,
@@ -549,13 +611,15 @@ var mttPdfQuestions = [
       "256",
       "1024"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 35,
@@ -568,13 +632,15 @@ var mttPdfQuestions = [
       "Kiểm soát luồng, không làm quá tải phía nhận",
       "Kiểm soát tắc nghẽn"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 36,
@@ -585,13 +651,15 @@ var mttPdfQuestions = [
       "Xảy ra timeout",
       "Phát hiện lỗi trên gói tin báo nhận"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: C"
   },
   {
     "id": 37,
@@ -611,7 +679,7 @@ var mttPdfQuestions = [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: D"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 38,
@@ -623,13 +691,15 @@ var mttPdfQuestions = [
       "POP",
       "FTP"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 39,
@@ -641,13 +711,15 @@ var mttPdfQuestions = [
       "3",
       "4"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 40,
@@ -659,13 +731,15 @@ var mttPdfQuestions = [
       "PUT",
       "DELETE"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 41,
@@ -677,15 +751,21 @@ var mttPdfQuestions = [
       "PUT",
       "DELETE"
     ],
-    "ans": 3,
+    "ans": [
+      0,
+      1,
+      2
+    ],
     "ansList": [
-      3
+      0,
+      1,
+      2
     ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: D"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: A, C, D"
   },
   {
     "id": 42,
@@ -696,13 +776,15 @@ var mttPdfQuestions = [
       "00001001 11110010",
       "00011001 11100010"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 43,
@@ -714,13 +796,15 @@ var mttPdfQuestions = [
       "Mất ACK",
       "Mất gói"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 44,
@@ -742,13 +826,15 @@ var mttPdfQuestions = [
       "sử dụng các socket khác nhau để tạo liên kết với host",
       "và B"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 45,
@@ -760,13 +846,15 @@ var mttPdfQuestions = [
       "Gửi lại pkt1, pkt2, pkt3, pkt4",
       "Gửi lại pkt2, pkt3, pkt4, pkt5"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 46,
@@ -779,13 +867,15 @@ var mttPdfQuestions = [
       "7",
       "8"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 47,
@@ -799,12 +889,14 @@ var mttPdfQuestions = [
       "Phía gửi không cần chuyển sang giai đoạn tránh tắc nghẽn (Dữ kiện dùng cho các câu 48-50))Giả sử trong một khoảng thời gian nào đó quan sát quá trình truyền dữ liệu giữa hai ứng dụng được điều khiển bởi giao thức TCP, ta thu được đồ thị điều khiển tắc nghẽn như sau:"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [
       "page_3_img_1_Image27.jpg",
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 48,
@@ -816,10 +908,12 @@ var mttPdfQuestions = [
       "10 và 23",
       "19 và 23"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 49,
@@ -831,10 +925,12 @@ var mttPdfQuestions = [
       "6-9, 14-18 và 19-22",
       "19-23"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 50,
@@ -846,10 +942,12 @@ var mttPdfQuestions = [
       "18",
       "22"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 51,
@@ -862,10 +960,12 @@ var mttPdfQuestions = [
       "Hủy tất cả các gói tin đã nhận trước đó",
       "Tách phần dữ liệu và chuyển cho tầng ứng dụng"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 52,
@@ -878,10 +978,12 @@ var mttPdfQuestions = [
       "5600",
       "7000"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 53,
@@ -894,10 +996,12 @@ var mttPdfQuestions = [
       "2800 byte",
       "7000 byte"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 54,
@@ -910,10 +1014,12 @@ var mttPdfQuestions = [
       "Chờ thêm một khoảng thời gian tối thiểu 2 lần RTT trung bình trước khi phát lại dữ liệu",
       "Đóng liên kết hiện tại và thiết lập liên kết mới00 byte"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 55,
@@ -926,10 +1032,12 @@ var mttPdfQuestions = [
       "Gửi ACK cho gói tin vừa nhận được với giá trị Receive Window = 0",
       "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộ đệm"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 56,
@@ -941,10 +1049,12 @@ var mttPdfQuestions = [
       "HTTP: UDP Port 80",
       "FTP: TCP Port 2"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 57,
@@ -956,10 +1066,12 @@ var mttPdfQuestions = [
       "256",
       "1024"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 58,
@@ -971,10 +1083,12 @@ var mttPdfQuestions = [
       "Bên gửi gửi NAK cho bên nhận để báo hiệu về lỗi phát sinh",
       "Bên gửi sẽ dừng quá trình truyền dữ liệu cho bên nhận"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 59,
@@ -987,9 +1101,11 @@ var mttPdfQuestions = [
       "Pipelined"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 60,
@@ -1001,10 +1117,12 @@ var mttPdfQuestions = [
       "Gởi lại pkt1, pkt2, pkt3, pkt4",
       "Gởi lại pkt2, pkt3, pkt4, pkt5"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 61,
@@ -1016,10 +1134,12 @@ var mttPdfQuestions = [
       "MSS (Maximum Segment Size)",
       "Băng thông tối đa và MTU"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 62,
@@ -1031,10 +1151,12 @@ var mttPdfQuestions = [
       "0",
       "Do hệ điều hành tạo ra bằng 1 thuật toán"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 63,
@@ -1046,10 +1168,12 @@ var mttPdfQuestions = [
       "Seq = 50, ACK = 80",
       "Seq = 40, ACK = 80"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 64,
@@ -1061,10 +1185,12 @@ var mttPdfQuestions = [
       "ACK=1, SYN=1",
       "ACK=0, SYN=0"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 65,
@@ -1078,10 +1204,12 @@ var mttPdfQuestions = [
       "10 kilobytes",
       "20 kilobytes"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 5,
+    "ansList": [
+      5
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 66,
@@ -1094,9 +1222,11 @@ var mttPdfQuestions = [
       "Không xác định được từ số ACK"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 67,
@@ -1108,10 +1238,12 @@ var mttPdfQuestions = [
       "100",
       "93"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 68,
@@ -1123,10 +1255,12 @@ var mttPdfQuestions = [
       "Đo lường giá trị lớn nhất của một số giá trị vừa xảy ra",
       "Không xác định được"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 69,
@@ -1137,10 +1271,12 @@ var mttPdfQuestions = [
       "100.5 msec",
       "Không ước lượng được"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 70,
@@ -1152,10 +1288,12 @@ var mttPdfQuestions = [
       "ACK tích luỹ",
       "Truyền lại nhanh"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 71,
@@ -1167,10 +1305,12 @@ var mttPdfQuestions = [
       "Thực hiện kết nối lại với bên nhận",
       "Huỷ kết nối"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 72,
@@ -1182,10 +1322,12 @@ var mttPdfQuestions = [
       "Seq = 1, SYN = 1",
       "Seq = ISN, SYN = 0"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 73,
@@ -1197,10 +1339,12 @@ var mttPdfQuestions = [
       "IP",
       "ICMP"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 74,
@@ -1212,10 +1356,12 @@ var mttPdfQuestions = [
       "Chỉ phần dữ liệu (payload)",
       "Trong header cÿa UDP không có trưởng length"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 75,
@@ -1226,10 +1372,12 @@ var mttPdfQuestions = [
       "00001001 11110010",
       "00011001 11100010"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 76,
@@ -1241,10 +1389,12 @@ var mttPdfQuestions = [
       "Số thā tự của segment được gửi",
       "Tổng số byte bên nhận đang mong đợi sẽ được nhận tiếp tục"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 77,
@@ -1256,10 +1406,12 @@ var mttPdfQuestions = [
       "SYN, ACK, PSH, RST, FIN, URG",
       "SYN, ACK, PSH, DAT, CON, URG (Dữ kiện sau cho câu 78 và 79) Biết TCP sender gửi 5 segments một lúc theo cơ chế Go-back-N (cùng một window) tại các thời điểm t=1, 2, 3, 4, 5. Giả sử sequence number của segment đầu tiên tại t=1 là 121, mỗi segment là 580 bytes"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 78,
@@ -1271,10 +1423,12 @@ var mttPdfQuestions = [
       "1281",
       "701"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 79,
@@ -1286,10 +1440,12 @@ var mttPdfQuestions = [
       "1281",
       "701"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 80,
@@ -1301,10 +1457,12 @@ var mttPdfQuestions = [
       "17",
       "23"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 81,
@@ -1317,9 +1475,11 @@ var mttPdfQuestions = [
       "rdt 3.0"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 82,
@@ -1333,10 +1493,12 @@ var mttPdfQuestions = [
       "x + 1",
       "y + 1"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 5,
+    "ansList": [
+      5
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 83,
@@ -1348,10 +1510,12 @@ var mttPdfQuestions = [
       "Số thứ tự của segment cuối cùng mà bên nhận nhận được",
       "Số thứ tự của byte kế tiếp được mong đợi từ phía bên nhận"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 84,
@@ -1363,10 +1527,12 @@ var mttPdfQuestions = [
       "SYN/ACK từ server phản hồi khi client khái tạo kết nối TCP",
       "Không xác định được"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 85,
@@ -1378,10 +1544,12 @@ var mttPdfQuestions = [
       "FIN",
       "SYN/ACK Dựa vào hình sau, hãy trả lời các câu hỏi từ 86 đến 90:"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 86,
@@ -1393,10 +1561,12 @@ var mttPdfQuestions = [
       "ACK",
       "FIN/ACK"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 87,
@@ -1408,10 +1578,12 @@ var mttPdfQuestions = [
       "ACK",
       "URG"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 88,
@@ -1423,10 +1595,12 @@ var mttPdfQuestions = [
       "8221823",
       "0"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 89,
@@ -1438,10 +1612,12 @@ var mttPdfQuestions = [
       "1109646",
       "1460"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 90,
@@ -1453,10 +1629,12 @@ var mttPdfQuestions = [
       "4",
       "1460"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 91,
@@ -1468,10 +1646,12 @@ var mttPdfQuestions = [
       "Đường truyền ảo",
       "Đường truyền logic"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 92,
@@ -1483,10 +1663,12 @@ var mttPdfQuestions = [
       "Đường truyền ảo",
       "Đường truyền logic"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 93,
@@ -1503,9 +1685,11 @@ var mttPdfQuestions = [
       "đều sai"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 94,
@@ -1517,10 +1701,12 @@ var mttPdfQuestions = [
       "Mạng lưu và chuyển tiếp (Store - and - Forward)",
       "Các node trung gian: tiếp nhận, lưu trữ tạm thời và gửi tiếp thông tin"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 95,
@@ -1531,10 +1717,12 @@ var mttPdfQuestions = [
       "24.19s",
       "Cả ba đáp án trên đều sai"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 96,
@@ -1546,10 +1734,12 @@ var mttPdfQuestions = [
       "Trình duyệt dùng kết nối thường trực (persistent) và URL đầy đủ của trang web được yêu cầu là: www-net.cs.umass.edu/docs/index.html",
       "Trình duyệt dùng kết nối thường trực (persistent) và URL đầy đủ của trang web được yêu cầu là: www-net.cs.umass.edu"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 97,
@@ -1563,9 +1753,11 @@ var mttPdfQuestions = [
       "Đáp án khác"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 98,
@@ -1577,10 +1769,12 @@ var mttPdfQuestions = [
       "FTP",
       "WWW"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 99,
@@ -1592,10 +1786,12 @@ var mttPdfQuestions = [
       "Nó sẽ gửi từ byte thứ 100",
       "Nó hy vọng nhận được dữ liệu bắt đầu bằng byte có số thứ tự 100"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 100,
@@ -1607,10 +1803,12 @@ var mttPdfQuestions = [
       "Số Seq của gói SYN đầu tiên luôn luôn là 0",
       "SYN bit của gói đầu tiên được gán bằng 1 Sử dụng biểu đồ hoạt động điều khiển tắc nghẽn của TCP Reno dưới đây để trả lời các câu hỏi sau. Trong đó, trục tung là congestion window size (bắt đầu từ 0), đơn vị là số segment, trục hoành là transmission round, đơn vị là RTT, mỗi round là 1 RTT (bắt đầu từ 1). Hãy trả lời các câu hỏi từ 101 đến 103"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 101,
@@ -1622,10 +1820,12 @@ var mttPdfQuestions = [
       "t=22RTT",
       "t=28RTT"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 102,
@@ -1637,10 +1837,12 @@ var mttPdfQuestions = [
       "4",
       "Đáp án khác"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 103,
@@ -1652,10 +1854,12 @@ var mttPdfQuestions = [
       "29-31",
       "D. Tất cả đều đúng Sử dụng biểu đồ hoạt động điều khiển tắc nghẽn của TCP Reno dưới đây để trả lời các câu hỏi từ 104 đến 106. Trong đó, trục tung là congestion window size (bắt đầu từ 0), đơn vị là số segment, trục hoành là transmission round, đơn vị là RTT, mỗi round là 1 RTT (bắt đầu từ 1)"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 104,
@@ -1667,10 +1871,12 @@ var mttPdfQuestions = [
       "12",
       "20"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 105,
@@ -1683,9 +1889,11 @@ var mttPdfQuestions = [
       "t=10RTT"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 106,
@@ -1697,10 +1905,12 @@ var mttPdfQuestions = [
       "14",
       "4"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 107,
@@ -1713,10 +1923,12 @@ var mttPdfQuestions = [
       "ACK=0, SYN=1",
       "RST=1, SYN=1"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
   },
   {
     "id": 108,
@@ -1728,10 +1940,12 @@ var mttPdfQuestions = [
       "123.4.5.7 là địa chỉ IP của máy phục vụ thư (mail server) có tên miền là google.com",
       "Tất cả đều sai"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 109,
@@ -1743,10 +1957,12 @@ var mttPdfQuestions = [
       "Thời gian Server trả thông tin về cho trình duyệt là: Tue, 22 June 2015 12:39:45GMT",
       "HTTP 1.1 là phiên bản cao nhất mà Server hỗ trợ"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 110,
@@ -1759,9 +1975,11 @@ var mttPdfQuestions = [
       "FTP sử dụng cổng 21 để tạo kết nối điều khiển và cổng 20 để tạo kết nối dữ liệu."
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 111,
@@ -1773,10 +1991,12 @@ var mttPdfQuestions = [
       "Gởi lại pkt0, pkt1, pkt2, pkt3",
       "Gởi lại pkt2, pkt3, pkt4, pkt5"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 112,
@@ -1788,10 +2008,12 @@ var mttPdfQuestions = [
       "4",
       "5"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 113,
@@ -1803,10 +2025,12 @@ var mttPdfQuestions = [
       "304",
       "200"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 114,
@@ -1818,10 +2042,12 @@ var mttPdfQuestions = [
       "Hai giá trị này không ảnh hưởng tới nhau",
       "Lấy giá trị nhỏ hơn Sử dụng biểu đồ hoạt động điều khiển tắc nghẽn của TCP Reno dưới đây để trả lời các câu hỏi sau. Trong đó, trục tung là congestion window size tính theo đơn vị số segment, trục hoành là transmission round (vòng truyền) tính theo đơn vị RTT, mỗi round là 1 RTT"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 115,
@@ -1833,10 +2059,12 @@ var mttPdfQuestions = [
       "Fast Recovery",
       "Fast Retransmission"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 116,
@@ -1848,10 +2076,12 @@ var mttPdfQuestions = [
       "8",
       "14"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 117,
@@ -1863,10 +2093,12 @@ var mttPdfQuestions = [
       "Vòng truyền thứ 4, 27",
       "Không có tắc nghẽn"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 118,
@@ -1879,10 +2111,12 @@ var mttPdfQuestions = [
       "A, B,",
       "đều đúng"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: C"
   },
   {
     "id": 119,
@@ -1894,9 +2128,11 @@ var mttPdfQuestions = [
       "192 Kbps"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 120,
@@ -1907,10 +2143,12 @@ var mttPdfQuestions = [
       "12000 bytes",
       "10000 bytes"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 121,
@@ -1922,10 +2160,12 @@ var mttPdfQuestions = [
       "Seq = ISN, SYN = 1 (ISN: initial sequence number)",
       "Seq = 0, SYN = 0"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 122,
@@ -1937,10 +2177,12 @@ var mttPdfQuestions = [
       "Truy vấn tương tác",
       "Truy vấn tuần tự"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 123,
@@ -1952,10 +2194,12 @@ var mttPdfQuestions = [
       "Truy vấn tương tác",
       "Truy vấn tuần tự"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 124,
@@ -1967,10 +2211,12 @@ var mttPdfQuestions = [
       "DoS",
       "DdoS"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 125,
@@ -1983,9 +2229,11 @@ var mttPdfQuestions = [
       "Đã có packet với seq 1 gửi ra sau packet với seq 0, nhưng packet với seq 1 lại tới receiver trước"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 126,
@@ -1997,10 +2245,12 @@ var mttPdfQuestions = [
       "Gói TCP SYN đầu tiên được gửi ra từ phía server",
       "FIN bit của gói đầu tiên được gán bằng 1"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 127,
@@ -2011,10 +2261,12 @@ var mttPdfQuestions = [
       "1 RTT",
       "22 RTT"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 128,
@@ -2026,10 +2278,12 @@ var mttPdfQuestions = [
       "Ứng dụng AUDIO/VIDEO thời gian thực",
       "Ứng dụng truyền tập tin"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 129,
@@ -2041,10 +2295,12 @@ var mttPdfQuestions = [
       "Seg = 50, ACK = 80",
       "Seg = 40, ACK = 80"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 130,
@@ -2057,9 +2313,11 @@ var mttPdfQuestions = [
       "1"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 131,
@@ -2071,10 +2329,12 @@ var mttPdfQuestions = [
       "Cookie",
       "NIC"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 132,
@@ -2086,10 +2346,12 @@ var mttPdfQuestions = [
       "50 Mbps",
       "60 Mbps"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 133,
@@ -2100,12 +2362,14 @@ var mttPdfQuestions = [
       "2s",
       "1.25s"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 134,
@@ -2117,12 +2381,14 @@ var mttPdfQuestions = [
       "HELO, DATA, MAIL FROM, QUIT, RCPT TO",
       "HELO, MAIL FROM, RCPT TO, DATA, QUIT"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 135,
@@ -2135,11 +2401,13 @@ var mttPdfQuestions = [
       "Phương thức DELETE Hình dưới là biểu đồ hoạt động điều khiển tắc nghẽn cÿa TCP Reno. Trong đó, trục tung là congestion window size, đơn vị là số segment, trục hoành là transmission. Trả lời các câu hỏi từ 137 đến 142."
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 136,
@@ -2151,12 +2419,14 @@ var mttPdfQuestions = [
       "Round 6 – 16 và 17 – 22",
       "Round 17 – 22"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 137,
@@ -2168,12 +2438,14 @@ var mttPdfQuestions = [
       "TCP Congestion Avoidance",
       "Tất cả đều sai"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 138,
@@ -2185,12 +2457,14 @@ var mttPdfQuestions = [
       "3 ACK trùng",
       "Mất gói tin"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 139,
@@ -2203,11 +2477,13 @@ var mttPdfQuestions = [
       "4 ACK trùng"
     ],
     "ans": 0,
-    "ansList": [],
+    "ansList": [
+      0
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
   },
   {
     "id": 140,
@@ -2219,12 +2495,14 @@ var mttPdfQuestions = [
       "24",
       "21"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 141,
@@ -2236,12 +2514,14 @@ var mttPdfQuestions = [
       "35",
       "10"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 142,
@@ -2253,12 +2533,14 @@ var mttPdfQuestions = [
       "TCP Tahoe hiện thực cơ chế Slow Start, Congestion Avoidance, và Fast Retransmit",
       "TCP Reno chỉ mới được đề xuất, chưa được hiện thực"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [
       "page_8_img_1_Image42.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 143,
@@ -2269,12 +2551,14 @@ var mttPdfQuestions = [
       "SSThreshold=8000 bytes, CWin=4000 bytes",
       "SSThreshold=8000 bytes, CWin=8000 bytes"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [
       "page_9_img_1_Image52.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 144,
@@ -2286,12 +2570,14 @@ var mttPdfQuestions = [
       "8",
       "10"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 1,
+    "ansList": [
+      1
+    ],
     "images": [
       "page_9_img_1_Image52.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
   },
   {
     "id": 145,
@@ -2302,12 +2588,14 @@ var mttPdfQuestions = [
       "148.85 ms",
       "136.73 m"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [
       "page_10_img_1_Image55.jpg"
     ],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 146,
@@ -2319,10 +2607,12 @@ var mttPdfQuestions = [
       "Tầng Network",
       "Tầng Physical"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
   },
   {
     "id": 147,
@@ -2335,10 +2625,12 @@ var mttPdfQuestions = [
       "5019",
       "Đáp án khác"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 4,
+    "ansList": [
+      4
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
   },
   {
     "id": 148,
@@ -2350,9 +2642,11 @@ var mttPdfQuestions = [
       "Phát gói 5, 6, 7, 8, 9",
       "Chờ hết thời gian để phát lại gói 2, 3"
     ],
-    "ans": 0,
-    "ansList": [],
+    "ans": 3,
+    "ansList": [
+      3
+    ],
     "images": [],
-    "exp": "Đáp án đúng: A (Đáp án mặc định)"
+    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: D"
   }
 ];
