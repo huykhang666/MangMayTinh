@@ -616,7 +616,7 @@ let mttExamSearchQuery = '';
 let mttExamUserAnswers = {};
 let mttExamSubmitted = false;
 let mttExamIsShuffled = false;
-let mttExamInstantAnswer = false;
+let mttExamInstantAnswer = true;
 let mttExamAllExplanationsVisible = false;
 let mttActiveQuestionsOrder = [];
 
@@ -712,12 +712,16 @@ function renderMttExam(chFilter = 0, searchQuery = '') {
             const isSelected = Array.isArray(userAns) ? userAns.includes(oIdx) : userAns === oIdx;
             let optClass = 'quiz-option p-3.5 rounded-xl border border-slate-300 bg-white hover:bg-slate-100 flex items-center gap-3 font-medium text-slate-800 text-sm md:text-base transition-all shadow-sm cursor-pointer';
             
+            let iconHtml = `<span class="w-6 h-6 rounded-full ${isSelected ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-800'} flex items-center justify-center font-extrabold text-xs shrink-0">${String.fromCharCode(65 + oIdx)}</span>`;
+
             if (isSubmitted || isInstant) {
               const isCorrectOpt = Array.isArray(q.ansList) && q.ansList.length > 0 ? q.ansList.includes(oIdx) : q.ans === oIdx;
               if (isCorrectOpt) {
-                optClass = 'quiz-option p-3.5 rounded-xl border-2 border-emerald-500 bg-emerald-50 text-emerald-950 font-bold flex items-center gap-3 text-sm md:text-base shadow-sm';
+                optClass = 'quiz-option p-3.5 rounded-xl border-2 border-emerald-500 bg-emerald-50 text-emerald-950 font-bold flex items-center justify-between gap-3 text-sm md:text-base shadow-sm';
+                iconHtml = `<div class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center font-black text-xs shrink-0">✓</span></div>`;
               } else if (isSelected && !isCorrectOpt) {
-                optClass = 'quiz-option p-3.5 rounded-xl border-2 border-rose-500 bg-rose-50 text-rose-950 flex items-center gap-3 text-sm md:text-base shadow-sm';
+                optClass = 'quiz-option p-3.5 rounded-xl border-2 border-rose-500 bg-rose-50 text-rose-950 font-bold flex items-center justify-between gap-3 text-sm md:text-base shadow-sm';
+                iconHtml = `<div class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-rose-600 text-white flex items-center justify-center font-black text-xs shrink-0">✕</span></div>`;
               }
             } else if (isSelected) {
               optClass = 'quiz-option p-3.5 rounded-xl border-2 border-blue-600 bg-blue-50 text-blue-900 font-bold flex items-center gap-3 text-sm md:text-base shadow-sm';
