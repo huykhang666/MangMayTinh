@@ -1,5 +1,4 @@
-/* Astra AI Tutor - MTT PDF Question Bank (148 Questions 100% Manually Audited Academic Dataset) */
-var mttPdfQuestions = [
+const mttPdfQuestions = [
   {
     "id": 1,
     "ch": 1,
@@ -378,12 +377,12 @@ var mttPdfQuestions = [
       "Loại A: có name = tên máy chÿ (hostname), value = địa chỉ IP cÿa máy chÿ",
       "Tất cả đều đúng"
     ],
-    "ans": 0,
+    "ans": 3,
     "ansList": [
-      0
+      3
     ],
     "images": [],
-    "exp": "Các dạng DNS Record cơ bản gồm: Type A (Hostname -> IP), Type NS (Name Server), Type CNAME (Alias), và Type MX (Mail Exchange)."
+    "exp": "DNS record bao gồm các dạng A, NS, CNAME, MX. Mỗi dạng gồm name, value, type, ttl. Loại A: name=hostname, value=IP. Do đó tất cả đều đúng."
   },
   {
     "id": 23,
@@ -397,12 +396,14 @@ var mttPdfQuestions = [
       "HTTP",
       "TCP"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0,
+      3,
+      4
     ],
     "images": [],
-    "exp": "Cấu trúc Cookie gồm Set-Cookie header, Cookie header, Cookie file trên client và Backend DB. Địa chỉ MAC card mạng không thuộc Cookie."
+    "exp": "Sử dụng webmail cần HTTP (để truy cập web browser), DNS (phân giải tên miền) và SMTP (để chuyển gửi mail giữa các mail server)."
   },
   {
     "id": 24,
@@ -417,10 +418,11 @@ var mttPdfQuestions = [
     ],
     "ans": 1,
     "ansList": [
-      1
+      1,
+      3
     ],
     "images": [],
-    "exp": "Hệ thống DNS phân cấp gồm: Root DNS Server, Top-Level Domain (TLD) Server và Authoritative DNS Server."
+    "exp": "Trong hệ thống DNS: Mỗi IP có thể ánh xạ tới nhiều tên miền và quá trình tìm kiếm thông tin tên miền được thực hiện từ gốc (Root) tới các nút nhánh."
   },
   {
     "id": 25,
@@ -432,12 +434,12 @@ var mttPdfQuestions = [
       "POP",
       "IMAP"
     ],
-    "ans": 1,
+    "ans": 3,
     "ansList": [
-      1
+      3
     ],
     "images": [],
-    "exp": "Web Cache (Proxy Server) lưu bản sao nội dung để giảm thời gian đáp ứng cho client và giảm lưu lượng đường truyền Internet ngoài."
+    "exp": "Giao thức IMAP (Internet Message Access Protocol) cho phép client lấy đồng thời tiêu đề và thân email từ server và quản lý thư trên máy chủ."
   },
   {
     "id": 26,
@@ -450,12 +452,12 @@ var mttPdfQuestions = [
       "2",
       "Không xác định"
     ],
-    "ans": 1,
+    "ans": 3,
     "ansList": [
-      1
+      3
     ],
     "images": [],
-    "exp": "Conditional GET sử dụng HTTP Header 'If-Modified-Since' để kiểm tra bản sao trong cache có còn mới hay không."
+    "exp": "Đáp án D là lựa chọn đúng."
   },
   {
     "id": 27,
@@ -468,12 +470,12 @@ var mttPdfQuestions = [
       "5 HTTP Request, 1 HTTP Response",
       "Không xác định"
     ],
-    "ans": 1,
+    "ans": 3,
     "ansList": [
-      1
+      3
     ],
     "images": [],
-    "exp": "Giao thức HTTP/1.1 mặc định sử dụng kết nối bền vững (Persistent Connection) để truyền nhiều đối tượng qua 1 kết nối TCP."
+    "exp": "Đáp án D là lựa chọn đúng."
   },
   {
     "id": 28,
@@ -485,12 +487,12 @@ var mttPdfQuestions = [
       "Địa chỉ IP đích",
       "Giao thức tại tầng giao vận"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
     "images": [],
-    "exp": "Giao thức FTP sử dụng 2 cổng TCP: Port 21 cho điều khiển (Control Out-of-band) và Port 20 cho truyền dữ liệu (Data)."
+    "exp": "Đáp án B là lựa chọn đúng."
   },
   {
     "id": 29,
@@ -503,12 +505,13 @@ var mttPdfQuestions = [
       "Các gói tin gửi từ nút B tới hai tiến trình trên nút A có cùng số hiệu cổng đích",
       "Hai tiến trình trên nút A đều có thể gửi dữ liệu liên tục với tốc độ cao nhất có thể"
     ],
-    "ans": 0,
+    "ans": 2,
     "ansList": [
-      0
+      2,
+      4
     ],
     "images": [],
-    "exp": "Thuật toán Tit-for-Tat trong BitTorrent ưu tiên cung cấp dữ liệu cho 4 peers có tốc độ upload cho nó cao nhất."
+    "exp": "Đáp án C và E là các đáp án đúng."
   },
   {
     "id": 30,
@@ -522,10 +525,11 @@ var mttPdfQuestions = [
     ],
     "ans": 1,
     "ansList": [
-      1
+      1,
+      2
     ],
     "images": [],
-    "exp": "DHT (Distributed Hash Table) quản lý phân tán các cặp (Key, Value) trên các nút mạng P2P."
+    "exp": "Đáp án B và C là các đáp án đúng."
   },
   {
     "id": 31,
@@ -554,12 +558,12 @@ var mttPdfQuestions = [
       "rdt3.0",
       "Không thể xử lý được việc mất gói tin ACK"
     ],
-    "ans": 1,
+    "ans": 2,
     "ansList": [
-      1
+      2
     ],
     "images": [],
-    "exp": "Header TCP có kích thước tối thiểu là 20 Bytes khi không có tùy chọn Options."
+    "exp": "Đáp án C là lựa chọn đúng."
   },
   {
     "id": 33,
@@ -571,12 +575,12 @@ var mttPdfQuestions = [
       "MSS (Maximum Segment Size)",
       "Băng thông tối đa và"
     ],
-    "ans": 0,
+    "ans": 2,
     "ansList": [
-      0
+      2
     ],
     "images": [],
-    "exp": "MSS (Maximum Segment Size) là dung lượng dữ liệu tối đa tầng ứng dụng có thể đưa vào 1 TCP segment (không tính IP/TCP header)."
+    "exp": "Đáp án C là lựa chọn đúng."
   },
   {
     "id": 34,
@@ -588,12 +592,12 @@ var mttPdfQuestions = [
       "256",
       "1024"
     ],
-    "ans": 1,
+    "ans": 3,
     "ansList": [
-      1
+      3
     ],
     "images": [],
-    "exp": "rdt 2.0 sử dụng Checksum để phát hiện lỗi bit, ACK để báo nhận thành công và NAK để báo gói lỗi cần gửi lại."
+    "exp": "Cổng dành riêng cho dịch vụ hệ thống thường trong khoảng từ 0 đến 1023 (tổng 1024 cổng)."
   },
   {
     "id": 35,
@@ -606,12 +610,14 @@ var mttPdfQuestions = [
       "Kiểm soát luồng, không làm quá tải phía nhận",
       "Kiểm soát tắc nghẽn"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
+      0,
+      1,
       2
     ],
     "images": [],
-    "exp": "rdt 2.1 bổ sung Số thứ tự (Sequence Number 0, 1) vào gói tin để xử lý trường hợp ACK/NAK bị hỏng."
+    "exp": "Đáp án A, B, C là các lựa chọn đúng."
   },
   {
     "id": 36,
@@ -622,12 +628,14 @@ var mttPdfQuestions = [
       "Xảy ra timeout",
       "Phát hiện lỗi trên gói tin báo nhận"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
+      0,
+      1,
       2
     ],
     "images": [],
-    "exp": "rdt 3.0 xử lý cả lỗi bit VÀ mất gói (Packet Loss) bằng cơ chế Countdown Timer tại bên gửi."
+    "exp": "Đáp án A, B, C là các lựa chọn đúng."
   },
   {
     "id": 37,
@@ -639,12 +647,13 @@ var mttPdfQuestions = [
       "Tính toán ACK Number trên gói tin phản hồi để yêu cầu dữ liệu tiếp theo",
       "Phản hồi lại gói tin đã nhận"
     ],
-    "ans": 1,
+    "ans": 0,
     "ansList": [
-      1
+      0,
+      2
     ],
     "images": [],
-    "exp": "TCP sử dụng Báo nhận tích lũy (Cumulative ACK): ACK(n) xác nhận đã nhận thành công tất cả các byte trước n."
+    "exp": "Đáp án A và C là các đáp án đúng."
   },
   {
     "id": 38,
@@ -676,7 +685,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Quá trình bắt tay 3 bước (3-way handshake) thiết lập kết nối TCP: SYN ➔ SYN-ACK ➔ ACK."
+    "exp": "Đáp án B là lựa chọn đúng."
   },
   {
     "id": 40,
@@ -685,12 +694,12 @@ var mttPdfQuestions = [
     "opts": [
       "GET B. POST C. PUT D. DELETE"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
     "images": [],
-    "exp": "Dịch vụ DNS hoạt động trên cổng 53 của cả hai giao thức UDP (cho truy vấn thường) và TCP (cho chuyển giao vùng zone transfer)."
+    "exp": "Đáp án B là lựa chọn đúng."
   },
   {
     "id": 41,
@@ -699,12 +708,12 @@ var mttPdfQuestions = [
     "opts": [
       "GET B. POST C. PUT D. DELETE"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
     "images": [],
-    "exp": "Phương thức POST trong HTTP được dùng để gửi dữ liệu biểu mẫu (form) hoặc upload dữ liệu lên server."
+    "exp": "Phương thức POST trong HTTP dùng để gửi dữ liệu biểu mẫu từ client lên server."
   },
   {
     "id": 42,
@@ -716,12 +725,12 @@ var mttPdfQuestions = [
       "00001001 11110010",
       "00011001 11100010"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0
     ],
     "images": [],
-    "exp": "Checksum được tính bằng bù 1 (1's complement) của tổng các chuỗi 16-bit dữ liệu."
+    "exp": "Checksum 16-bit: 10101100 01010001 + 01001001 11001100 = 11110101 00011101. Lấy bù 1 thu được 00001001 11100010 (Đáp án A)."
   },
   {
     "id": 43,
@@ -733,12 +742,14 @@ var mttPdfQuestions = [
       "Mất ACK",
       "Mất gói"
     ],
-    "ans": 1,
+    "ans": 3,
     "ansList": [
-      1
+      3
     ],
-    "images": [],
-    "exp": "Kích thước cửa sổ tắc nghẽn (cwnd) được bên gửi tự điều chỉnh dựa trên tình trạng tắc nghẽn mạng lõi."
+    "images": [
+      "page_8_img_1_Image42.jpg"
+    ],
+    "exp": "Đây là trường hợp Mất gói (Packet loss) của rdt 3.0."
   },
   {
     "id": 44,
@@ -750,12 +761,12 @@ var mttPdfQuestions = [
       "Nếu phát hiện tắc nghẽn xảy ra trên liên kết với host A thì host C khởi động giai đoạn Slow Start trên cả 2 liên kết",
       "Host C sử dụng các socket khác nhau để tạo liên kết với host A và B"
     ],
-    "ans": 1,
+    "ans": 3,
     "ansList": [
-      1
+      3
     ],
     "images": [],
-    "exp": "EstimatedRTT = (1 - 0.125) * EstimatedRTT + 0.125 * SampleRTT (với alpha = 0.125)."
+    "exp": "Đáp án D là lựa chọn đúng."
   },
   {
     "id": 45,
@@ -767,12 +778,14 @@ var mttPdfQuestions = [
       "Gửi lại pkt1, pkt2, pkt3, pkt4",
       "Gửi lại pkt2, pkt3, pkt4, pkt5"
     ],
-    "ans": 1,
+    "ans": 0,
     "ansList": [
-      1
+      0
     ],
-    "images": [],
-    "exp": "TimeoutInterval = EstimatedRTT + 4 * DevRTT."
+    "images": [
+      "page_9_img_1_Image52.jpg"
+    ],
+    "exp": "Trong Selective Repeat, sau khi timeout gói nào thì phía gửi chỉ phát lại duy nhất gói bị timeout đó (Chỉ gửi lại pkt2)."
   },
   {
     "id": 46,
@@ -785,12 +798,12 @@ var mttPdfQuestions = [
       "7",
       "8"
     ],
-    "ans": 1,
+    "ans": 4,
     "ansList": [
-      1
+      4
     ],
     "images": [],
-    "exp": "Thuật toán AIMD: Additive Increase (+1 MSS/RTT) trong Congestion Avoidance và Multiplicative Decrease (cwnd/2) khi mất gói."
+    "exp": "Đáp án E là lựa chọn đúng."
   },
   {
     "id": 47,
@@ -820,12 +833,14 @@ var mttPdfQuestions = [
       "10 và 23",
       "19 và 23"
     ],
-    "ans": 1,
+    "ans": 2,
     "ansList": [
-      1
+      2
     ],
-    "images": [],
-    "exp": "Khi cwnd >= ssthresh (ngưỡng khởi đầu chậm), TCP chuyển từ Slow Start sang Congestion Avoidance."
+    "images": [
+      "page_10_img_1_Image55.jpg"
+    ],
+    "exp": "Giai đoạn Slow Start bắt đầu tại các lượt gửi 10 và 23 (khi cwnd rớt về 1 sau timeout)."
   },
   {
     "id": 49,
@@ -837,12 +852,12 @@ var mttPdfQuestions = [
       "6-9, 14-18 và 19-22",
       "19-23"
     ],
-    "ans": 1,
+    "ans": 2,
     "ansList": [
-      1
+      2
     ],
     "images": [],
-    "exp": "TCP Tahoe: Dù Timeout hay 3 Dup ACKs đều đặt ssthresh = cwnd/2, cwnd = 1 MSS và quay lại Slow Start."
+    "exp": "Đoạn biểu diễn giai đoạn tránh tắc nghẽn (Congestion Avoidance): 6-9, 14-18 và 19-22."
   },
   {
     "id": 50,
@@ -854,12 +869,13 @@ var mttPdfQuestions = [
       "18",
       "22"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0,
+      3
     ],
     "images": [],
-    "exp": "TCP Reno: Khi gặp 3 Dup ACKs đặt ssthresh = cwnd/2, cwnd = ssthresh + 3 MSS và chuyển sang Fast Recovery."
+    "exp": "Phía gửi xảy ra time-out tại các lượt gửi A và D."
   },
   {
     "id": 51,
@@ -872,12 +888,13 @@ var mttPdfQuestions = [
       "Hủy tất cả các gói tin đã nhận trước đó",
       "Tách phần dữ liệu và chuyển cho tầng ứng dụng"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
+      1,
       2
     ],
     "images": [],
-    "exp": "POP3 ở chế độ 'Download-and-Delete' tải email về máy client và xóa khỏi server."
+    "exp": "Đáp án B và C là các đáp án đúng."
   },
   {
     "id": 52,
@@ -890,12 +907,12 @@ var mttPdfQuestions = [
       "5600",
       "7000"
     ],
-    "ans": 4,
+    "ans": 1,
     "ansList": [
-      4
+      1
     ],
     "images": [],
-    "exp": "IMAP cho phép giữ email trên server, tạo thư mục quản lý và đồng bộ trạng thái giữa nhiều thiết bị."
+    "exp": "Đáp án B là lựa chọn đúng."
   },
   {
     "id": 53,
@@ -908,12 +925,12 @@ var mttPdfQuestions = [
       "2800 byte",
       "7000 byte"
     ],
-    "ans": 4,
+    "ans": 2,
     "ansList": [
-      4
+      2
     ],
     "images": [],
-    "exp": "HTTP Response 200 OK cho biết yêu cầu đã được xử lý thành công."
+    "exp": "Đáp án C là lựa chọn đúng."
   },
   {
     "id": 54,
@@ -926,12 +943,13 @@ var mttPdfQuestions = [
       "Chờ thêm một khoảng thời gian tối thiểu 2 lần RTT trung bình trước khi phát lại dữ liệu",
       "Đóng liên kết hiện tại và thiết lập liên kết mới00 byte"
     ],
-    "ans": 4,
+    "ans": 0,
     "ansList": [
-      4
+      0,
+      2
     ],
     "images": [],
-    "exp": "HTTP Response 404 Not Found báo lỗi không tìm thấy tài nguyên yêu cầu trên server."
+    "exp": "Đáp án A và C là các đáp án đúng."
   },
   {
     "id": 55,
@@ -944,12 +962,13 @@ var mttPdfQuestions = [
       "Gửi ACK cho gói tin vừa nhận được với giá trị Receive Window = 0",
       "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộ đệm"
     ],
-    "ans": 4,
+    "ans": 1,
     "ansList": [
-      4
+      1,
+      2
     ],
     "images": [],
-    "exp": "HTTP Response 301 Moved Permanently báo tài nguyên đã được di chuyển vĩnh viễn sang URL mới."
+    "exp": "Đáp án B và C là các đáp án đúng."
   },
   {
     "id": 56,
@@ -961,12 +980,12 @@ var mttPdfQuestions = [
       "HTTP: UDP Port 80",
       "FTP: TCP Port 2"
     ],
-    "ans": 1,
+    "ans": 2,
     "ansList": [
-      1
+      2
     ],
     "images": [],
-    "exp": "Mạng P2P có tính tự mở rộng (Self-scalability): mỗi peer vừa tiêu thụ vừa đóng góp băng thông uploader."
+    "exp": "Cặp SAI: HTTP chạy trên nền TCP (port 80), không phải UDP."
   },
   {
     "id": 57,
@@ -983,7 +1002,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Khung tin tầng liên kết dữ liệu (Data Link Frame) chứa địa chỉ MAC nguồn và địa chỉ MAC đích."
+    "exp": "Cổng dành riêng (Well-known ports) từ 0 đến 1023, gồm 1024 cổng (Đáp án D)."
   },
   {
     "id": 58,
@@ -995,12 +1014,12 @@ var mttPdfQuestions = [
       "Bên gửi gửi NAK cho bên nhận để báo hiệu về lỗi phát sinh",
       "Bên gửi sẽ dừng quá trình truyền dữ liệu cho bên nhận"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Tầng Mạng (Network Layer) chịu trách nhiệm định tuyến (Routing) và chuyển tiếp (Forwarding) gói tin qua mạng lõi."
+    "exp": "RDT 3.0 sử dụng timer (bộ đếm thời gian). Khi hết hạn timer (timeout) phía gửi sẽ tự động phát lại gói tin."
   },
   {
     "id": 59,
@@ -1012,12 +1031,12 @@ var mttPdfQuestions = [
       "rdt 3.0",
       "Pipelined"
     ],
-    "ans": 0,
+    "ans": 3,
     "ansList": [
-      0
+      3
     ],
     "images": [],
-    "exp": "Trong lập trình Socket TCP Python, hàm sock.accept() chờ và chấp nhận kết nối từ client."
+    "exp": "Kỹ thuật Pipelined cho phép bên gửi truyền nhiều gói tin liên tiếp mà không cần chờ ACK cho từng gói."
   },
   {
     "id": 60,
@@ -1029,14 +1048,14 @@ var mttPdfQuestions = [
       "Gởi lại pkt1, pkt2, pkt3, pkt4",
       "Gởi lại pkt2, pkt3, pkt4, pkt5"
     ],
-    "ans": 2,
+    "ans": 3,
     "ansList": [
-      2
+      3
     ],
     "images": [
       "page_12_img_1_Image60.jpg"
     ],
-    "exp": "Trong lập trình Socket UDP Python, các hàm sendto() và recvfrom() được dùng để truyền nhận dữ liệu phi kết nối."
+    "exp": "Go-Back-N phát lại từ gói bị mất trở đi: nếu pkt2 bị mất thì phía gửi phát lại từ pkt2, pkt3, pkt4, pkt5."
   },
   {
     "id": 61,
@@ -1048,12 +1067,12 @@ var mttPdfQuestions = [
       "MSS (Maximum Segment Size)",
       "Băng thông tối đa và MTU"
     ],
-    "ans": 1,
+    "ans": 2,
     "ansList": [
-      1
+      2
     ],
     "images": [],
-    "exp": "rdt 1.0 giả định kênh truyền bên dưới hoàn hảo (chính xác, không bit lỗi, không mất gói)."
+    "exp": "Kích thước đoạn dữ liệu tối đa của TCP là MSS (Maximum Segment Size)."
   },
   {
     "id": 62,
@@ -1070,7 +1089,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Giao thức GBN (Go-Back-N) cho phép gửi tối đa N gói chưa ACK, bên nhận chỉ chấp nhận gói đúng thứ tự."
+    "exp": "Số thứ tự khởi tạo ISN (Initial Sequence Number) do hệ điều hành sinh ra bằng thuật toán ngẫu nhiên, không cố định."
   },
   {
     "id": 63,
@@ -1087,7 +1106,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Giao thức Selective Repeat (SR) đệm các gói out-of-order và báo nhận độc lập (Individual ACK) từng gói."
+    "exp": "Seq = 40 (lấy theo ACK nhận được), ACK = 50 + 30 = 80."
   },
   {
     "id": 64,
@@ -1099,12 +1118,12 @@ var mttPdfQuestions = [
       "ACK=1, SYN=1",
       "ACK=0, SYN=0"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Điều kiện tránh nhập nhằng trong Selective Repeat: Kích thước cửa sổ N <= 1/2 SeqSpace."
+    "exp": "Gói SYN/ACK ở bước 2 của quá trình bắt tay 3 bước có cờ ACK=1 và SYN=1."
   },
   {
     "id": 65,
@@ -1116,12 +1135,12 @@ var mttPdfQuestions = [
       "10 kilobytes",
       "20 kilobytes"
     ],
-    "ans": 5,
+    "ans": 1,
     "ansList": [
-      5
+      1
     ],
     "images": [],
-    "exp": "Trong TCP, số hiệu cổng (Port Number) dùng để định danh đúng tiến trình ứng dụng (Process) trên host."
+    "exp": "Kích thước dữ liệu trong segment = 110 - 90 = 20 bytes."
   },
   {
     "id": 66,
@@ -1133,12 +1152,12 @@ var mttPdfQuestions = [
       "201",
       "Không xác định được từ số ACK"
     ],
-    "ans": 0,
+    "ans": 1,
     "ansList": [
-      0
+      1
     ],
     "images": [],
-    "exp": "ACK(200) trong TCP có nghĩa bên nhận đã thu tốt các byte đến 199 và đang chờ byte số 200."
+    "exp": "ACK = 200 có nghĩa bên nhận đã nhận đủ các byte đến 199 và mong đợi byte 200 tiếp theo."
   },
   {
     "id": 67,
@@ -1150,12 +1169,12 @@ var mttPdfQuestions = [
       "100",
       "93"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Bắt tay 3 bước TCP: Gói 1 (SYN), Gói 2 (SYN-ACK), Gói 3 (ACK)."
+    "exp": "ACK = Seq + Length = 92 + 8 = 100."
   },
   {
     "id": 68,
@@ -1167,12 +1186,12 @@ var mttPdfQuestions = [
       "Đo lường giá trị lớn nhất của một số giá trị vừa xảy ra",
       "Không xác định được"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Giải phóng kết nối TCP (4-way teardown): FIN ➔ ACK ➔ FIN ➔ ACK."
+    "exp": "Dùng trung bình mũ nhiều mẫu gần nhất (EstimatedRTT) để ước lượng RTT mượt mà."
   },
   {
     "id": 69,
@@ -1184,12 +1203,12 @@ var mttPdfQuestions = [
       "100.5 msec",
       "Không ước lượng được"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
     "images": [],
-    "exp": "Flow Control (Điều khiển luồng) dùng trường rwnd trong TCP Header để tránh làm tràn đệm bên nhận."
+    "exp": "EstimatedRTT1 = 90. Mẫu 2 = 110. EstimatedRTT2 = 0.8 * 90 + 0.2 * 110 = 72 + 22 = 94 msec."
   },
   {
     "id": 70,
@@ -1206,7 +1225,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Congestion Control (Điều khiển tắc nghẽn) giữ cho lưu lượng bên gửi không vượt quá khả năng xử lý của mạng lõi."
+    "exp": "Timeout sớm: Bên gửi phát lại Seq=92 trong khi ACK=100 và 120 đang trên đường truyền về."
   },
   {
     "id": 71,
@@ -1223,7 +1242,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Khi Timeout xảy ra trong TCP, bên gửi truyền lại (Retransmit) gói tin chưa được xác nhận sớm nhất."
+    "exp": "Khi xảy ra timeout, bên gửi phát lại gói bị timeout."
   },
   {
     "id": 72,
@@ -1240,7 +1259,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Gói SYN trong bắt tay 3 bước có cờ SYN = 1 và Sequence Number = ISN (Initial Sequence Number)."
+    "exp": "Gói SYN có Seq = ISN và cờ SYN = 1."
   },
   {
     "id": 73,
@@ -1252,14 +1271,14 @@ var mttPdfQuestions = [
       "IP",
       "ICMP"
     ],
-    "ans": 0,
+    "ans": 1,
     "ansList": [
-      0
+      1
     ],
     "images": [
       "page_15_img_1_Image69.jpg"
     ],
-    "exp": "Cấu trúc Header TCP tối thiểu 20 Bytes chứa Source/Dest Port, Seq Number, Ack Number, Flags, Window Size,..."
+    "exp": "Header UDP gồm 4 trường (8 bytes): Source Port, Dest Port, Length, Checksum."
   },
   {
     "id": 74,
@@ -1276,7 +1295,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Trường Length trong UDP Header chỉ độ dài toàn bộ UDP Segment (Header + Data)."
+    "exp": "Trường Length trong UDP header chỉ độ dài toàn bộ UDP segment (gồm cả header + dữ liệu)."
   },
   {
     "id": 75,
@@ -1288,12 +1307,12 @@ var mttPdfQuestions = [
       "00001001 11110010",
       "00011001 11100010"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0
     ],
     "images": [],
-    "exp": "Cộng hai chuỗi 16-bit nhị phân và lấy bù 1 để được giá trị Checksum."
+    "exp": "Checksum 16-bit thu được kết quả 00001001 11100010."
   },
   {
     "id": 76,
@@ -1310,7 +1329,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Sequence Number trong TCP Header chỉ số thứ tự của byte dữ liệu đầu tiên trong segment đó."
+    "exp": "Sequence number của TCP là số thứ tự của byte đầu tiên trong trường dữ liệu của segment."
   },
   {
     "id": 77,
@@ -1322,12 +1341,12 @@ var mttPdfQuestions = [
       "SYN, ACK, PSH, RST, FIN, URG",
       "SYN, ACK, PSH, DAT, CON, URG (Dữ kiện sau cho câu 78 và 79) Biết TCP sender gửi 5 segments một lúc theo cơ chế Go-back-N (cùng một window) tại các thời điểm t=1, 2, 3, 4, 5. Giả sử sequence number của segment đầu tiên tại t=1 là 121, mỗi segment là 580 bytes"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "ACK Number trong TCP Header chỉ số thứ tự của byte tiếp theo mà bên nhận mong muốn thu được."
+    "exp": "Sáu cờ TCP cổ điển gồm: SYN, ACK, PSH, RST, FIN, URG."
   },
   {
     "id": 78,
@@ -1344,7 +1363,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "TCP là giao thức hướng kết nối (Connection-oriented), tin cậy (Reliable), luồng byte (Byte-stream)."
+    "exp": "Segment thứ 2 có Seq = 121 + 580 = 701."
   },
   {
     "id": 79,
@@ -1361,7 +1380,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Thứ tự cờ trong bắt tay 3 bước: SYN=1 ➔ SYN=1, ACK=1 ➔ ACK=1."
+    "exp": "Do hai segment cuối bị mất nên bên nhận chỉ nhận đúng thứ tự đến byte 1280, liên tục gửi ACK = 1281 (121 + 2*580)."
   },
   {
     "id": 80,
@@ -1373,12 +1392,12 @@ var mttPdfQuestions = [
       "17",
       "23"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "TIME_WAIT ở bên chủ động đóng kết nối kéo dài 2 * MSL để đảm bảo ACK cuối đến được đích."
+    "exp": "Tổng số sự kiện trong FSM rdt2.0 là 17."
   },
   {
     "id": 81,
@@ -1390,12 +1409,12 @@ var mttPdfQuestions = [
       "rdt 2.2",
       "rdt 3.0"
     ],
-    "ans": 0,
+    "ans": 2,
     "ansList": [
-      0
+      2
     ],
     "images": [],
-    "exp": "Máy trạng thái TCP (TCP FSM) định nghĩa các trạng thái LISTEN, SYN_SENT, SYN_RCVD, ESTABLISHED,..."
+    "exp": "rdt 2.2: FSM bên gửi chỉ dùng ACK với số thứ tự 0/1, không dùng NAK."
   },
   {
     "id": 82,
@@ -1407,14 +1426,14 @@ var mttPdfQuestions = [
       "x + 1",
       "y + 1"
     ],
-    "ans": 5,
+    "ans": 2,
     "ansList": [
-      5
+      2
     ],
     "images": [
       "page_18_img_1_Image79.jpg"
     ],
-    "exp": "Quá trình trao đổi cờ SYN và ACK để khởi tạo kết nối TCP."
+    "exp": "Ở bước 2 (SYN/ACK), trường ACK number có giá trị x + 1."
   },
   {
     "id": 83,
@@ -1431,7 +1450,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Kích thước cửa sổ trượt (Sliding Window) cho phép truyền nhiều gói dữ liệu liên tiếp trước khi chờ ACK."
+    "exp": "ACK number là số thứ tự byte kế tiếp mà bên nhận đang mong đợi."
   },
   {
     "id": 84,
@@ -1443,12 +1462,12 @@ var mttPdfQuestions = [
       "SYN/ACK từ server phản hồi khi client khái tạo kết nối TCP",
       "Không xác định được"
     ],
-    "ans": 1,
+    "ans": 0,
     "ansList": [
-      1
+      0
     ],
     "images": [],
-    "exp": "Khi cwnd nằm trong Congestion Avoidance, cwnd tăng theo tuyến tính: cwnd = cwnd + 1/cwnd mỗi ACK."
+    "exp": "Flags = 0x002 chỉ có cờ SYN = 1, ACK number = 0 (Gói yêu cầu kết nối SYN)."
   },
   {
     "id": 85,
@@ -1465,7 +1484,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Kích thước gói dữ liệu cực đại MSS thường được thỏa thuận trong cờ Options của gói SYN."
+    "exp": "Flags = 0x012 có cả cờ SYN và ACK = 1 (Gói SYN/ACK)."
   },
   {
     "id": 86,
@@ -1477,12 +1496,12 @@ var mttPdfQuestions = [
       "ACK",
       "FIN/ACK"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
     "images": [],
-    "exp": "TCP Reno thực hiện Fast Recovery khi gặp 3 Duplicate ACKs để tránh về 1 MSS như Tahoe."
+    "exp": "Flags = 0x12 đại diện cho gói SYN/ACK."
   },
   {
     "id": 87,
@@ -1501,7 +1520,7 @@ var mttPdfQuestions = [
     "images": [
       "page_19_img_1_Image83.jpg"
     ],
-    "exp": "Gói phản hồi ACK báo nhận gói TCP vừa tới."
+    "exp": "Sau gói SYN/ACK, bên khởi tạo gửi gói ACK để hoàn tất bắt tay 3 bước."
   },
   {
     "id": 88,
@@ -1513,14 +1532,14 @@ var mttPdfQuestions = [
       "8221823",
       "0"
     ],
-    "ans": 0,
+    "ans": 1,
     "ansList": [
-      0
+      1
     ],
     "images": [
       "page_19_img_1_Image83.jpg"
     ],
-    "exp": "Initial Sequence Number (ISN) được chọn ngẫu nhiên khi bắt đầu kết nối TCP."
+    "exp": "SYN/ACK có ACK number = ISN + 1 = 8221823 => ISN = 8221822."
   },
   {
     "id": 89,
@@ -1539,7 +1558,7 @@ var mttPdfQuestions = [
     "images": [
       "page_19_img_1_Image83.jpg"
     ],
-    "exp": "ACK Number = Last Received Seq Number + Payload Length."
+    "exp": "ACK = Seq của SYN/ACK + 1 = 1109645 + 1 = 1109646."
   },
   {
     "id": 90,
@@ -1558,7 +1577,7 @@ var mttPdfQuestions = [
     "images": [
       "page_19_img_1_Image83.jpg"
     ],
-    "exp": "Trường Receive Window (rwnd) cho biết dung lượng đệm còn trống của bên nhận."
+    "exp": "Giá trị Window (rwnd) = 8760 dùng cho điều khiển luồng (Flow control)."
   },
   {
     "id": 91,
@@ -1575,7 +1594,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Chuyển mạch kênh thiết lập một đường truyền vật lý dành riêng giữa hai thực thể."
+    "exp": "Chuyển mạch kênh thiết lập đường truyền vật lý riêng biệt."
   },
   {
     "id": 92,
@@ -1592,7 +1611,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Trong chuyển mạch kênh, tài nguyên băng thông được cam kết cố định."
+    "exp": "Trùng với câu 91: Chuyển mạch kênh thiết lập đường truyền vật lý riêng biệt."
   },
   {
     "id": 93,
@@ -1604,12 +1623,12 @@ var mttPdfQuestions = [
       "Câu A và B đều đúng",
       "Câu A và B đều sai"
     ],
-    "ans": 0,
+    "ans": 2,
     "ansList": [
-      0
+      2
     ],
     "images": [],
-    "exp": "Kiến trúc Client/Server phân cấp rõ ràng: Client gửi yêu cầu, Server lắng nghe và phục vụ."
+    "exp": "Cả A và B đều đúng cho kiến trúc Client/Server."
   },
   {
     "id": 94,
@@ -1621,12 +1640,12 @@ var mttPdfQuestions = [
       "Mạng lưu và chuyển tiếp (Store - and - Forward)",
       "Các node trung gian: tiếp nhận, lưu trữ tạm thời và gửi tiếp thông tin"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Mạng P2P không phụ thuộc server cố định, các nút bình đẳng đóng vai trò cả client và server."
+    "exp": "Mạng điểm-điểm nối từng cặp node theo hình học xác định."
   },
   {
     "id": 95,
@@ -1638,12 +1657,12 @@ var mttPdfQuestions = [
       "24.19s",
       "Cả ba đáp án trên đều sai"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0
     ],
     "images": [],
-    "exp": "Trễ truyền tổng cộng d_trans_total = sum(L / R_i) qua từng đoạn liên kết."
+    "exp": "Tổng thời gian truyền file = 400M/1000M + 400M/75M + 400M/30M + 400M/100M ≈ 23.07 s."
   },
   {
     "id": 96,
@@ -1655,12 +1674,12 @@ var mttPdfQuestions = [
       "Trình duyệt dùng kết nối thường trực (persistent) và URL đầy đủ của trang web được yêu cầu là: www-net.cs.umass.edu/docs/index.html",
       "Trình duyệt dùng kết nối thường trực (persistent) và URL đầy đủ của trang web được yêu cầu là: www-net.cs.umass.edu"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "HTTP Request gồm Request line (Method, URL, Version), Headers và Body."
+    "exp": "HTTP/1.1 mặc định kết nối bền vững. URL đầy đủ: www-net.cs.umass.edu/docs/index.html."
   },
   {
     "id": 97,
@@ -1672,12 +1691,12 @@ var mttPdfQuestions = [
       "1120",
       "Đáp án khác"
     ],
-    "ans": 0,
+    "ans": 2,
     "ansList": [
-      0
+      2
     ],
     "images": [],
-    "exp": "User-Agent Header cung cấp thông tin về loại trình duyệt và hệ điều hành của client."
+    "exp": "Seq gói 2 = 120 + 1000 = 1120."
   },
   {
     "id": 98,
@@ -1689,12 +1708,12 @@ var mttPdfQuestions = [
       "FTP",
       "WWW"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0
     ],
     "images": [],
-    "exp": "Telnet cho phép truy cập và điều khiển máy tính từ xa qua giao diện dòng lệnh."
+    "exp": "Telnet cho phép đăng nhập và điều khiển máy tính từ xa."
   },
   {
     "id": 99,
@@ -1706,12 +1725,12 @@ var mttPdfQuestions = [
       "Nó sẽ gửi từ byte thứ 100",
       "Nó hy vọng nhận được dữ liệu bắt đầu bằng byte có số thứ tự 100"
     ],
-    "ans": 2,
+    "ans": 3,
     "ansList": [
-      2
+      3
     ],
     "images": [],
-    "exp": "Gói SYNACK có SYN=1, ACK=1, ack_seq = client_seq + 1."
+    "exp": "ACK = 100 có nghĩa mong nhận dữ liệu bắt đầu từ byte 100."
   },
   {
     "id": 100,
@@ -1728,7 +1747,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Bắt tay 3 bước đảm bảo cả 2 phía đồng bộ Sequence Number và sẵn sàng truyền dữ liệu."
+    "exp": "Gói đầu tiên của quá trình bắt tay 3 bước có cờ SYN = 1."
   },
   {
     "id": 101,
@@ -1740,12 +1759,12 @@ var mttPdfQuestions = [
       "t=22RTT",
       "t=28RTT"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0
     ],
     "images": [],
-    "exp": "3 Duplicate ACKs kích hoạt cơ chế Fast Retransmit truyền lại ngay gói bị thiếu."
+    "exp": "Lượt t = 26."
   },
   {
     "id": 102,
@@ -1757,12 +1776,12 @@ var mttPdfQuestions = [
       "4",
       "Đáp án khác"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Giá trị ngưỡng ssthresh điều khiển việc chuyển tiếp giữa Slow Start và Congestion Avoidance."
+    "exp": "Timeout xảy ra tại cwnd = 26 nên ssthresh mới = 26 / 2 = 13."
   },
   {
     "id": 103,
@@ -1774,12 +1793,12 @@ var mttPdfQuestions = [
       "29-31",
       "D. Tất cả đều đúng Sử dụng biểu đồ hoạt động điều khiển tắc nghẽn của TCP Reno dưới đây để trả lời các câu hỏi từ 104 đến 106. Trong đó, trục tung là congestion window size (bắt đầu từ 0), đơn vị là số segment, trục hoành là transmission round, đơn vị là RTT, mỗi round là 1 RTT (bắt đầu từ 1)"
     ],
-    "ans": 0,
+    "ans": 3,
     "ansList": [
-      0
+      3
     ],
     "images": [],
-    "exp": "Giai đoạn Slow Start tăng kích thước cửa sổ cwnd theo cấp số nhân (gấp đôi mỗi RTT)."
+    "exp": "Tất cả đều đúng: Slow start xảy ra ở các lượt 1-4, 23-26, 29-31 (cwnd tăng gấp đôi)."
   },
   {
     "id": 104,
@@ -1796,7 +1815,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Số lượng segment gửi đi trong RTT được tính theo chuỗi tăng cwnd."
+    "exp": "Cộng dồn segment: lượt 5 gửi segment thứ 20."
   },
   {
     "id": 105,
@@ -1808,12 +1827,12 @@ var mttPdfQuestions = [
       "t=4RTT",
       "t=10RTT"
     ],
-    "ans": 0,
+    "ans": 3,
     "ansList": [
-      0
+      3
     ],
     "images": [],
-    "exp": "Khi Timeout xảy ra, TCP Tahoe và Reno đều hạ cwnd xuống 1 MSS."
+    "exp": "Lượt t = 10."
   },
   {
     "id": 106,
@@ -1825,12 +1844,12 @@ var mttPdfQuestions = [
       "14",
       "4"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "ssthresh được đặt bằng cwnd / 2 ngay khi phát hiện sự cố tắc nghẽn."
+    "exp": "Timeout tại cwnd = 16 (lượt 35) nên ssthresh = 16 / 2 = 8."
   },
   {
     "id": 107,
@@ -1843,12 +1862,12 @@ var mttPdfQuestions = [
       "ACK=0, SYN=1",
       "RST=1, SYN=1"
     ],
-    "ans": 0,
+    "ans": 3,
     "ansList": [
-      0
+      3
     ],
     "images": [],
-    "exp": "Gói tin TCP yêu cầu kết nối có cờ SYN = 1, ACK = 0."
+    "exp": "Gói yêu cầu kết nối đầu tiên có ACK = 0, SYN = 1."
   },
   {
     "id": 108,
@@ -1860,12 +1879,12 @@ var mttPdfQuestions = [
       "123.4.5.7 là địa chỉ IP của máy phục vụ thư (mail server) có tên miền là google.com",
       "Tất cả đều sai"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Bản ghi Type A trong DNS ánh xạ tên miền (Host) sang địa chỉ IPv4."
+    "exp": "Bản ghi NS chỉ định tên miền alpha.com được phân giải bởi máy chủ tên miền tương ứng."
   },
   {
     "id": 109,
@@ -1877,12 +1896,12 @@ var mttPdfQuestions = [
       "Thời gian Server trả thông tin về cho trình duyệt là: Tue, 22 June 2015 12:39:45GMT",
       "HTTP 1.1 là phiên bản cao nhất mà Server hỗ trợ"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "HTTP Response Header 200 OK báo hiệu truy vấn thành công."
+    "exp": "Phát biểu SAI là A (Content-Length là 8347 chứ không phải 8327)."
   },
   {
     "id": 110,
@@ -1894,12 +1913,12 @@ var mttPdfQuestions = [
       "FTP sử dụng cổng 21 để tạo kết nối điều khiển và cổng 22 để tạo kết nối dữ liệu.",
       "FTP sử dụng cổng 21 để tạo kết nối điều khiển và cổng 20 để tạo kết nối dữ liệu."
     ],
-    "ans": 0,
+    "ans": 3,
     "ansList": [
-      0
+      3
     ],
     "images": [],
-    "exp": "FTP dùng lệnh trên kênh điều khiển Port 21 riêng biệt với kênh dữ liệu Port 20."
+    "exp": "FTP dùng port 21 cho kết nối điều khiển và port 20 cho truyền dữ liệu."
   },
   {
     "id": 111,
@@ -1911,14 +1930,14 @@ var mttPdfQuestions = [
       "Gởi lại pkt0, pkt1, pkt2, pkt3",
       "Gởi lại pkt2, pkt3, pkt4, pkt5"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [
       "page_25_img_1_Image118.jpg"
     ],
-    "exp": "Selective Repeat chỉ truyền lại các gói bị đếm thời gian Timeout hoặc báo hỏng."
+    "exp": "Selective Repeat chỉ gửi lại duy nhất gói bị mất (Chỉ gửi lại pkt2)."
   },
   {
     "id": 112,
@@ -1930,14 +1949,14 @@ var mttPdfQuestions = [
       "4",
       "5"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0
     ],
     "images": [
       "page_25_img_2_Image119.png"
     ],
-    "exp": "Thuật toán AIMD dao động kích thước cwnd theo dạng răng cưa."
+    "exp": "Có 2 phát biểu đúng là (1) và (3)."
   },
   {
     "id": 113,
@@ -1949,12 +1968,12 @@ var mttPdfQuestions = [
       "304",
       "200"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Lệnh FTP PASV thiết lập kết nối dữ liệu thụ động."
+    "exp": "Khi đối tượng không thay đổi, HTTP server trả về mã 304 Not Modified."
   },
   {
     "id": 114,
@@ -1966,12 +1985,12 @@ var mttPdfQuestions = [
       "Hai giá trị này không ảnh hưởng tới nhau",
       "Lấy giá trị nhỏ hơn Sử dụng biểu đồ hoạt động điều khiển tắc nghẽn của TCP Reno dưới đây để trả lời các câu hỏi sau. Trong đó, trục tung là congestion window size tính theo đơn vị số segment, trục hoành là transmission round (vòng truyền) tính theo đơn vị RTT, mỗi round là 1 RTT"
     ],
-    "ans": 1,
+    "ans": 3,
     "ansList": [
-      1
+      3
     ],
     "images": [],
-    "exp": "Cơ chế rdt dùng Checksum phát hiện lỗi bit và Sequence Number chống trùng lặp."
+    "exp": "Cửa sổ gửi = min(RWnd, CWnd)."
   },
   {
     "id": 115,
@@ -1983,12 +2002,12 @@ var mttPdfQuestions = [
       "Fast Recovery",
       "Fast Retransmission"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Vòng truyền RTT xác định giai đoạn hoạt động dựa trên giá trị cwnd so với ssthresh."
+    "exp": "Vòng 5 đến 10 là giai đoạn Tránh tắc nghẽn (Congestion Avoidance)."
   },
   {
     "id": 116,
@@ -2000,12 +2019,12 @@ var mttPdfQuestions = [
       "8",
       "14"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Giá trị ssthresh giảm xuống một nửa kích thước cửa sổ hiện tại khi có nghẽn."
+    "exp": "Slow start dừng khi cwnd đạt 8 => ssthresh = 8."
   },
   {
     "id": 117,
@@ -2017,12 +2036,12 @@ var mttPdfQuestions = [
       "Vòng truyền thứ 4, 27",
       "Không có tắc nghẽn"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Tắc nghẽn được phát hiện qua phản hồi Timeout hoặc 3 Duplicate ACKs."
+    "exp": "Tại vòng 27, cwnd giảm từ 31 xuống khoảng 18.5 (tắc nghẽn)."
   },
   {
     "id": 118,
@@ -2034,12 +2053,12 @@ var mttPdfQuestions = [
       "Do cwin đạt ngưỡng",
       "A, B, C đều đúng"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
     "images": [],
-    "exp": "Kích thước cwnd giảm do phát hiện mất gói tin trên đường truyền."
+    "exp": "cwnd rơi thẳng về 1 là dấu hiệu xảy ra Timeout."
   },
   {
     "id": 119,
@@ -2051,12 +2070,12 @@ var mttPdfQuestions = [
       "1.536 Mbps",
       "192 Kbps"
     ],
-    "ans": 0,
+    "ans": 2,
     "ansList": [
-      0
+      2
     ],
     "images": [],
-    "exp": "Tốc độ truyền bit R = Số trang * Số ký tự/trang * 8 bits."
+    "exp": "100 trang * 24 dòng * 80 ký tự * 8 bit = 1,536,000 bps = 1.536 Mbps."
   },
   {
     "id": 120,
@@ -2068,12 +2087,12 @@ var mttPdfQuestions = [
       "12000 bytes",
       "10000 bytes"
     ],
-    "ans": 2,
+    "ans": 0,
     "ansList": [
-      2
+      0
     ],
     "images": [],
-    "exp": "Kích thước cửa sổ truyền quyết định lượng dữ liệu cực đại gửi đi khi chưa có ACK."
+    "exp": "Slow start: nhận mỗi ACK tăng cwnd lên 1 MSS. Sau 2 ACK: 4000 + 2*2000 = 8000 bytes."
   },
   {
     "id": 121,
@@ -2085,12 +2104,12 @@ var mttPdfQuestions = [
       "Seq = ISN, SYN = 1 (ISN: initial sequence number)",
       "Seq = 0, SYN = 0"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Cờ SYN có Sequence Number khởi tạo ngẫu nhiên (ISN)."
+    "exp": "Gói SYN segment có Seq = ISN và SYN = 1."
   },
   {
     "id": 122,
@@ -2102,12 +2121,12 @@ var mttPdfQuestions = [
       "Truy vấn tương tác",
       "Truy vấn tuần tự"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Truy vấn DNS đệ quy (Recursive Query) đẩy trách nhiệm phân giải cho Name Server tiếp theo."
+    "exp": "Truy vấn đệ quy (Recursive query) đẩy trách nhiệm phân giải tên miền cho server được hỏi."
   },
   {
     "id": 123,
@@ -2119,12 +2138,12 @@ var mttPdfQuestions = [
       "Truy vấn tương tác",
       "Truy vấn tuần tự"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Truy vấn DNS lặp (Iterative Query) trả về địa chỉ của Name Server tiếp theo cho client tự truy vấn."
+    "exp": "Truy vấn đệ quy."
   },
   {
     "id": 124,
@@ -2141,7 +2160,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Tấn công từ chối dịch vụ phân tán DDoS sử dụng mạng máy tính ma (Botnet)."
+    "exp": "Tấn công từ chối dịch vụ phân tán DDoS."
   },
   {
     "id": 125,
@@ -2160,7 +2179,7 @@ var mttPdfQuestions = [
     "images": [
       "page_28_img_1_Image124.jpg"
     ],
-    "exp": "rdt 2.1 sử dụng số thứ tự 0 và 1 trong gói tin và ACK/NAK."
+    "exp": "Bên nhận nhận lại gói seq 0 trùng lặp nên gửi lại ACK (do bên gửi chưa nhận được ACK0 trước đó)."
   },
   {
     "id": 126,
@@ -2172,12 +2191,12 @@ var mttPdfQuestions = [
       "Gói TCP SYN đầu tiên được gửi ra từ phía server",
       "FIN bit của gói đầu tiên được gán bằng 1"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Bắt tay 3 bước ngăn ngừa các gói tin cũ bị trễ khởi tạo kết nối nhầm."
+    "exp": "SYN bit của gói đầu tiên bằng 1."
   },
   {
     "id": 127,
@@ -2189,12 +2208,12 @@ var mttPdfQuestions = [
       "1 RTT",
       "22 RTT"
     ],
-    "ans": 2,
+    "ans": 3,
     "ansList": [
-      2
+      3
     ],
     "images": [],
-    "exp": "Non-persistent HTTP với 10 đối tượng mất 1 RTT khởi tạo + 10 * RTT (hoặc song song)."
+    "exp": "Non-persistent: 1 trang cơ sở + 10 ảnh = 11 đối tượng * 2 RTT = 22 RTT."
   },
   {
     "id": 128,
@@ -2211,7 +2230,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Ứng dụng truyền thông thời gian thực (Streaming/VoIP) yêu cầu độ trễ thấp và băng thông ổn định."
+    "exp": "Ứng dụng Audio/Video thời gian thực đòi hỏi băng thông và độ trễ tối thiểu."
   },
   {
     "id": 129,
@@ -2230,7 +2249,7 @@ var mttPdfQuestions = [
     "images": [
       "page_30_img_1_Image132.jpg"
     ],
-    "exp": "Số SEQ của bên gửi trở thành số ACK mong chờ của bên nhận."
+    "exp": "Seq = 40, ACK = 80."
   },
   {
     "id": 130,
@@ -2242,14 +2261,14 @@ var mttPdfQuestions = [
       "0",
       "1"
     ],
-    "ans": 0,
+    "ans": 1,
     "ansList": [
-      0
+      1
     ],
     "images": [
       "page_30_img_2_Image133.jpg"
     ],
-    "exp": "Sơ đồ 3-way handshake: Client gửi SYN ➔ Server gửi SYN-ACK ➔ Client gửi ACK."
+    "exp": "Trường ACK ở bước 2 là x + 1."
   },
   {
     "id": 131,
@@ -2261,12 +2280,12 @@ var mttPdfQuestions = [
       "Cookie",
       "NIC"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Mạng phân phối nội dung CDN (Content Delivery Network) lưu bản sao dữ liệu phân tán gần người dùng."
+    "exp": "Web caches (Proxy) giúp giảm tải cho server."
   },
   {
     "id": 132,
@@ -2285,7 +2304,7 @@ var mttPdfQuestions = [
     "images": [
       "page_31_img_1_Image136.jpg"
     ],
-    "exp": "Thông lượng hiệu dụng (Throughput) bị giới hạn bởi liên kết thắt cổ chai min(R_s, R_c)."
+    "exp": "Throughput = min(Rs, Rc, R/4) = min(20, 60, 50) = 20 Mbps."
   },
   {
     "id": 133,
@@ -2297,14 +2316,14 @@ var mttPdfQuestions = [
       "2s",
       "1.25s"
     ],
-    "ans": 2,
+    "ans": 3,
     "ansList": [
-      2
+      3
     ],
     "images": [
       "page_32_img_1_Image140.jpg"
     ],
-    "exp": "Xác suất truy cập qua Web Cache giúp giảm đáng kể thời gian đáp ứng trung bình."
+    "exp": "Thời gian đáp ứng trung bình = 0.5 * 0.5s + 0.5 * 2s = 1.25 s."
   },
   {
     "id": 134,
@@ -2316,12 +2335,12 @@ var mttPdfQuestions = [
       "HELO, DATA, MAIL FROM, QUIT, RCPT TO",
       "HELO, MAIL FROM, RCPT TO, DATA, QUIT"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Trình tự giao tiếp SMTP: HELO ➔ MAIL FROM ➔ RCPT TO ➔ DATA ➔ QUIT."
+    "exp": "Thứ tự lệnh SMTP: HELO, MAIL FROM, RCPT TO, DATA, QUIT."
   },
   {
     "id": 135,
@@ -2333,14 +2352,14 @@ var mttPdfQuestions = [
       "Phương thức HEAD",
       "Phương thức DELETE Hình dưới là biểu đồ hoạt động điều khiển tắc nghẽn cÿa TCP Reno. Trong đó, trục tung là congestion window size, đơn vị là số segment, trục hoành là transmission. Trả lời các câu hỏi từ 137 đến 142."
     ],
-    "ans": 0,
+    "ans": 1,
     "ansList": [
-      0
+      1
     ],
     "images": [
       "page_32_img_1_Image140.jpg"
     ],
-    "exp": "Thời gian đẩy gói tin lên đường truyền d_trans = L / R."
+    "exp": "Phương thức GET gửi dữ liệu biểu mẫu trên thanh địa chỉ URL."
   },
   {
     "id": 136,
@@ -2359,7 +2378,7 @@ var mttPdfQuestions = [
     "images": [
       "page_32_img_1_Image140.jpg"
     ],
-    "exp": "Giai đoạn TCP Slowstart là các vòng truyền mà cwnd tăng theo cấp số nhân từ 1 MSS (Round 1–6 và 23–26)."
+    "exp": "Giai đoạn Slow Start: Round 1-6 và 23-26."
   },
   {
     "id": 137,
@@ -2376,7 +2395,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Giai đoạn Congestion Avoidance là giai đoạn cwnd tăng tuyến tính (+1 MSS/RTT) (Round 6–16 và 17–22)."
+    "exp": "Giai đoạn Congestion Avoidance: Round 6-16 và 17-22."
   },
   {
     "id": 138,
@@ -2393,7 +2412,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Nhận được 3 Duplicate ACKs làm cwnd giảm xuống ssthresh và vào Fast Recovery."
+    "exp": "Sau round 16, cwnd giảm một nửa do phát hiện 3 ACK trùng."
   },
   {
     "id": 139,
@@ -2410,7 +2429,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Sự kiện Timeout làm cwnd rớt xuống 1 MSS và quay về Slow Start."
+    "exp": "cwnd rơi về 1 sau round 22 do Timeout."
   },
   {
     "id": 140,
@@ -2427,7 +2446,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "ssthresh được đặt bằng cwnd/2 tại thời điểm nghẽn round 22 (42/2 = 21)."
+    "exp": "Tại cwnd = 42 xảy ra 3 ACK trùng => ssthresh = 42 / 2 = 21."
   },
   {
     "id": 141,
@@ -2444,7 +2463,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Segment thứ n được truyền ở vòng RTT tương ứng với tổng tích lũy số segment."
+    "exp": "Cộng dồn segment: segment 70 nằm ở round 7."
   },
   {
     "id": 142,
@@ -2461,7 +2480,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "TCP Reno bổ sung thêm cơ chế Fast Recovery so với TCP Tahoe."
+    "exp": "TCP Reno bổ sung tính năng Fast Recovery so với TCP Tahoe."
   },
   {
     "id": 143,
@@ -2473,12 +2492,12 @@ var mttPdfQuestions = [
       "SSThreshold=8000 bytes, CWin=4000 bytes",
       "SSThreshold=8000 bytes, CWin=8000 bytes"
     ],
-    "ans": 2,
+    "ans": 3,
     "ansList": [
-      2
+      3
     ],
     "images": [],
-    "exp": "Khi cwnd > ssthresh, TCP chuyển sang chế độ cẩn trọng Congestion Avoidance (+1 MSS/RTT)."
+    "exp": "cwnd = 4000 < ssthresh 8000 nên đang ở slow start. Sau 8 ACK, cwnd = 8000, ssthresh giữ 8000."
   },
   {
     "id": 144,
@@ -2495,7 +2514,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Non-persistent HTTP với kết nối song song mất 2 RTT cho trang cơ sở + 2 RTT cho 3 ảnh = 4 RTT."
+    "exp": "Non-persistent: 2 RTT cho HTML + 2 RTT cho 3 ảnh tải song song = 4 RTT."
   },
   {
     "id": 145,
@@ -2512,7 +2531,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Tính TimeoutInterval dựa trên công thức EstimatedRTT và DevRTT = 148.85 ms."
+    "exp": "DevRTT = 5.93, EstimatedRTT = 125.14 => Timeout = 125.14 + 4*5.93 = 148.85 ms."
   },
   {
     "id": 146,
@@ -2531,7 +2550,7 @@ var mttPdfQuestions = [
     "images": [
       "page_35_img_1_Image148.png"
     ],
-    "exp": "Trong mô hình 5 tầng: Tầng 5 Application ➔ Tầng 4 Transport ➔ Tầng 3 Network (IP)."
+    "exp": "Vị trí 3 chứa Datagram (Header Hn), thuộc tầng Network."
   },
   {
     "id": 147,
@@ -2543,14 +2562,14 @@ var mttPdfQuestions = [
       "5019",
       "Đáp án khác"
     ],
-    "ans": 4,
+    "ans": 0,
     "ansList": [
-      4
+      0
     ],
     "images": [
       "page_36_img_1_Image151.jpg"
     ],
-    "exp": "Destination Port của gói tin phản hồi chính là Source Port của gói tin yêu cầu ban đầu (5019)."
+    "exp": "Cổng đích của gói B gửi về P1 là cổng của P1 (6465)."
   },
   {
     "id": 148,
@@ -2562,11 +2581,15 @@ var mttPdfQuestions = [
       "Phát gói 5, 6, 7, 8, 9",
       "Chờ hết thời gian để phát lại gói 2, 3"
     ],
-    "ans": 1,
+    "ans": 2,
     "ansList": [
-      1
+      2
     ],
     "images": [],
-    "exp": "Trong Go-Back-N, khi chưa nhận ACK gói 2, 3, 4, hết thời gian Timeout bên gửi sẽ phát lại tất cả gói từ 2."
+    "exp": "Go-Back-N dùng ACK tích lũy: ACK(4) xác nhận gói 1-4, bên gửi trượt cửa sổ và phát tiếp 5, 6, 7, 8, 9."
   }
 ];
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = mttPdfQuestions;
+}
