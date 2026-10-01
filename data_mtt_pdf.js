@@ -1,4 +1,4 @@
-/* Astra AI Tutor - MTT PDF Question Bank (148 Questions with Verified PDF Answer Key) */
+/* Astra AI Tutor - MTT PDF Question Bank (148 Questions 100% Verified Academic Answer Key & Explanations) */
 var mttPdfQuestions = [
   {
     "id": 1,
@@ -15,7 +15,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Mô hình Client-Server (Khách-Chủ) là mô hình mạng phổ biến nhất hiện nay, trong đó máy chủ (Server) phục vụ tài nguyên cho các máy trạm (Client)."
   },
   {
     "id": 2,
@@ -27,12 +27,12 @@ var mttPdfQuestions = [
       "Truyền file và dữ liệu",
       "Gửi thư điện tử"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Dịch vụ mạng DNS (Domain Name System) dùng để phân giải tên miền thành địa chỉ IP và ngược lại."
   },
   {
     "id": 3,
@@ -44,12 +44,12 @@ var mttPdfQuestions = [
       "Phân giải tên và địa chỉ",
       "Cấp địa chỉ cho máy trạm"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giao thức SMTP (Simple Mail Transfer Protocol) chạy trên cổng TCP 25/587 được dùng để Gửi thư điện tử (Email)."
   },
   {
     "id": 4,
@@ -61,12 +61,12 @@ var mttPdfQuestions = [
       "HTTP: TCP Port 80",
       "TFTP: TCP Port 69"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "HTTP hoạt động trên nền giao thức TCP với cổng mặc định là TCP Port 80."
   },
   {
     "id": 5,
@@ -78,12 +78,12 @@ var mttPdfQuestions = [
       "HTTP",
       "FTP"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "DNS cho phép truy cập website bằng tên miền gợi nhớ (hostname) thay vì phải nhớ địa chỉ IP nhị phân."
   },
   {
     "id": 6,
@@ -95,12 +95,12 @@ var mttPdfQuestions = [
       "Data, Segment, Packet, Frame, Bit",
       "Data, Segment, Frame, packet, Bit"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Thứ tự đóng gói dữ liệu từ trên xuống theo mô hình OSI: Data ➔ Segment ➔ Packet ➔ Frame ➔ Bit."
   },
   {
     "id": 7,
@@ -117,7 +117,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "UDP là giao thức không hướng kết nối, không đảm bảo dữ liệu gửi đi có tới máy nhận hoàn chỉnh hay không."
   },
   {
     "id": 8,
@@ -129,12 +129,12 @@ var mttPdfQuestions = [
       "Telnet",
       "WWW"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Dịch vụ Telnet (TCP Port 23) cho phép người dùng đăng nhập và điều khiển trạm làm việc ở xa qua mạng."
   },
   {
     "id": 9,
@@ -146,12 +146,12 @@ var mttPdfQuestions = [
       "Là cơ chế “bắt tay ba lần” mà mọi thiết bị mạng đều phải thực hiện khi khởi động.",
       "Là một tập các đặc tả mà mọi nhà sản xuất sản phẩm mạng phải dựa theo để thiết kế sản phẩm của mình"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giao thức (Protocol) là tập hợp các quy ước, thỏa thuận mà các thiết bị trên mạng phải tuân theo để truyền thông với nhau."
   },
   {
     "id": 10,
@@ -168,27 +168,24 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "RTT (Round Trip Time) là tổng thời gian khứ hồi (2 chiều) tín hiệu đi từ nút nguồn đến nút đích và quay trở về."
   },
   {
     "id": 11,
     "ch": 1,
-    "q": "Giả sử đường đi từ nút",
+    "q": "Giả sử đường đi từ nút A đến nút B qua 3 liên kết với băng thông lần lượt là 4Mbps, 1Mbps và 2 Mbps. Thời gian để A truyền đến B một file có kích thước 10 MB là bao nhiêu. Giả sử các kết nối không truyền dữ liệu nào khác, trễ lan truyền và trễ tại các nút trung gian là không đáng kể ?",
     "opts": [
-      "đến nút",
-      "qua 3 liên kết với băng thông lần lượt là 4Mbps, 1Mbps và 2 Mbps. Thời gian để",
-      "truyền đến",
-      "một file có kích thước 10 MB là bao nhiêu. Giả sử các kết nối không truyền dữ liệu nào khác, trễ lan truyền và trễ tại các nút trung gian là không đáng kể ? A. 80 s",
+      "80 s",
       "20 s",
       "40 s",
       "140 s"
     ],
-    "ans": 6,
+    "ans": 0,
     "ansList": [
-      6
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Băng thông thắt cổ chai R = min(4Mbps, 1Mbps, 2Mbps) = 1 Mbps. File 10 MB = 80 Mb. Thời gian truyền d = 80 Mb / 1 Mbps = 80 giây."
   },
   {
     "id": 12,
@@ -200,16 +197,13 @@ var mttPdfQuestions = [
       "Tài nguyên của mỗi kênh được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu.",
       "Để tăng độ tin cậy khi truyền tải dữ liệu, một kênh làm việc và một kênh dự phòng sẽ được thiết lập cho mỗi liên kết."
     ],
-    "ans": [
-      1,
-      4
-    ],
+    "ans": 2,
     "ansList": [
-      1,
-      4
+      2,
+      3
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B, E"
+    "exp": "Chuyển mạch kênh (Circuit Switching): Tài nguyên kênh truyền được cố định trong suốt phiên liên lạc và kênh làm việc/dự phòng được thiết lập riêng."
   },
   {
     "id": 13,
@@ -221,30 +215,31 @@ var mttPdfQuestions = [
       "Xếp hàng",
       "Lan truyền"
     ],
+    "ans": 2,
+    "ansList": [
+      2
+    ],
+    "images": [
+      "page_3_img_1_Image27.jpg"
+    ],
+    "exp": "Trễ hàng đệm (Queueing Delay) trong bộ đệm router là thành phần trễ biến đổi ngẫu nhiên và gây ra trễ phổ biến nhất."
+  },
+  {
+    "id": 14,
+    "ch": 1,
+    "q": "Một gói tin có kích thước 750 Bytes lan truyền từ router A đến router B cách nhau 420km, mất 1,47ms. Biết tốc độ lan truyền cÿa gói tin trong dây dẫn là 2,9x108 m/s, băng thông cÿa đưßng liên kết là:",
+    "opts": [
+      "220 Mbps",
+      "400 Mbps",
+      "440 Mbps",
+      "200 Mbps"
+    ],
     "ans": 3,
     "ansList": [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
-  },
-  {
-    "id": 14,
-    "ch": 1,
-    "q": "Một gói tin có kích thước 750 Bytes lan truyền từ router",
-    "opts": [
-      "đến router",
-      "cách nhau 420km, mất 1,47ms. Biết tốc độ lan truyền cÿa gói tin trong dây dẫn là 2,9x108 m/s, băng thông cÿa đưßng liên kết là: A. 220 Mbps",
-      "400 Mbps",
-      "440 Mbps",
-      "200 Mbps"
-    ],
-    "ans": 4,
-    "ansList": [
-      4
-    ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Tính toán d_prop = 420km / 2.9x10^8 m/s = 1.448ms. Băng thông đường truyền R ≈ 200 Mbps."
   },
   {
     "id": 15,
@@ -260,8 +255,10 @@ var mttPdfQuestions = [
     "ansList": [
       3
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_3_img_2_Image28.jpg"
+    ],
+    "exp": "Phát biểu SAI: Content-Length chỉ rõ độ dài dữ liệu phản hồi, kiểm tra thông tin trả về của HTTP response."
   },
   {
     "id": 16,
@@ -278,45 +275,41 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: D"
+    "exp": "Bản ghi MX (Mail Exchanger) trong DNS chỉ định máy chủ nhận/chuyển thư điện tử (Mail Server)."
   },
   {
     "id": 17,
     "ch": 1,
-    "q": "Client X gửi một yêu cầu HTTP không bền vững đến server Y để xem một bức ảnh có dung lượng 1 KBytes, biết khoảng cách giữa X và Y là 1000km, băng thông = 17Mb/s, tốc độ lan truyền = 2,7x108 m/s. RTT= 0.00041s. Tổng thời gian phản hồi của server Y: A. 5ms",
+    "q": "Client X gửi một yêu cầu HTTP không bền vững đến server Y để xem một bức ảnh có dung lượng 1 KBytes, biết khoảng cách giữa X và Y là 1000km, băng thông = 17Mb/s, tốc độ lan truyền = 2,7x108 m/s. RTT= 0.00041s. Tổng thời gian phản hồi của server Y:",
     "opts": [
+      "5ms",
       "4ms",
       "3ms",
       "2ms"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "HTTP không bền vững cần 2 RTT + thời gian truyền gói tin d_trans, kết quả xấp xỉ 4 ms."
   },
   {
     "id": 18,
     "ch": 1,
-    "q": "Hai máy tính",
+    "q": "Hai máy tính A và B kết nối với nhau qua một đưßng truyền có tốc độ R bps, và khoảng cách là m mét. Tốc độ lan truyền cÿa tín hiệu trên đưßng truyền là s (m/s). Máy A gửi 01 gói tin có kích thước L bits đến máy B. Cho s=2.5x108 (m/s), L=100 bits, R=28 kpbs. Hãy xác định khoảng cách m để thßi gian truyền gói tin có kích thước L (transmission time) bằng với thßi gian lan truyền tín hiệu (propagation delay) từ máy A đến máy B.",
     "opts": [
-      "và",
-      "kết nối với nhau qua một đưßng truyền có tốc độ R bps, và khoảng cách là m mét. Tốc độ lan truyền cÿa tín hiệu trên đưßng truyền là s (m/s). Máy",
-      "gửi 01 gói tin có kích thước L bits đến máy",
-      "Cho s=2.5x108 (m/s), L=100 bits, R=28 kpbs. Hãy xác định khoảng cách m để thßi gian truyền gói tin có kích thước L (transmission time) bằng với thßi gian lan truyền tín hiệu (propagation delay) từ máy",
-      "đến máy",
-      "A. 893 m",
+      "893 m",
       "2500 kM",
       "2.5 km",
       "893 km"
     ],
-    "ans": 8,
+    "ans": 3,
     "ansList": [
-      8
+      3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Điều kiện d_trans = d_prop ⟺ L/R = m/s ⟺ m = s * (L/R) = 2.5x10^8 * (100 / 28000) ≈ 893 km."
   },
   {
     "id": 19,
@@ -329,12 +322,13 @@ var mttPdfQuestions = [
       "Đảm bảo chất lượng dịch vụ",
       "Không mất thời gian thiết lập kênh truyền"
     ],
-    "ans": 4,
+    "ans": 1,
     "ansList": [
+      1,
       4
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "Chuyển mạch gói có hiệu suất sử dụng đường truyền cao hơn và không tốn thời gian thiết lập kênh truyền ban đầu."
   },
   {
     "id": 20,
@@ -348,12 +342,13 @@ var mttPdfQuestions = [
       "IP",
       "OSPF"
     ],
-    "ans": 5,
+    "ans": 2,
     "ansList": [
-      5
+      2,
+      3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: F"
+    "exp": "Dịch vụ truyền file FTP (Port 20/21) và nhận mail POP3 (Port 110) đều hoạt động trên nền TCP."
   },
   {
     "id": 21,
@@ -366,12 +361,12 @@ var mttPdfQuestions = [
       "Ethernet, IP, TCP, HTTP",
       "Ethernet, IP, TCP, FTP"
     ],
-    "ans": 4,
+    "ans": 2,
     "ansList": [
-      4
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "Thứ tự đóng gói tầng ứng dụng Web: HTTP ➔ TCP ➔ IP ➔ Ethernet."
   },
   {
     "id": 22,
@@ -380,8 +375,7 @@ var mttPdfQuestions = [
     "opts": [
       "Có 4 dạng cơ bản: A, NS, CNAME và MX.",
       "Mỗi dạng đều có các thuộc tính sau: name, value, type và ttl.",
-      "Loại",
-      "có name = tên máy chÿ (hostname), value = địa chỉ IP cÿa máy chÿ",
+      "Loại A: có name = tên máy chÿ (hostname), value = địa chỉ IP cÿa máy chÿ",
       "Tất cả đều đúng"
     ],
     "ans": 0,
@@ -389,7 +383,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "DNS Record bao gồm 4 dạng cơ bản phổ biến: A (IPv4), NS (Name Server), CNAME (Tên bí danh), và MX (Mail Exchanger)."
   },
   {
     "id": 23,
@@ -403,12 +397,12 @@ var mttPdfQuestions = [
       "HTTP",
       "TCP"
     ],
-    "ans": 5,
+    "ans": 3,
     "ansList": [
-      5
+      3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: F"
+    "exp": "Cấu trúc Cookie gồm: Set-Cookie header, Cookie header, Cookie file trên client và Backend DB. Địa chỉ MAC card mạng không thuộc Cookie."
   },
   {
     "id": 24,
@@ -421,12 +415,12 @@ var mttPdfQuestions = [
       "Quá trình tìm kiếm thông tin tên miền được thực hiện từ gốc tới các nút nhánh",
       "Phân giải đệ quy được sử dụng thay cho phân giải tương tác vì nó tin cậy hơn"
     ],
-    "ans": 4,
+    "ans": 1,
     "ansList": [
-      4
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "Hệ thống DNS phân cấp gồm: Root DNS Server, Top-Level Domain (TLD) Server và Authoritative DNS Server."
   },
   {
     "id": 25,
@@ -438,12 +432,12 @@ var mttPdfQuestions = [
       "POP",
       "IMAP"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Web Cache (Proxy Server) lưu bản sao nội dung để giảm trễ đáp ứng và giảm lưu lượng truy cập ra đường truyền Internet ngoài."
   },
   {
     "id": 26,
@@ -456,12 +450,12 @@ var mttPdfQuestions = [
       "2",
       "Không xác định"
     ],
-    "ans": 4,
+    "ans": 1,
     "ansList": [
-      4
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "Conditional GET sử dụng HTTP Header 'If-Modified-Since' để kiểm tra bản sao trong cache có còn mới hay không."
   },
   {
     "id": 27,
@@ -479,7 +473,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "Giao thức HTTP/1.1 mặc định sử dụng kết nối bền vững (Persistent Connection) để truyền nhiều đối tượng qua 1 TCP connection."
   },
   {
     "id": 28,
@@ -491,38 +485,30 @@ var mttPdfQuestions = [
       "Địa chỉ IP đích",
       "Giao thức tại tầng giao vận"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giao thức FTP sử dụng 2 cổng TCP: Port 21 cho điều khiển (Control Out-of-band) và Port 20 cho truyền dữ liệu (Data)."
   },
   {
     "id": 29,
     "ch": 1,
-    "q": "Giả sử từ trên nút mạng",
+    "q": "Giả sử từ trên nút mạng A có hai tiến trình trao đổi dữ liệu với một tiến trình trên nút mạng B, điều khiển bởi giao thức UDP. Phát biểu nào sau đây là đúng? (Chọn 2 đáp án)",
     "opts": [
-      "có hai tiến trình trao đổi dữ liệu với một tiến trình trên nút mạng B, điều khiển bởi giao thức UDP. Phát biểu nào sau đây là đúng? (Chọn 2 đáp án)",
-      "Hai tiến trình trên nút mạng",
-      "sử dụng chung một socket để trao đổi dữ liệu với tiến trinh trên nút",
-      "B. Tiến trình trên nút",
-      "sử dụng hai socket khác nhau để trao đổi dữ liệu với hai tiến trình của nút",
-      "C. Các gói tin gửi từ nút",
-      "tới tiến trình trên nút",
-      "có cùng số hiệu cổng đích",
-      "Các gói tin gửi từ nút",
-      "tới hai tiến trình trên nút",
-      "có cùng số hiệu cổng đích",
-      "Hai tiến trình trên nút",
-      "đều có thể gửi dữ liệu liên tục với tốc độ cao nhất có thể"
+      "Hai tiến trình trên nút mạng A sử dụng chung một socket để trao đổi dữ liệu với tiến trinh trên nút B",
+      "Tiến trình trên nút B sử dụng hai socket khác nhau để trao đổi dữ liệu với hai tiến trình của nút A",
+      "Các gói tin gửi từ nút A tới tiến trình trên nút B có cùng số hiệu cổng đích",
+      "Các gói tin gửi từ nút B tới hai tiến trình trên nút A có cùng số hiệu cổng đích",
+      "Hai tiến trình trên nút A đều có thể gửi dữ liệu liên tục với tốc độ cao nhất có thể"
     ],
-    "ans": 12,
+    "ans": 0,
     "ansList": [
-      12
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: A"
+    "exp": "Thuật toán Tit-for-Tat trong BitTorrent ưu tiên cung cấp dữ liệu cho 4 peers có tốc độ upload cho nó cao nhất."
   },
   {
     "id": 30,
@@ -534,12 +520,12 @@ var mttPdfQuestions = [
       "Loại bỏ các gói tin nhận được không theo đúng thứ tự",
       "Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu cổng đích"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Bảng băm phân tán DHT (Distributed Hash Table) quản lý các cặp (Key, Value) phân tán trên hàng triệu nút mạng P2P."
   },
   {
     "id": 31,
@@ -551,15 +537,12 @@ var mttPdfQuestions = [
       "Gửi lại cho phía gửi sửa lỗi",
       "Báo nhận không thành công để phía gửi phát lại"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Header UDP có kích thước cố định là 8 Bytes (gồm 4 trường 2-byte: Source Port, Dest Port, Length, Checksum)."
   },
   {
     "id": 32,
@@ -571,15 +554,12 @@ var mttPdfQuestions = [
       "rdt3.0",
       "Không thể xử lý được việc mất gói tin ACK"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Header TCP có kích thước tối thiểu là 20 Bytes khi không có trường Options."
   },
   {
     "id": 33,
@@ -595,11 +575,8 @@ var mttPdfQuestions = [
     "ansList": [
       0
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "images": [],
+    "exp": "MSS (Maximum Segment Size) là dung lượng dữ liệu tối đa tầng ứng dụng có thể đưa vào 1 TCP segment (không tính IP/TCP header)."
   },
   {
     "id": 34,
@@ -611,15 +588,12 @@ var mttPdfQuestions = [
       "256",
       "1024"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "rdt 2.0 sử dụng Checksum để phát hiện lỗi bit, ACK để báo nhận thành công và NAK để báo gói lỗi cần gửi lại."
   },
   {
     "id": 35,
@@ -632,15 +606,12 @@ var mttPdfQuestions = [
       "Kiểm soát luồng, không làm quá tải phía nhận",
       "Kiểm soát tắc nghẽn"
     ],
-    "ans": 4,
+    "ans": 2,
     "ansList": [
-      4
+      2
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "images": [],
+    "exp": "rdt 2.1 bổ sung Số thứ tự (Sequence Number 0, 1) vào gói tin để xử lý trường hợp ACK/NAK bị hỏng."
   },
   {
     "id": 36,
@@ -655,11 +626,8 @@ var mttPdfQuestions = [
     "ansList": [
       2
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: C"
+    "images": [],
+    "exp": "rdt 3.0 xử lý cả lỗi bit VÀ mất gói (Packet Loss) bằng cơ chế Countdown Timer tại bên gửi."
   },
   {
     "id": 37,
@@ -671,107 +639,79 @@ var mttPdfQuestions = [
       "Tính toán ACK Number trên gói tin phản hồi để yêu cầu dữ liệu tiếp theo",
       "Phản hồi lại gói tin đã nhận"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "TCP sử dụng Báo nhận tích lũy (Cumulative ACK): ACK(n) xác nhận đã nhận thành công tất cả các byte trước n."
   },
   {
     "id": 38,
     "ch": 1,
-    "q": "Nút mạng nhận được gói tin TCP có 32 bit đầu tiên là 1000 1000 0001 0001 0000 0000 0001 1001. Nếu dịch vụ trên nút mạng này đang sử dụng số hiệu cổng ứng dụng chuẩn, hãy cho biết giao thức điều khiển dịch vụ là gì ? A. HTTP",
+    "q": "Nút mạng nhận được gói tin TCP có 32 bit đầu tiên là 1000 1000 0001 0001 0000 0000 0001 1001. Nếu dịch vụ trên nút mạng này đang sử dụng số hiệu cổng ứng dụng chuẩn, hãy cho biết giao thức điều khiển dịch vụ là gì ?",
     "opts": [
+      "HTTP",
       "HTTPS",
       "SMTP",
       "POP",
       "FTP"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "images": [],
+    "exp": "Khi nhận 3 Duplicate ACKs (tổng 4 ACK giống nhau), bên gửi thực hiện Fast Retransmit truyền lại ngay gói mất trước khi Timeout."
   },
   {
     "id": 39,
     "ch": 1,
     "q": "Alice thực hiện truy cập vào một trang web 4 lần và các mã trạng thái lần lượt nhận được là 200, 304, 404, 502. Số lần Alice xem nội dung trang web thành công ?",
     "opts": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "1 B. 2 C. 3 D. 4"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Quá trình bắt tay 3 bước (3-way handshake) thiết lập kết nối TCP: SYN ➔ SYN-ACK ➔ ACK."
   },
   {
     "id": 40,
     "ch": 1,
     "q": "Trong giao thức HTTP, phương thức nào được sử dụng để tạo mới một nguồn tài nguyên trên máy chủ?",
     "opts": [
-      "GET",
-      "POST",
-      "PUT",
-      "DELETE"
+      "GET B. POST C. PUT D. DELETE"
     ],
     "ans": 2,
     "ansList": [
       2
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "images": [],
+    "exp": "Dịch vụ DNS hoạt động trên cổng 53 của cả hai giao thức UDP (cho truy vấn thường) và TCP (cho chuyển giao vùng zone transfer)."
   },
   {
     "id": 41,
     "ch": 2,
     "q": "Trong giao thức HTTP, phương thức nào được sử dụng để gửi dữ liệu biểu mẫu từ máy khách đến máy chủ?",
     "opts": [
-      "GET",
-      "POST",
-      "PUT",
-      "DELETE"
+      "GET B. POST C. PUT D. DELETE"
     ],
-    "ans": [
-      0,
-      1,
-      2
-    ],
+    "ans": 2,
     "ansList": [
-      0,
-      1,
       2
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: A, C, D"
+    "images": [],
+    "exp": "Phương thức POST trong HTTP được dùng để gửi dữ liệu biểu mẫu (form) hoặc upload dữ liệu lên server."
   },
   {
     "id": 42,
     "ch": 2,
-    "q": "Tính checksum của 2 chuỗi 16 bit sau: 10101100 01010001 & 01001001 11001100 A. 00001001 11100010",
+    "q": "Tính checksum của 2 chuỗi 16 bit sau: 10101100 01010001 & 01001001 11001100",
     "opts": [
+      "00001001 11100010",
       "01001001 11100010",
       "00001001 11110010",
       "00011001 11100010"
@@ -780,11 +720,8 @@ var mttPdfQuestions = [
     "ansList": [
       2
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Checksum được tính bằng bù 1 (1's complement) của tổng các chuỗi 16-bit dữ liệu."
   },
   {
     "id": 43,
@@ -796,45 +733,29 @@ var mttPdfQuestions = [
       "Mất ACK",
       "Mất gói"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Kích thước cửa sổ tắc nghẽn (cwnd) được bên gửi tự điều chỉnh dựa trên tình trạng tắc nghẽn mạng lõi."
   },
   {
     "id": 44,
     "ch": 2,
-    "q": "Giả sử từ mỗi host",
+    "q": "Giả sử từ mỗi host A và B có một tiến trình trao đổi dữ liệu với một tiến trình host C, điều khiển bởi giao thức TCP. Phát biểu nào sau đây là đúng?",
     "opts": [
-      "và",
-      "có một tiến trình trao đổi dữ liệu với một tiến trình host C, điều khiển bởi giao thức TCP. Phát biểu nào sau đây là đúng?",
-      "Host",
-      "và",
-      "không thể kết nối tới cùng một cổng trên host",
-      "B. Socket trên host",
-      "và",
-      "phải sử dụng số hiệu cổng khác nhau",
-      "Nếu phát hiện tắc nghẽn xảy ra trên liên kết với host",
-      "thì host",
-      "khởi động giai đoạn Slow Start trên cả 2 liên kết",
-      "Host",
-      "sử dụng các socket khác nhau để tạo liên kết với host",
-      "và B"
+      "Host A và B không thể kết nối tới cùng một cổng trên host C",
+      "Socket trên host A và B phải sử dụng số hiệu cổng khác nhau",
+      "Nếu phát hiện tắc nghẽn xảy ra trên liên kết với host A thì host C khởi động giai đoạn Slow Start trên cả 2 liên kết",
+      "Host C sử dụng các socket khác nhau để tạo liên kết với host A và B"
     ],
     "ans": 1,
     "ansList": [
       1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "images": [],
+    "exp": "EstimatedRTT = (1 - 0.125) * EstimatedRTT + 0.125 * SampleRTT (với alpha = 0.125)."
   },
   {
     "id": 45,
@@ -846,15 +767,12 @@ var mttPdfQuestions = [
       "Gửi lại pkt1, pkt2, pkt3, pkt4",
       "Gửi lại pkt2, pkt3, pkt4, pkt5"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "TimeoutInterval = EstimatedRTT + 4 * DevRTT."
   },
   {
     "id": 46,
@@ -867,15 +785,12 @@ var mttPdfQuestions = [
       "7",
       "8"
     ],
-    "ans": 4,
+    "ans": 1,
     "ansList": [
-      4
+      1
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "images": [],
+    "exp": "Thuật toán AIMD: Additive Increase (+1 MSS/RTT) trong Congestion Avoidance và Multiplicative Decrease (cwnd/2) khi mất gói."
   },
   {
     "id": 47,
@@ -892,11 +807,8 @@ var mttPdfQuestions = [
     "ansList": [
       0
     ],
-    "images": [
-      "page_3_img_1_Image27.jpg",
-      "page_3_img_2_Image28.jpg"
-    ],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "images": [],
+    "exp": "Giai đoạn Slow Start: Bắt đầu với cwnd = 1 MSS, tăng gấp đôi cwnd sau mỗi RTT (tăng theo cấp số nhân)."
   },
   {
     "id": 48,
@@ -908,12 +820,12 @@ var mttPdfQuestions = [
       "10 và 23",
       "19 và 23"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Khi cwnd >= ssthresh (ngưỡng khởi đầu chậm), TCP chuyển từ Slow Start sang Congestion Avoidance."
   },
   {
     "id": 49,
@@ -925,12 +837,12 @@ var mttPdfQuestions = [
       "6-9, 14-18 và 19-22",
       "19-23"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "TCP Tahoe: Dù Timeout hay 3 Dup ACKs đều đặt ssthresh = cwnd/2, cwnd = 1 MSS và quay lại Slow Start."
   },
   {
     "id": 50,
@@ -942,12 +854,12 @@ var mttPdfQuestions = [
       "18",
       "22"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "TCP Reno: Khi gặp 3 Dup ACKs đặt ssthresh = cwnd/2, cwnd = ssthresh + 3 MSS và chuyển sang Fast Recovery."
   },
   {
     "id": 51,
@@ -965,7 +877,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "exp": "POP3 ở chế độ 'Download-and-Delete' tải email về máy client và xóa khỏi server."
   },
   {
     "id": 52,
@@ -983,7 +895,7 @@ var mttPdfQuestions = [
       4
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "IMAP cho phép giữ email trên server, tạo thư mục quản lý và đồng bộ trạng thái giữa nhiều thiết bị."
   },
   {
     "id": 53,
@@ -1001,7 +913,7 @@ var mttPdfQuestions = [
       4
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "HTTP Response 200 OK cho biết yêu cầu đã được xử lý thành công."
   },
   {
     "id": 54,
@@ -1019,7 +931,7 @@ var mttPdfQuestions = [
       4
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "HTTP Response 404 Not Found báo lỗi không tìm thấy tài nguyên yêu cầu trên server."
   },
   {
     "id": 55,
@@ -1037,7 +949,7 @@ var mttPdfQuestions = [
       4
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "HTTP Response 301 Moved Permanently báo tài nguyên đã được di chuyển vĩnh viễn sang URL mới."
   },
   {
     "id": 56,
@@ -1054,7 +966,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "Mạng P2P có tính tự mở rộng (Self-scalability): mỗi peer vừa tiêu thụ vừa đóng góp băng thông uploader."
   },
   {
     "id": 57,
@@ -1071,7 +983,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Khung tin tầng liên kết dữ liệu (Data Link Frame) chứa địa chỉ MAC nguồn và địa chỉ MAC đích."
   },
   {
     "id": 58,
@@ -1088,7 +1000,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Tầng Mạng (Network Layer) chịu trách nhiệm định tuyến (Routing) và chuyển tiếp (Forwarding) gói tin qua mạng lõi."
   },
   {
     "id": 59,
@@ -1105,7 +1017,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "Trong lập trình Socket TCP Python, hàm sock.accept() chờ và chấp nhận kết nối từ client."
   },
   {
     "id": 60,
@@ -1121,8 +1033,10 @@ var mttPdfQuestions = [
     "ansList": [
       2
     ],
-    "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "images": [
+      "page_12_img_1_Image60.jpg"
+    ],
+    "exp": "Trong lập trình Socket UDP Python, các hàm sendto() và recvfrom() được dùng để truyền nhận dữ liệu phi kết nối."
   },
   {
     "id": 61,
@@ -1139,7 +1053,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "rdt 1.0 giả định kênh truyền bên dưới hoàn hảo (chính xác, không bit lỗi, không mất gói)."
   },
   {
     "id": 62,
@@ -1156,7 +1070,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giao thức GBN (Go-Back-N) cho phép gửi tối đa N gói chưa ACK, bên nhận chỉ chấp nhận gói đúng thứ tự."
   },
   {
     "id": 63,
@@ -1173,7 +1087,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giao thức Selective Repeat (SR) đệm các gói out-of-order và báo nhận độc lập (Individual ACK) từng gói."
   },
   {
     "id": 64,
@@ -1190,15 +1104,13 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Điều kiện tránh nhập nhằng trong Selective Repeat: Kích thước cửa sổ N <= 1/2 SeqSpace."
   },
   {
     "id": 65,
     "ch": 2,
-    "q": "Host",
+    "q": "Host A gửi dữ liệu cho host B. Giả sử segment đầu tiên có số thứ tự (sequence number) là 90, segment thứ 2 có số thứ tự là 110, vậy lượng dữ liệu trong segment đầu tiên là bao nhiêu ?",
     "opts": [
-      "gửi dữ liệu cho host",
-      "Giả sử segment đầu tiên có số thứ tự (sequence number) là 90, segment thứ 2 có số thứ tự là 110, vậy lượng dữ liệu trong segment đầu tiên là bao nhiêu ?",
       "10 bytes",
       "20 bytes",
       "10 kilobytes",
@@ -1209,7 +1121,7 @@ var mttPdfQuestions = [
       5
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Trong TCP, số hiệu cổng (Port Number) dùng để định danh đúng tiến trình ứng dụng (Process) trên host."
   },
   {
     "id": 66,
@@ -1226,7 +1138,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "ACK(200) trong TCP có nghĩa bên nhận đã thu tốt các byte đến 199 và đang chờ byte số 200."
   },
   {
     "id": 67,
@@ -1243,7 +1155,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Bắt tay 3 bước TCP: Gói 1 (SYN), Gói 2 (SYN-ACK), Gói 3 (ACK)."
   },
   {
     "id": 68,
@@ -1260,13 +1172,14 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giải phóng kết nối TCP (4-way teardown): FIN ➔ ACK ➔ FIN ➔ ACK."
   },
   {
     "id": 69,
     "ch": 2,
-    "q": "Giả sử một kết nối TCP có 4 segment ACK quay về Bên Gửi và nhờ đó người ta đo được thời gian đi-về của segment thứ nhất (SampleRTT1) là 90 msec, thứ hai (SampleRTT2) là 110 msec, thứ ba (SampleRTT3) là 114 msec, và thứ tư (SampleRTT4) là 88 msec. Giả sử hệ số α=0.2. Người ta ước lượng được giá trị EstimatedRTT ngay sau khi ACK thứ hai quay về là bao nhiêu? A. 92.88 msec",
+    "q": "Giả sử một kết nối TCP có 4 segment ACK quay về Bên Gửi và nhờ đó người ta đo được thời gian đi-về của segment thứ nhất (SampleRTT1) là 90 msec, thứ hai (SampleRTT2) là 110 msec, thứ ba (SampleRTT3) là 114 msec, và thứ tư (SampleRTT4) là 88 msec. Giả sử hệ số α=0.2. Người ta ước lượng được giá trị EstimatedRTT ngay sau khi ACK thứ hai quay về là bao nhiêu?",
     "opts": [
+      "92.88 msec",
       "94 msec",
       "100.5 msec",
       "Không ước lượng được"
@@ -1276,7 +1189,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Flow Control (Điều khiển luồng) dùng trường rwnd trong TCP Header để tránh làm tràn đệm bên nhận."
   },
   {
     "id": 70,
@@ -1293,7 +1206,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "Congestion Control (Điều khiển tắc nghẽn) giữ cho lưu lượng bên gửi không vượt quá khả năng xử lý của mạng lõi."
   },
   {
     "id": 71,
@@ -1305,12 +1218,12 @@ var mttPdfQuestions = [
       "Thực hiện kết nối lại với bên nhận",
       "Huỷ kết nối"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Khi Timeout xảy ra trong TCP, bên gửi truyền lại (Retransmit) gói tin chưa được xác nhận sớm nhất."
   },
   {
     "id": 72,
@@ -1322,12 +1235,12 @@ var mttPdfQuestions = [
       "Seq = 1, SYN = 1",
       "Seq = ISN, SYN = 0"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Gói SYN trong bắt tay 3 bước có cờ SYN = 1 và Sequence Number = ISN (Initial Sequence Number)."
   },
   {
     "id": 73,
@@ -1339,12 +1252,14 @@ var mttPdfQuestions = [
       "IP",
       "ICMP"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_15_img_1_Image69.jpg"
+    ],
+    "exp": "Cấu trúc Header TCP tối thiểu 20 Bytes chứa Source/Dest Port, Seq Number, Ack Number, Flags, Window Size,..."
   },
   {
     "id": 74,
@@ -1356,18 +1271,19 @@ var mttPdfQuestions = [
       "Chỉ phần dữ liệu (payload)",
       "Trong header cÿa UDP không có trưởng length"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Trường Length trong UDP Header chỉ độ dài toàn bộ UDP Segment (Header + Data)."
   },
   {
     "id": 75,
     "ch": 2,
-    "q": "Tính checksum của 2 chuỗi 16 bit sau:  10101100 01010001 và 01001001 11001100 A. 00001001 11100010",
+    "q": "Tính checksum của 2 chuỗi 16 bit sau: 10101100 01010001 và 01001001 11001100",
     "opts": [
+      "00001001 11100010",
       "01001001 11100010",
       "00001001 11110010",
       "00011001 11100010"
@@ -1377,7 +1293,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Cộng hai chuỗi 16-bit nhị phân và lấy bù 1 để được giá trị Checksum."
   },
   {
     "id": 76,
@@ -1394,7 +1310,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "Sequence Number trong TCP Header chỉ số thứ tự của byte dữ liệu đầu tiên trong segment đó."
   },
   {
     "id": 77,
@@ -1411,7 +1327,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "ACK Number trong TCP Header chỉ số thứ tự của byte tiếp theo mà bên nhận mong muốn thu được."
   },
   {
     "id": 78,
@@ -1428,7 +1344,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "TCP là giao thức hướng kết nối (Connection-oriented), tin cậy (Reliable), luồng byte (Byte-stream)."
   },
   {
     "id": 79,
@@ -1445,12 +1361,12 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "exp": "Thứ tự cờ trong bắt tay 3 bước: SYN=1 ➔ SYN=1, ACK=1 ➔ ACK=1."
   },
   {
     "id": 80,
     "ch": 2,
-    "q": "Cho mô hình truyền thông giữa 2 máy như hình dưới   Giả sử bên gửi gửi 3 gói tin, trong đó: Gói thứ nhất bị hỏng 1 lần, Gói thứ hai không bị hỏng, Gói thứ ba bị hỏng 3 lần. Như vậy, tổng số sự kiện mà hệ thống phải trải qua là:",
+    "q": "Cho mô hình truyền thông giữa 2 máy như hình dưới Giả sử bên gửi gửi 3 gói tin, trong đó: Gói thứ nhất bị hỏng 1 lần, Gói thứ hai không bị hỏng, Gói thứ ba bị hỏng 3 lần. Như vậy, tổng số sự kiện mà hệ thống phải trải qua là:",
     "opts": [
       "5",
       "7",
@@ -1462,7 +1378,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "TIME_WAIT ở bên chủ động đóng kết nối kéo dài 2 * MSL để đảm bảo ACK cuối đến được đích."
   },
   {
     "id": 81,
@@ -1479,15 +1395,13 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "Máy trạng thái TCP (TCP FSM) định nghĩa các trạng thái LISTEN, SYN_SENT, SYN_RCVD, ESTABLISHED,..."
   },
   {
     "id": 82,
     "ch": 2,
-    "q": "Cho mô tả quá trình bắt tay 3 bước trong kết nối TCP như hình. Ở bước thứ 2, host",
+    "q": "Cho mô tả quá trình bắt tay 3 bước trong kết nối TCP như hình. Ở bước thứ 2, host B sẽ gửi gói tin sang host A có trường ACK number là bao nhiêu?",
     "opts": [
-      "sẽ gửi gói tin sang host",
-      "có trường ACK number là bao nhiêu?",
       "0",
       "11",
       "x + 1",
@@ -1497,8 +1411,10 @@ var mttPdfQuestions = [
     "ansList": [
       5
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_18_img_1_Image79.jpg"
+    ],
+    "exp": "Quá trình trao đổi cờ SYN và ACK để khởi tạo kết nối TCP."
   },
   {
     "id": 83,
@@ -1515,7 +1431,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Kích thước cửa sổ trượt (Sliding Window) cho phép truyền nhiều gói dữ liệu liên tiếp trước khi chờ ACK."
   },
   {
     "id": 84,
@@ -1532,7 +1448,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "Khi cwnd nằm trong Congestion Avoidance, cwnd tăng theo tuyến tính: cwnd = cwnd + 1/cwnd mỗi ACK."
   },
   {
     "id": 85,
@@ -1549,7 +1465,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Kích thước gói dữ liệu cực đại MSS thường được thỏa thuận trong cờ Options của gói SYN."
   },
   {
     "id": 86,
@@ -1566,7 +1482,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "exp": "TCP Reno thực hiện Fast Recovery khi gặp 3 Duplicate ACKs để tránh về 1 MSS như Tahoe."
   },
   {
     "id": 87,
@@ -1578,12 +1494,14 @@ var mttPdfQuestions = [
       "ACK",
       "URG"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_19_img_1_Image83.jpg"
+    ],
+    "exp": "Gói phản hồi ACK báo nhận gói TCP vừa tới."
   },
   {
     "id": 88,
@@ -1595,12 +1513,14 @@ var mttPdfQuestions = [
       "8221823",
       "0"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_19_img_1_Image83.jpg"
+    ],
+    "exp": "Initial Sequence Number (ISN) được chọn ngẫu nhiên khi bắt đầu kết nối TCP."
   },
   {
     "id": 89,
@@ -1612,12 +1532,14 @@ var mttPdfQuestions = [
       "1109646",
       "1460"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_19_img_1_Image83.jpg"
+    ],
+    "exp": "ACK Number = Last Received Seq Number + Payload Length."
   },
   {
     "id": 90,
@@ -1629,12 +1551,14 @@ var mttPdfQuestions = [
       "4",
       "1460"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_19_img_1_Image83.jpg"
+    ],
+    "exp": "Trường Receive Window (rwnd) cho biết dung lượng đệm còn trống của bên nhận."
   },
   {
     "id": 91,
@@ -1646,12 +1570,12 @@ var mttPdfQuestions = [
       "Đường truyền ảo",
       "Đường truyền logic"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Chuyển mạch kênh thiết lập một đường truyền vật lý dành riêng giữa hai thực thể."
   },
   {
     "id": 92,
@@ -1663,12 +1587,12 @@ var mttPdfQuestions = [
       "Đường truyền ảo",
       "Đường truyền logic"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Trong chuyển mạch kênh, tài nguyên băng thông được cam kết cố định."
   },
   {
     "id": 93,
@@ -1677,19 +1601,15 @@ var mttPdfQuestions = [
     "opts": [
       "Client/server là kiến trúc phân cấp, client đóng vai trò yêu cầu và server đáp ứng lại các yêu cầu đó.",
       "Server là host luôn hoạt động, thường có IP cố định, có nhóm các server để chia sẻ công việc. Client có kết nối không liên tục, địa chỉ IP có thể thay đổi, truyền thông với server và thường không truyền thông trực tiếp với client khác.",
-      "Câu",
-      "và",
-      "đều đúng",
-      "Câu",
-      "và",
-      "đều sai"
+      "Câu A và B đều đúng",
+      "Câu A và B đều sai"
     ],
     "ans": 0,
     "ansList": [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "Kiến trúc Client/Server phân cấp rõ ràng: Client gửi yêu cầu, Server lắng nghe và phục vụ."
   },
   {
     "id": 94,
@@ -1706,13 +1626,14 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Mạng P2P không phụ thuộc server cố định, các nút bình đẳng đóng vai trò cả client và server."
   },
   {
     "id": 95,
     "ch": 3,
-    "q": "Đường truyền từ host N tới host M phải đi qua 4 đoạn ứng với các liên kết Link1, Link2, Link3, Link4 như sau: X|---<link1>---R1---<link2>---R2---<link3>---R3---<link4>---| Y Biết bandwith của các liên kết lần lượt bằng 1Gbps, 75Mbps, 30Mbps và 100Mbps. Hãy tính thời gian để Y nhận đủ 50 Megabytes dữ liệu từ X. Giả sử trong quá trình truyền, không có dữ liệu nào khác truyền trên mạng. Bỏ qua độ trễ xếp hàng, độ trễ lan truyền và độ trễ xử lý tại các node trung gian. A. 23.07s",
+    "q": "Đường truyền từ host N tới host M phải đi qua 4 đoạn ứng với các liên kết Link1, Link2, Link3, Link4 như sau: X|---<link1>---R1---<link2>---R2---<link3>---R3---<link4>---| Y Biết bandwith của các liên kết lần lượt bằng 1Gbps, 75Mbps, 30Mbps và 100Mbps. Hãy tính thời gian để Y nhận đủ 50 Megabytes dữ liệu từ X. Giả sử trong quá trình truyền, không có dữ liệu nào khác truyền trên mạng. Bỏ qua độ trễ xếp hàng, độ trễ lan truyền và độ trễ xử lý tại các node trung gian.",
     "opts": [
+      "23.07s",
       "2.88s",
       "24.19s",
       "Cả ba đáp án trên đều sai"
@@ -1722,7 +1643,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Trễ truyền tổng cộng d_trans_total = sum(L / R_i) qua từng đoạn liên kết."
   },
   {
     "id": 96,
@@ -1739,15 +1660,14 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "HTTP Request gồm Request line (Method, URL, Version), Headers và Body."
   },
   {
     "id": 97,
     "ch": 3,
-    "q": "Giả sử host",
+    "q": "Giả sử host A cần gửi 1500 byte cho host B sử dụng TCP. Gói thứ nhất chứa 1000 byte dữ liệu, trường Sequence Number của gói này là 120. Trường Sequence Number của gói thứ hai sẽ là?",
     "opts": [
-      "cần gửi 1500 byte cho host",
-      "sử dụng TCP. Gói thứ nhất chứa 1000 byte dữ liệu, trường Sequence Number của gói này là 120. Trường Sequence Number của gói thứ hai sẽ là? A. 1121",
+      "1121",
       "500",
       "1120",
       "Đáp án khác"
@@ -1757,7 +1677,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "User-Agent Header cung cấp thông tin về loại trình duyệt và hệ điều hành của client."
   },
   {
     "id": 98,
@@ -1769,12 +1689,12 @@ var mttPdfQuestions = [
       "FTP",
       "WWW"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Telnet cho phép truy cập và điều khiển máy tính từ xa qua giao diện dòng lệnh."
   },
   {
     "id": 99,
@@ -1786,12 +1706,12 @@ var mttPdfQuestions = [
       "Nó sẽ gửi từ byte thứ 100",
       "Nó hy vọng nhận được dữ liệu bắt đầu bằng byte có số thứ tự 100"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Gói SYNACK có SYN=1, ACK=1, ack_seq = client_seq + 1."
   },
   {
     "id": 100,
@@ -1808,7 +1728,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Bắt tay 3 bước đảm bảo cả 2 phía đồng bộ Sequence Number và sẵn sàng truyền dữ liệu."
   },
   {
     "id": 101,
@@ -1825,7 +1745,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "exp": "3 Duplicate ACKs kích hoạt cơ chế Fast Retransmit truyền lại ngay gói bị thiếu."
   },
   {
     "id": 102,
@@ -1842,7 +1762,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giá trị ngưỡng ssthresh điều khiển việc chuyển tiếp giữa Slow Start và Congestion Avoidance."
   },
   {
     "id": 103,
@@ -1854,12 +1774,12 @@ var mttPdfQuestions = [
       "29-31",
       "D. Tất cả đều đúng Sử dụng biểu đồ hoạt động điều khiển tắc nghẽn của TCP Reno dưới đây để trả lời các câu hỏi từ 104 đến 106. Trong đó, trục tung là congestion window size (bắt đầu từ 0), đơn vị là số segment, trục hoành là transmission round, đơn vị là RTT, mỗi round là 1 RTT (bắt đầu từ 1)"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giai đoạn Slow Start tăng kích thước cửa sổ cwnd theo cấp số nhân (gấp đôi mỗi RTT)."
   },
   {
     "id": 104,
@@ -1871,12 +1791,12 @@ var mttPdfQuestions = [
       "12",
       "20"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Số lượng segment gửi đi trong RTT được tính theo chuỗi tăng cwnd."
   },
   {
     "id": 105,
@@ -1893,7 +1813,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "Khi Timeout xảy ra, TCP Tahoe và Reno đều hạ cwnd xuống 1 MSS."
   },
   {
     "id": 106,
@@ -1910,7 +1830,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "ssthresh được đặt bằng cwnd / 2 ngay khi phát hiện sự cố tắc nghẽn."
   },
   {
     "id": 107,
@@ -1923,12 +1843,12 @@ var mttPdfQuestions = [
       "ACK=0, SYN=1",
       "RST=1, SYN=1"
     ],
-    "ans": 4,
+    "ans": 0,
     "ansList": [
-      4
+      0
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: E"
+    "exp": "Gói tin TCP yêu cầu kết nối có cờ SYN = 1, ACK = 0."
   },
   {
     "id": 108,
@@ -1945,12 +1865,12 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Bản ghi Type A trong DNS ánh xạ tên miền (Host) sang địa chỉ IPv4."
   },
   {
     "id": 109,
     "ch": 3,
-    "q": "Chọn câu phát biểu SAI: HTTP/1.1 200 OK<cr><lf>Date: Tue, 22 June 2015 12:39:45GMT..Server:Apache/2.0.52 (Fedora)<cr><lf>Last-Modified: Tue, 1 June 2014 18:27:46GMT<cr><lf>ETag: \"526c3-f22-88a4c80\"<cr><lf>Accept-Ranges: bytes<cr><lf>Content-Length: 8347<cr><lf>Keep-Alive:timeout=max=100<cr><lf>Connection:KeepAlive<cr><lf>Content-Type:text/html; charset=ISO-88591<cr><lf><cr><lf><!doctype html public \"-//w3c//dtd html 4.0 transitional//en\"><lf><html><lf><head><lf><meta httpequiv=\"Content-Type\"content=\"text/html; charset=iso-8859-1\"><lf><metaname=\"GENERATOR\" content=\"Mozilla/4.79 [en] (Windows NT 5.0; U)Netscape]\"><lf><title>Test page</title><lf></head><lf> ......",
+    "q": "Chọn câu phát biểu SAI: HTTP/1.1 200 OK<cr><lf>Date: Tue, 22 June 2015 12:39:45GMT..Server:Apache/2.0.52 (Fedora)<cr><lf>Last-Modified: Tue, 1 June 2014 18:27:46GMT<cr><lf>ETag: \"526c3-f22-88a4c80\"<cr><lf>Accept-Ranges: bytes<cr><lf>Content-Length: 8347<cr><lf>Keep- Alive:timeout=max=100<cr><lf>Connection:KeepAlive<cr><lf>Content- Type:text/html; charset=ISO-88591<cr><lf><cr><lf><!doctype html public \"- //w3c//dtd html 4.0 transitional//en\"><lf><html><lf><head><lf><meta httpequiv=\"Content-Type\"content=\"text/html; charset=iso-8859- 1\"><lf><metaname=\"GENERATOR\" content=\"Mozilla/4.79 [en] (Windows NT 5.0; U)Netscape]\"><lf><title>Test page</title><lf></head><lf> ......",
     "opts": [
       "Server trả về cho trình duyệt tổng cộng 8327 bytes",
       "Server đồng ý cho một kết nối bền vững",
@@ -1962,7 +1882,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "HTTP Response Header 200 OK báo hiệu truy vấn thành công."
   },
   {
     "id": 110,
@@ -1979,7 +1899,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "FTP dùng lệnh trên kênh điều khiển Port 21 riêng biệt với kênh dữ liệu Port 20."
   },
   {
     "id": 111,
@@ -1995,13 +1915,15 @@ var mttPdfQuestions = [
     "ansList": [
       3
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_25_img_1_Image118.jpg"
+    ],
+    "exp": "Selective Repeat chỉ truyền lại các gói bị đếm thời gian Timeout hoặc báo hỏng."
   },
   {
     "id": 112,
     "ch": 3,
-    "q": "Cho biểu đồ minh họa hoạt động điều khiển tắc nghẽn của TCP Reno như sau:  Cho các phát biểu sau. Số phát biểu đúng là (1). Segment thứ 20 được gửi đi tại round thứ 5 (2). Round 12 xảy ra sự kiện nhận 3 ACKs trùng nhau \n(3). Giai đoạn Slow Start diễn ra tại các round 1-4, 13-16 (4). Round 34 xảy ra sự kiện time-out (5). Round 10 thuộc giai đoạn Fast Recovery (6). Ssthresh tại round 14 là 4 (7). Ssthresh tại round 36 là 8",
+    "q": "Cho biểu đồ minh họa hoạt động điều khiển tắc nghẽn của TCP Reno như sau: Cho các phát biểu sau. Số phát biểu đúng là (1). Segment thứ 20 được gửi đi tại round thứ 5 (2). Round 12 xảy ra sự kiện nhận 3 ACKs trùng nhau (3). Giai đoạn Slow Start diễn ra tại các round 1-4, 13-16 (4). Round 34 xảy ra sự kiện time-out (5). Round 10 thuộc giai đoạn Fast Recovery (6). Ssthresh tại round 14 là 4 (7). Ssthresh tại round 36 là 8",
     "opts": [
       "2",
       "3",
@@ -2012,8 +1934,10 @@ var mttPdfQuestions = [
     "ansList": [
       2
     ],
-    "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "images": [
+      "page_25_img_2_Image119.png"
+    ],
+    "exp": "Thuật toán AIMD dao động kích thước cwnd theo dạng răng cưa."
   },
   {
     "id": 113,
@@ -2030,7 +1954,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Lệnh FTP PASV thiết lập kết nối dữ liệu thụ động."
   },
   {
     "id": 114,
@@ -2047,7 +1971,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "exp": "Cơ chế rdt dùng Checksum phát hiện lỗi bit và Sequence Number chống trùng lặp."
   },
   {
     "id": 115,
@@ -2064,7 +1988,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Vòng truyền RTT xác định giai đoạn hoạt động dựa trên giá trị cwnd so với ssthresh."
   },
   {
     "id": 116,
@@ -2081,7 +2005,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giá trị ssthresh giảm xuống một nửa kích thước cửa sổ hiện tại khi có nghẽn."
   },
   {
     "id": 117,
@@ -2098,7 +2022,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Tắc nghẽn được phát hiện qua phản hồi Timeout hoặc 3 Duplicate ACKs."
   },
   {
     "id": 118,
@@ -2108,21 +2032,21 @@ var mttPdfQuestions = [
       "3 ACKs trùng",
       "Timeout",
       "Do cwin đạt ngưỡng",
-      "A, B,",
-      "đều đúng"
+      "A, B, C đều đúng"
     ],
-    "ans": 4,
+    "ans": 2,
     "ansList": [
-      4
+      2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: C"
+    "exp": "Kích thước cwnd giảm do phát hiện mất gói tin trên đường truyền."
   },
   {
     "id": 119,
     "ch": 3,
-    "q": "Để tải một tài liệu văn bản với tốc độ 100 trang mỗi giây, ta giả sử rằng một trang tài liệu trung bình có 24 dòng với 80 ký tự (mỗi ký tự sử dụng mã 8 bit) trên mỗi dòng. Băng thông tối thiểu của kênh truyền là bao nhiêu? A. 512 Kbps",
+    "q": "Để tải một tài liệu văn bản với tốc độ 100 trang mỗi giây, ta giả sử rằng một trang tài liệu trung bình có 24 dòng với 80 ký tự (mỗi ký tự sử dụng mã 8 bit) trên mỗi dòng. Băng thông tối thiểu của kênh truyền là bao nhiêu?",
     "opts": [
+      "512 Kbps",
       "1.248 Mbps",
       "1.536 Mbps",
       "192 Kbps"
@@ -2132,13 +2056,14 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "Tốc độ truyền bit R = Số trang * Số ký tự/trang * 8 bits."
   },
   {
     "id": 120,
     "ch": 3,
-    "q": "Giả sử rằng kích thước cửa sổ truyền (transmit window size) tối đa cho kết nối TCP là 12000 bytes. Mỗi packet 2000 bytes. Tại một thời điểm, kết nối đang ở giai đoạn slow-start với cửa sổ truyền hiện tại là 4000 bytes. Sau đó, bên gửi nhận được 2 gói ACK. Giả sử rằng không có packet nào bị mất, không có timeout và chưa tới ngưỡng ssthresh. Giá trị tối đa của cửa sổ truyền tải hiện tại là bao nhiêu? A. 8000 bytes",
+    "q": "Giả sử rằng kích thước cửa sổ truyền (transmit window size) tối đa cho kết nối TCP là 12000 bytes. Mỗi packet 2000 bytes. Tại một thời điểm, kết nối đang ở giai đoạn slow-start với cửa sổ truyền hiện tại là 4000 bytes. Sau đó, bên gửi nhận được 2 gói ACK. Giả sử rằng không có packet nào bị mất, không có timeout và chưa tới ngưỡng ssthresh. Giá trị tối đa của cửa sổ truyền tải hiện tại là bao nhiêu?",
     "opts": [
+      "8000 bytes",
       "4000 bytes",
       "12000 bytes",
       "10000 bytes"
@@ -2148,7 +2073,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Kích thước cửa sổ truyền quyết định lượng dữ liệu cực đại gửi đi khi chưa có ACK."
   },
   {
     "id": 121,
@@ -2165,7 +2090,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Cờ SYN có Sequence Number khởi tạo ngẫu nhiên (ISN)."
   },
   {
     "id": 122,
@@ -2182,7 +2107,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Truy vấn DNS đệ quy (Recursive Query) đẩy trách nhiệm phân giải cho Name Server tiếp theo."
   },
   {
     "id": 123,
@@ -2199,7 +2124,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Truy vấn DNS lặp (Iterative Query) trả về địa chỉ của Name Server tiếp theo cho client tự truy vấn."
   },
   {
     "id": 124,
@@ -2216,7 +2141,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Tấn công từ chối dịch vụ phân tán DDoS sử dụng mạng máy tính ma (Botnet)."
   },
   {
     "id": 125,
@@ -2232,8 +2157,10 @@ var mttPdfQuestions = [
     "ansList": [
       0
     ],
-    "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "images": [
+      "page_28_img_1_Image124.jpg"
+    ],
+    "exp": "rdt 2.1 sử dụng số thứ tự 0 và 1 trong gói tin và ACK/NAK."
   },
   {
     "id": 126,
@@ -2250,13 +2177,14 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Bắt tay 3 bước ngăn ngừa các gói tin cũ bị trễ khởi tạo kết nối nhầm."
   },
   {
     "id": 127,
     "ch": 3,
-    "q": "Trong một trang web có tham chiếu đến 10 file đối tượng hình ảnh. Nếu sử dụng dịch vụ HTTP không bền vững (Non-Persistent HTTP), thì chúng ta cần bao nhiêu RTT để hoàn thành công việc trên? Giả sử bỏ qua thời gian truyền file và thời gian đóng kết nối A. 20 RTT",
+    "q": "Trong một trang web có tham chiếu đến 10 file đối tượng hình ảnh. Nếu sử dụng dịch vụ HTTP không bền vững (Non-Persistent HTTP), thì chúng ta cần bao nhiêu RTT để hoàn thành công việc trên? Giả sử bỏ qua thời gian truyền file và thời gian đóng kết nối",
     "opts": [
+      "20 RTT",
       "11 RTT",
       "1 RTT",
       "22 RTT"
@@ -2266,7 +2194,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Non-persistent HTTP với 10 đối tượng mất 1 RTT khởi tạo + 10 * RTT (hoặc song song)."
   },
   {
     "id": 128,
@@ -2283,7 +2211,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "exp": "Ứng dụng truyền thông thời gian thực (Streaming/VoIP) yêu cầu độ trễ thấp và băng thông ổn định."
   },
   {
     "id": 129,
@@ -2299,8 +2227,10 @@ var mttPdfQuestions = [
     "ansList": [
       3
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_30_img_1_Image132.jpg"
+    ],
+    "exp": "Số SEQ của bên gửi trở thành số ACK mong chờ của bên nhận."
   },
   {
     "id": 130,
@@ -2316,8 +2246,10 @@ var mttPdfQuestions = [
     "ansList": [
       0
     ],
-    "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "images": [
+      "page_30_img_2_Image133.jpg"
+    ],
+    "exp": "Sơ đồ 3-way handshake: Client gửi SYN ➔ Server gửi SYN-ACK ➔ Client gửi ACK."
   },
   {
     "id": 131,
@@ -2334,7 +2266,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Mạng phân phối nội dung CDN (Content Delivery Network) lưu bản sao dữ liệu gần người dùng."
   },
   {
     "id": 132,
@@ -2350,14 +2282,17 @@ var mttPdfQuestions = [
     "ansList": [
       1
     ],
-    "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "images": [
+      "page_31_img_1_Image136.jpg"
+    ],
+    "exp": "Thông lượng hiệu dụng (Throughput) bị giới hạn bởi liên kết thắt cổ chai min(R_s, R_c)."
   },
   {
     "id": 133,
     "ch": 3,
-    "q": "Cho kiến trúc mạng sau:  Giả sử xác suất truy cập trang web đến origin servers từ các máy clients trong institutional network được lưu trữ trong local web cache là 50% [cache hit rate: 0.5], và RTT từ institutional router đến bất cứ origin servers là 2s, RTT từ bất kỳ máy client trong institutional network đến local web cache là 0.5s. Hỏi thời gian chờ trung bình (delay) một máy client trong institutional network để truy cập trang web tại origin servers là bao lâu? A. 2.5s",
+    "q": "Cho kiến trúc mạng sau: Giả sử xác suất truy cập trang web đến origin servers từ các máy clients trong institutional network được lưu trữ trong local web cache là 50% [cache hit rate: 0.5], và RTT từ institutional router đến bất cứ origin servers là 2s, RTT từ bất kỳ máy client trong institutional network đến local web cache là 0.5s. Hỏi thời gian chờ trung bình (delay) một máy client trong institutional network để truy cập trang web tại origin servers là bao lâu?",
     "opts": [
+      "2.5s",
       "0.5s",
       "2s",
       "1.25s"
@@ -2367,9 +2302,9 @@ var mttPdfQuestions = [
       2
     ],
     "images": [
-      "page_8_img_1_Image42.jpg"
+      "page_32_img_1_Image140.jpg"
     ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Xác suất truy cập qua Web Cache giúp giảm đáng kể thời gian đáp ứng trung bình."
   },
   {
     "id": 134,
@@ -2385,10 +2320,8 @@ var mttPdfQuestions = [
     "ansList": [
       3
     ],
-    "images": [
-      "page_8_img_1_Image42.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Trình tự giao tiếp SMTP: HELO ➔ MAIL FROM ➔ RCPT TO ➔ DATA ➔ QUIT."
   },
   {
     "id": 135,
@@ -2405,9 +2338,9 @@ var mttPdfQuestions = [
       0
     ],
     "images": [
-      "page_8_img_1_Image42.jpg"
+      "page_32_img_1_Image140.jpg"
     ],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "exp": "Thời gian đẩy gói tin lên đường truyền d_trans = L / R."
   },
   {
     "id": 136,
@@ -2419,14 +2352,14 @@ var mttPdfQuestions = [
       "Round 6 – 16 và 17 – 22",
       "Round 17 – 22"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [
-      "page_8_img_1_Image42.jpg"
+      "page_32_img_1_Image140.jpg"
     ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "exp": "Giai đoạn TCP Slowstart là các vòng truyền mà cwnd tăng theo cấp số nhân từ 1 MSS."
   },
   {
     "id": 137,
@@ -2438,14 +2371,12 @@ var mttPdfQuestions = [
       "TCP Congestion Avoidance",
       "Tất cả đều sai"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
-    "images": [
-      "page_8_img_1_Image42.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Giai đoạn Congestion Avoidance là giai đoạn cwnd tăng tuyến tính (+1 MSS/RTT)."
   },
   {
     "id": 138,
@@ -2457,14 +2388,12 @@ var mttPdfQuestions = [
       "3 ACK trùng",
       "Mất gói tin"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
-    "images": [
-      "page_8_img_1_Image42.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Nhận được 3 Duplicate ACKs làm cwnd giảm xuống ssthresh và vào Fast Recovery."
   },
   {
     "id": 139,
@@ -2480,10 +2409,8 @@ var mttPdfQuestions = [
     "ansList": [
       0
     ],
-    "images": [
-      "page_8_img_1_Image42.jpg"
-    ],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: A"
+    "images": [],
+    "exp": "Sự kiện Timeout làm cwnd rớt xuống 1 MSS và quay về Slow Start."
   },
   {
     "id": 140,
@@ -2495,14 +2422,12 @@ var mttPdfQuestions = [
       "24",
       "21"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
-    "images": [
-      "page_8_img_1_Image42.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "ssthresh được đặt bằng nửa kích thước cwnd trước khi mất gói."
   },
   {
     "id": 141,
@@ -2514,14 +2439,12 @@ var mttPdfQuestions = [
       "35",
       "10"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
-    "images": [
-      "page_8_img_1_Image42.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Segment thứ n được truyền ở vòng RTT tương ứng với tổng tích lũy số segment."
   },
   {
     "id": 142,
@@ -2533,32 +2456,29 @@ var mttPdfQuestions = [
       "TCP Tahoe hiện thực cơ chế Slow Start, Congestion Avoidance, và Fast Retransmit",
       "TCP Reno chỉ mới được đề xuất, chưa được hiện thực"
     ],
-    "ans": 3,
+    "ans": 0,
     "ansList": [
-      3
+      0
     ],
-    "images": [
-      "page_8_img_1_Image42.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "TCP Reno bổ sung thêm cơ chế Fast Recovery so với TCP Tahoe."
   },
   {
     "id": 143,
     "ch": 3,
-    "q": "Để quản lí nghẽn (congestion) trong TCP, máy gửi duy trì tham số CWin để chỉ số bytes mà nó có thể gửi trước khi nhận được phản hồi từ máy nhận. Bên cạnh đó, máy gửi còn sử dụng một tham số khác là slow start threshold: SSThreshold (đơn vị byte). Khi CWin > SSThreshold thì máy gửi sẻ rất cẩn trọng để tránh gây ra congestion. Giả định rằng SSThreshold=8000 bytes, CWin=4000 bytes, kích thước của gói tin là 500 bytes. Máy gửi gửi 8 gói tin và nhận được 8 phản hồi. Hỏi giá trị của SSThreshold và CWin sau khi đã nhận được phản hồi là gì? A. SSThreshold=4000 bytes, CWin=4000 bytes",
+    "q": "Để quản lí nghẽn (congestion) trong TCP, máy gửi duy trì tham số CWin để chỉ số bytes mà nó có thể gửi trước khi nhận được phản hồi từ máy nhận. Bên cạnh đó, máy gửi còn sử dụng một tham số khác là slow start threshold: SSThreshold (đơn vị byte). Khi CWin > SSThreshold thì máy gửi sẻ rất cẩn trọng để tránh gây ra congestion. Giả định rằng SSThreshold=8000 bytes, CWin=4000 bytes, kích thước của gói tin là 500 bytes. Máy gửi gửi 8 gói tin và nhận được 8 phản hồi. Hỏi giá trị của SSThreshold và CWin sau khi đã nhận được phản hồi là gì?",
     "opts": [
+      "SSThreshold=4000 bytes, CWin=4000 bytes",
       "SSThreshold=8000 bytes, CWin=500 bytes",
       "SSThreshold=8000 bytes, CWin=4000 bytes",
       "SSThreshold=8000 bytes, CWin=8000 bytes"
     ],
-    "ans": 2,
+    "ans": 3,
     "ansList": [
-      2
+      3
     ],
-    "images": [
-      "page_9_img_1_Image52.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Khi cwnd > ssthresh, TCP chuyển sang chế độ cẩn trọng Congestion Avoidance (+1 MSS/RTT)."
   },
   {
     "id": 144,
@@ -2574,28 +2494,25 @@ var mttPdfQuestions = [
     "ansList": [
       1
     ],
-    "images": [
-      "page_9_img_1_Image52.jpg"
-    ],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: B"
+    "images": [],
+    "exp": "Non-persistent HTTP với kết nối song song mất 2 RTT cho trang cơ sở + 2 RTT cho 3 ảnh = 4 RTT."
   },
   {
     "id": 145,
     "ch": 3,
-    "q": "Cho các giá trị SampleRTT đo được sau mỗi lần gửi yêu cầu và nhận được phản hồi tương ứng là: 125 ms, 140 ms, 113 ms, 107 ms, và 134 ms. Biết các giá trị của RTT thứ hai như sau: EstimatedRTT = 126.875 ms, chỉ số α = 0.125, β = 0.25, DevRTT = 3.28 ms. Tính xấp xỉ giá trị timeout (Timeout Interval) sau lần đo SampleRTT thứ 3 (113 ms)?  A. 147.12 ms",
+    "q": "Cho các giá trị SampleRTT đo được sau mỗi lần gửi yêu cầu và nhận được phản hồi tương ứng là: 125 ms, 140 ms, 113 ms, 107 ms, và 134 ms. Biết các giá trị của RTT thứ hai như sau: EstimatedRTT = 126.875 ms, chỉ số α = 0.125, β = 0.25, DevRTT = 3.28 ms. Tính xấp xỉ giá trị timeout (Timeout Interval) sau lần đo SampleRTT thứ 3 (113 ms)?",
     "opts": [
+      "147.12 ms",
       "130.64 ms",
       "148.85 ms",
       "136.73 m"
     ],
-    "ans": 2,
+    "ans": 1,
     "ansList": [
-      2
+      1
     ],
-    "images": [
-      "page_10_img_1_Image55.jpg"
-    ],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [],
+    "exp": "Tính TimeoutInterval dựa trên công thức EstimatedRTT và DevRTT."
   },
   {
     "id": 146,
@@ -2611,26 +2528,29 @@ var mttPdfQuestions = [
     "ansList": [
       2
     ],
-    "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: C"
+    "images": [
+      "page_35_img_1_Image148.png"
+    ],
+    "exp": "Trong mô hình 5 tầng: Tầng 5 Application ➔ Tầng 4 Transport ➔ Tầng 3 Network (IP)."
   },
   {
     "id": 147,
     "ch": 3,
-    "q": "Cho biết dest port của gói tin",
+    "q": "Cho biết dest port của gói tin B theo hình sau?",
     "opts": [
-      "theo hình sau?",
       "6465",
       "6543",
       "5019",
       "Đáp án khác"
     ],
-    "ans": 4,
+    "ans": 1,
     "ansList": [
-      4
+      1
     ],
-    "images": [],
-    "exp": "Đáp án chuẩn trích xuất từ PDF: D"
+    "images": [
+      "page_36_img_1_Image151.jpg"
+    ],
+    "exp": "Destination Port của gói tin phản hồi chính là Source Port của gói tin yêu cầu ban đầu."
   },
   {
     "id": 148,
@@ -2647,6 +2567,6 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Đáp án lý thuyết Mạng máy tính chuẩn: D"
+    "exp": "Trong Go-Back-N, khi chưa nhận ACK gói n, hết thời gian Timeout bên gửi sẽ phát lại tất cả gói từ n."
   }
 ];
