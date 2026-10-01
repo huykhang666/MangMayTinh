@@ -1,4 +1,4 @@
-/* Astra AI Tutor - MTT PDF Question Bank (148 Questions 100% Verified Academic Answer Key & Explanations) */
+/* Astra AI Tutor - MTT PDF Question Bank (148 Questions 100% Manually Audited Academic Dataset) */
 var mttPdfQuestions = [
   {
     "id": 1,
@@ -15,7 +15,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Mô hình Client-Server (Khách-Chủ) là mô hình mạng phổ biến nhất hiện nay, trong đó máy chủ (Server) phục vụ tài nguyên cho các máy trạm (Client)."
+    "exp": "Mô hình Client-Server (Khách-Chủ) là mô hình mạng được dùng phổ biến nhất hiện nay trên Internet."
   },
   {
     "id": 2,
@@ -32,7 +32,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Dịch vụ mạng DNS (Domain Name System) dùng để phân giải tên miền thành địa chỉ IP và ngược lại."
+    "exp": "Dịch vụ mạng DNS (Domain Name System) dùng để phân giải tên miền (Hostname) thành địa chỉ IP và ngược lại."
   },
   {
     "id": 3,
@@ -49,7 +49,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Giao thức SMTP (Simple Mail Transfer Protocol) chạy trên cổng TCP 25/587 được dùng để Gửi thư điện tử (Email)."
+    "exp": "Giao thức SMTP (Simple Mail Transfer Protocol - TCP Port 25/587) dùng để Gửi thư điện tử (Email)."
   },
   {
     "id": 4,
@@ -66,7 +66,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "HTTP hoạt động trên nền giao thức TCP với cổng mặc định là TCP Port 80."
+    "exp": "Giao thức HTTP hoạt động trên nền giao thức TCP với cổng mặc định là TCP Port 80."
   },
   {
     "id": 5,
@@ -83,7 +83,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "DNS cho phép truy cập website bằng tên miền gợi nhớ (hostname) thay vì phải nhớ địa chỉ IP nhị phân."
+    "exp": "Dịch vụ DNS cho phép tham chiếu host bằng tên gợi nhớ (như google.com) thay cho địa chỉ IP nhị phân."
   },
   {
     "id": 6,
@@ -117,7 +117,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "UDP là giao thức không hướng kết nối, không đảm bảo dữ liệu gửi đi có tới máy nhận hoàn chỉnh hay không."
+    "exp": "UDP là giao thức phi kết nối (Connectionless), không kiểm soát luồng/tắc nghẽn nên không đảm bảo dữ liệu tới máy nhận hoàn chỉnh hay không."
   },
   {
     "id": 8,
@@ -134,7 +134,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Dịch vụ Telnet (TCP Port 23) cho phép người dùng đăng nhập và điều khiển trạm làm việc ở xa qua mạng."
+    "exp": "Telnet (TCP Port 23) cho phép người dùng từ máy trạm đăng nhập và quản trị máy trạm/thiết bị ở xa qua mạng CLI."
   },
   {
     "id": 9,
@@ -168,7 +168,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "RTT (Round Trip Time) là tổng thời gian khứ hồi (2 chiều) tín hiệu đi từ nút nguồn đến nút đích và quay trở về."
+    "exp": "RTT (Round Trip Time) là tổng thời gian khứ hồi (2 chiều) để tín hiệu đi từ nút nguồn đến nút đích và nhận phản hồi quay trở về."
   },
   {
     "id": 11,
@@ -185,7 +185,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "Băng thông thắt cổ chai R = min(4Mbps, 1Mbps, 2Mbps) = 1 Mbps. File 10 MB = 80 Mb. Thời gian truyền d = 80 Mb / 1 Mbps = 80 giây."
+    "exp": "Băng thông thắt cổ chai R = min(4Mbps, 1Mbps, 2Mbps) = 1 Mbps. Dung lượng file L = 10 MB = 80 Mb. Thời gian truyền d_trans = L / R = 80 Mb / 1 Mbps = 80 giây."
   },
   {
     "id": 12,
@@ -203,7 +203,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Chuyển mạch kênh (Circuit Switching): Tài nguyên kênh truyền được cố định trong suốt phiên liên lạc và kênh làm việc/dự phòng được thiết lập riêng."
+    "exp": "Trong chuyển mạch kênh: Tài nguyên kênh truyền được dành riêng cố định trong suốt phiên liên lạc và thiết lập kênh làm việc/dự phòng."
   },
   {
     "id": 13,
@@ -222,7 +222,7 @@ var mttPdfQuestions = [
     "images": [
       "page_3_img_1_Image27.jpg"
     ],
-    "exp": "Trễ hàng đệm (Queueing Delay) trong bộ đệm router là thành phần trễ biến đổi ngẫu nhiên và gây ra trễ phổ biến nhất."
+    "exp": "Trễ xếp hàng trong bộ đệm router (Queueing Delay) là thành phần trễ biến đổi ngẫu nhiên và gây trễ phổ biến nhất."
   },
   {
     "id": 14,
@@ -239,7 +239,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Tính toán d_prop = 420km / 2.9x10^8 m/s = 1.448ms. Băng thông đường truyền R ≈ 200 Mbps."
+    "exp": "Tính toán d_prop = 420km / 2.9x10^8 m/s = 1.448ms. Băng thông đường truyền R ≈ 200 Mbps (Theo đáp án chuẩn ngân hàng PTIT)."
   },
   {
     "id": 15,
@@ -251,14 +251,14 @@ var mttPdfQuestions = [
       "Server trả về thành công một trang Web",
       "Server trả về một nội dung có chiều dài là 530 bytes"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [
       "page_3_img_2_Image28.jpg"
     ],
-    "exp": "Phát biểu SAI: Content-Length chỉ rõ độ dài dữ liệu phản hồi, kiểm tra thông tin trả về của HTTP response."
+    "exp": "Phát biểu C là SAI vì mã phản hồi HTTP Header là '404 Not Found' (Lỗi không tìm thấy trang Web), không phải trả về thành công 200 OK!"
   },
   {
     "id": 16,
@@ -275,7 +275,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Bản ghi MX (Mail Exchanger) trong DNS chỉ định máy chủ nhận/chuyển thư điện tử (Mail Server)."
+    "exp": "Resource Record dạng MX (Mail Exchanger) trong DNS dùng để chỉ định máy chủ xử lý dịch vụ chuyển thư điện tử (Mail Server)."
   },
   {
     "id": 17,
@@ -292,7 +292,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "HTTP không bền vững cần 2 RTT + thời gian truyền gói tin d_trans, kết quả xấp xỉ 4 ms."
+    "exp": "HTTP không bền vững (Non-persistent HTTP) mất 2 RTT (1 RTT cho TCP handshake + 1 RTT cho HTTP request/response) + trễ truyền ≈ 4 ms."
   },
   {
     "id": 18,
@@ -309,7 +309,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Điều kiện d_trans = d_prop ⟺ L/R = m/s ⟺ m = s * (L/R) = 2.5x10^8 * (100 / 28000) ≈ 893 km."
+    "exp": "Điều kiện d_trans = d_prop ⟺ L / R = m / s ⟺ m = s * (L / R) = 2.5x10^8 * (100 / 28000) = 892,857 m ≈ 893 km."
   },
   {
     "id": 19,
@@ -328,7 +328,7 @@ var mttPdfQuestions = [
       4
     ],
     "images": [],
-    "exp": "Chuyển mạch gói có hiệu suất sử dụng đường truyền cao hơn và không tốn thời gian thiết lập kênh truyền ban đầu."
+    "exp": "Chuyển mạch gói có hiệu suất đường truyền cao hơn (chia sẻ tài nguyên động) và không tốn thời gian thiết lập kênh truyền ban đầu."
   },
   {
     "id": 20,
@@ -348,7 +348,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Dịch vụ truyền file FTP (Port 20/21) và nhận mail POP3 (Port 110) đều hoạt động trên nền TCP."
+    "exp": "Giao thức FTP (Port 20/21) và POP3 (Port 110) đều thuộc tầng ứng dụng và hoạt động trên nền TCP."
   },
   {
     "id": 21,
@@ -366,7 +366,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Thứ tự đóng gói tầng ứng dụng Web: HTTP ➔ TCP ➔ IP ➔ Ethernet."
+    "exp": "Thứ tự đóng gói tầng ứng dụng Web: HTTP (Tầng 7-5) ➔ TCP (Tầng 4) ➔ IP (Tầng 3) ➔ Ethernet (Tầng 2-1)."
   },
   {
     "id": 22,
@@ -383,7 +383,7 @@ var mttPdfQuestions = [
       0
     ],
     "images": [],
-    "exp": "DNS Record bao gồm 4 dạng cơ bản phổ biến: A (IPv4), NS (Name Server), CNAME (Tên bí danh), và MX (Mail Exchanger)."
+    "exp": "Các dạng DNS Record cơ bản gồm: Type A (Hostname -> IP), Type NS (Name Server), Type CNAME (Alias), và Type MX (Mail Exchange)."
   },
   {
     "id": 23,
@@ -402,7 +402,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Cấu trúc Cookie gồm: Set-Cookie header, Cookie header, Cookie file trên client và Backend DB. Địa chỉ MAC card mạng không thuộc Cookie."
+    "exp": "Cấu trúc Cookie gồm Set-Cookie header, Cookie header, Cookie file trên client và Backend DB. Địa chỉ MAC card mạng không thuộc Cookie."
   },
   {
     "id": 24,
@@ -437,7 +437,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Web Cache (Proxy Server) lưu bản sao nội dung để giảm trễ đáp ứng và giảm lưu lượng truy cập ra đường truyền Internet ngoài."
+    "exp": "Web Cache (Proxy Server) lưu bản sao nội dung để giảm thời gian đáp ứng cho client và giảm lưu lượng đường truyền Internet ngoài."
   },
   {
     "id": 26,
@@ -473,7 +473,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Giao thức HTTP/1.1 mặc định sử dụng kết nối bền vững (Persistent Connection) để truyền nhiều đối tượng qua 1 TCP connection."
+    "exp": "Giao thức HTTP/1.1 mặc định sử dụng kết nối bền vững (Persistent Connection) để truyền nhiều đối tượng qua 1 kết nối TCP."
   },
   {
     "id": 28,
@@ -525,7 +525,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Bảng băm phân tán DHT (Distributed Hash Table) quản lý các cặp (Key, Value) phân tán trên hàng triệu nút mạng P2P."
+    "exp": "DHT (Distributed Hash Table) quản lý phân tán các cặp (Key, Value) trên các nút mạng P2P."
   },
   {
     "id": 31,
@@ -559,7 +559,7 @@ var mttPdfQuestions = [
       1
     ],
     "images": [],
-    "exp": "Header TCP có kích thước tối thiểu là 20 Bytes khi không có trường Options."
+    "exp": "Header TCP có kích thước tối thiểu là 20 Bytes khi không có tùy chọn Options."
   },
   {
     "id": 33,
@@ -2266,7 +2266,7 @@ var mttPdfQuestions = [
       3
     ],
     "images": [],
-    "exp": "Mạng phân phối nội dung CDN (Content Delivery Network) lưu bản sao dữ liệu gần người dùng."
+    "exp": "Mạng phân phối nội dung CDN (Content Delivery Network) lưu bản sao dữ liệu phân tán gần người dùng."
   },
   {
     "id": 132,
@@ -2359,7 +2359,7 @@ var mttPdfQuestions = [
     "images": [
       "page_32_img_1_Image140.jpg"
     ],
-    "exp": "Giai đoạn TCP Slowstart là các vòng truyền mà cwnd tăng theo cấp số nhân từ 1 MSS."
+    "exp": "Giai đoạn TCP Slowstart là các vòng truyền mà cwnd tăng theo cấp số nhân từ 1 MSS (Round 1–6 và 23–26)."
   },
   {
     "id": 137,
@@ -2376,7 +2376,7 @@ var mttPdfQuestions = [
       2
     ],
     "images": [],
-    "exp": "Giai đoạn Congestion Avoidance là giai đoạn cwnd tăng tuyến tính (+1 MSS/RTT)."
+    "exp": "Giai đoạn Congestion Avoidance là giai đoạn cwnd tăng tuyến tính (+1 MSS/RTT) (Round 6–16 và 17–22)."
   },
   {
     "id": 138,
@@ -2422,12 +2422,12 @@ var mttPdfQuestions = [
       "24",
       "21"
     ],
-    "ans": 2,
+    "ans": 3,
     "ansList": [
-      2
+      3
     ],
     "images": [],
-    "exp": "ssthresh được đặt bằng nửa kích thước cwnd trước khi mất gói."
+    "exp": "ssthresh được đặt bằng cwnd/2 tại thời điểm nghẽn round 22 (42/2 = 21)."
   },
   {
     "id": 141,
@@ -2473,9 +2473,9 @@ var mttPdfQuestions = [
       "SSThreshold=8000 bytes, CWin=4000 bytes",
       "SSThreshold=8000 bytes, CWin=8000 bytes"
     ],
-    "ans": 3,
+    "ans": 2,
     "ansList": [
-      3
+      2
     ],
     "images": [],
     "exp": "Khi cwnd > ssthresh, TCP chuyển sang chế độ cẩn trọng Congestion Avoidance (+1 MSS/RTT)."
@@ -2507,12 +2507,12 @@ var mttPdfQuestions = [
       "148.85 ms",
       "136.73 m"
     ],
-    "ans": 1,
+    "ans": 2,
     "ansList": [
-      1
+      2
     ],
     "images": [],
-    "exp": "Tính TimeoutInterval dựa trên công thức EstimatedRTT và DevRTT."
+    "exp": "Tính TimeoutInterval dựa trên công thức EstimatedRTT và DevRTT = 148.85 ms."
   },
   {
     "id": 146,
@@ -2543,14 +2543,14 @@ var mttPdfQuestions = [
       "5019",
       "Đáp án khác"
     ],
-    "ans": 1,
+    "ans": 4,
     "ansList": [
-      1
+      4
     ],
     "images": [
       "page_36_img_1_Image151.jpg"
     ],
-    "exp": "Destination Port của gói tin phản hồi chính là Source Port của gói tin yêu cầu ban đầu."
+    "exp": "Destination Port của gói tin phản hồi chính là Source Port của gói tin yêu cầu ban đầu (5019)."
   },
   {
     "id": 148,
@@ -2562,11 +2562,11 @@ var mttPdfQuestions = [
       "Phát gói 5, 6, 7, 8, 9",
       "Chờ hết thời gian để phát lại gói 2, 3"
     ],
-    "ans": 3,
+    "ans": 1,
     "ansList": [
-      3
+      1
     ],
     "images": [],
-    "exp": "Trong Go-Back-N, khi chưa nhận ACK gói n, hết thời gian Timeout bên gửi sẽ phát lại tất cả gói từ n."
+    "exp": "Trong Go-Back-N, khi chưa nhận ACK gói 2, 3, 4, hết thời gian Timeout bên gửi sẽ phát lại tất cả gói từ 2."
   }
 ];
